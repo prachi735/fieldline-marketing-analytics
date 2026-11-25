@@ -1,0 +1,32 @@
+name: Publish portfolio reports
+on: workflow_dispatch
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Collect reports and linked synthetic downloads
+        shell: bash
+        run: |
+          mkdir -p _site/01-dashboard
+          cp index.html _site/
+          cp 01-dashboard/index.html _site/01-dashboard/
+          for project in 02-api-pipeline 03-attribution 04-retention 05-quality-audit; do
+            mkdir -p "_site/$project/results"
+            cp "$project/report.html" "_site/$project/"
+            find "$project/results" -maxdepth 1 -type f \( -name '*.csv' -o -name '*.json' -o -name '*.log' \) -exec cp {} "_site/$project/results/" \;
+          done
+          cp 02-api-pipeline/pipeline-walkthrough.webm _site/02-api-pipeline/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - uses: actions/deploy-pages@v4
+        id: deploy

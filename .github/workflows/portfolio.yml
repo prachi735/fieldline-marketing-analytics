@@ -1,5 +1,7 @@
 name: Rebuild and verify portfolio
 on: [push, workflow_dispatch]
+permissions:
+  contents: read
 jobs:
   reproduce:
     runs-on: ubuntu-latest
@@ -8,14 +10,51 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Generate reports and validate outputs
-        run: python reproduce.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m pip install pytest playwright
+      - run: python -m pytest -q
+      - run: python -O reproduce.py
+      - name: Check mobile and desktop report layouts
+        run: CHROME_BIN="$(command -v google-chrome)" python tests/layout.py
+  postgres:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:18
+        env:
+          POSTGRES_PASSWORD: portfolio
+        ports:
+          - 5432:5432
+        options: --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 15
+    env:
+      PORTFOLIO_PG_DSN: postgresql://postgres:portfolio@localhost:5432/postgres
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install "psycopg[binary]"
+      - name: Record a new initial load, correction and replay
+        working-directory: 02-api-pipeline
+        run: |
+          : > results/execution.log
+          python pipeline.py
+          python pipeline.py --revision
+          python pipeline.py --revision
+          python - <<'PY'
+          import csv, re
+          from pathlib import Path
+          log = Path("results/execution.log").read_text()
+          with open("results/campaign_day.csv") as f:
+              rows = list(csv.DictReader(f))
+          if (log.count("backend=PostgreSQL version=18.") != 3
+              or re.findall(r"source_rows=(\d+)", log) != ["240", "5", "0"]
+              or len(rows) != 240 or sum(int(row["spend_cents"]) for row in rows) != 2961540):
+              raise SystemExit("PostgreSQL replay failed reconciliation")
+          PY
       - uses: actions/upload-artifact@v4
         with:
-          name: marketing-analytics-reports
-          path: |
-            **/results/*.csv
-            **/results/*.log
-            **/report.html
-            index.html
-
+          name: postgresql-replay
+          path: 02-api-pipeline/results/execution.log
