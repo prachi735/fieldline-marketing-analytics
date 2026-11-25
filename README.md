@@ -1,57 +1,40 @@
-# Marketing analytics portfolio · Projects 1–5
+# Marketing analytics portfolio
 
-Clone or download this repository and open **index.html** in a browser. Each report opens offline and links to its source tables. The four examples use separate synthetic datasets, so totals and populations are specific to each case. [Project 1](fieldline-dashboard.html) is an interactive $2 million B2B cross-channel dashboard with client, quarter and channel filters.
+**Prachi Singh · Marketing analytics developer · [GitHub profile](https://github.com/prachi735)**
 
-## Project files
+Fieldline is the fictional agency in this collection of five synthetic case studies. The dashboard follows a $2 million media budget from spend to pipeline. The other projects examine how those numbers are collected, attributed, forecast and audited.
 
-| Folder | Business decision | Technical evidence |
+![How three attribution models allocate revenue to Review Sites](03-attribution/portfolio-cover.png)
+
+| Project | Decision | Evidence to inspect |
 |---|---|---|
-| 02-api-pipeline | Can daily paid-media reporting tolerate retries and corrections? | Local HTTP API, pagination, incremental cursor, transactional SQL upserts, SQLite and PostgreSQL execution logs, channel export and a 20-second walkthrough |
-| 03-attribution | How sensitive is a channel budget decision to the attribution model? | Ordered touches, SQL window functions, reconciled first-touch, last-touch and linear credit, CAC, gross-profit ROI and a three-case sensitivity analysis |
-| 04-retention | Which customers justify a retention experiment? | Order-level data, cohort heatmap, customer-level RFM scores, margin-based value forecast and a time-based backtest |
-| 05-quality-audit | Can channel spend be trusted before reporting? | Source and extract fixtures, SQL checks, ten-rule scorecard, daily reconciliation and a record-level exception queue with owners |
+| [01 · Cross-channel dashboard](01-dashboard/index.html) | Which campaigns warrant a budget review? | Filter by client, quarter and channel. Compare monthly qualified leads with their target markers. |
+| [02 · Marketing API pipeline](02-api-pipeline) | Can the agency replay late corrections safely? | Inspect the five updates and the zero-row replay in the execution log. |
+| [03 · Attribution and ROI](03-attribution) | Does the budget recommendation depend on the credit model? | Compare three allocations of the same 171 wins and examine a $10,000 reallocation scenario. |
+| [04 · Retention and customer value](04-retention) | How much contribution should the retailer budget for existing buyers? | Inspect the cohort heatmap and compare aggregate forecast error with individual error. |
+| [05 · Data quality audit](05-quality-audit) | Which discrepancies block spend sign-off? | Trace 13 findings to source records and reconcile daily spend across three currencies. |
 
-The portfolio cover in each folder is a standalone PNG. Ready-to-paste descriptions are in **upwork-listings.md**. The pipeline video uses silent captioned frames that explain the recorded run.
+## Open the portfolio
 
-## Run the examples
+Clone the repository and open `index.html` in a browser. Each report uses local files. The agency, customers, spend and business outcomes are illustrative. Each project has its own dataset.
 
-Use Python 3.10 or later. From the extracted root, run `python reproduce.py` to generate and verify all four projects in a temporary copy. It checks campaign-day uniqueness and spend, credit reconciliation, cohort bounds, reconciliation exceptions, report links and JSON syntax. The optional GitHub Actions workflow runs this check on push or manual dispatch when the contents are placed at a repository root. No cloud credentials are required for the local demo.
+## Reproduce the results
 
-Run the individual scripts to work on an example. The analytics scripts regenerate their own sample inputs and outputs.
+From the repository root, run the following with Python 3.12 and Node.js 22.
 
-```text
-python 02-api-pipeline/pipeline.py
-python 02-api-pipeline/pipeline.py --revision
-python 03-attribution/analyze.py
-python 04-retention/analyze.py
-python 05-quality-audit/audit.py
-python build_reports.py
-python build_powerbi.py
+```sh
+python reproduce.py
+python -m unittest discover -s tests -v
 ```
 
-The included SQLite database already contains the final snapshot. For a clean demonstration use `python reproduce.py`. To run the pipeline on PostgreSQL, install `psycopg[binary]`, set `PORTFOLIO_PG_DSN` to an empty dedicated database, then run the initial and revised snapshots in that order. The local SQLite and PostgreSQL 18 runs each processed 240, 5 and 0 source rows. These runs appear in that order in the included log.
+The rebuild uses a temporary directory, verifies 150 dashboard filter combinations, regenerates the four Python analyses and checks report links. The regression tests exercise the upsert, network retry and currency mismatch rules. GitHub Actions runs the same regression tests with pytest.
 
-## Pipeline architecture
+### Pipeline evidence
 
-```mermaid
-flowchart TD
-    A["Paginated HTTP source"] --> B["Fetch page"]
-    B --> C{"Response status"}
-    C -->|Transient failure| D["Bounded retry"]
-    D --> B
-    C -->|Success| E["Validate campaign days"]
-    E --> F["Upsert rows and commit watermark"]
-    F --> G["Channel totals"]
-    F --> H["Campaign-day export"]
-```
+The [SQLite log](02-api-pipeline/results/execution.log) identifies the engine and version for each run. The [CI workflow](.github/workflows/portfolio.yml) starts a fresh PostgreSQL 18 service, checks the 240 / 5 / 0 load sequence and reconciles final spend. Its `postgresql-replay` artifact contains the versioned server log.
 
-Source pages remain stable during a run. Credentials, advertising vendor APIs and hosted scheduling are outside the demonstration. The included workflow rebuilds a clean demo on each run.
+To reproduce against your own empty PostgreSQL database, install `psycopg[binary]`, set `PORTFOLIO_PG_DSN`, then run `python 02-api-pipeline/pipeline.py` once and `python 02-api-pipeline/pipeline.py --revision` twice. A single transaction commits the campaign-day corrections and watermark.
 
-## Power BI source
+### Optional Power BI table exports
 
-Each of Projects 2–5 has a **PowerBI/Fieldline.pbip** entry point, a semantic model and report tables. The Power Query partitions embed result snapshots. Regenerate the Power BI files after changing a CSV and refresh the model in Desktop to load the new values. Results from different attribution models must be compared individually because each model allocates the same cohort total. The JSON files were checked programmatically. Desktop rendering was not tested in the build environment.
-
-## Interpretation
-
-The spend, revenue, forecast and audit findings are fictional. For attribution, separate model sensitivity from incremental impact. For retention, distinguish a finite-horizon contribution estimate from an uncapped lifetime forecast. For the audit, resolve the unpriced row before treating the USD ledger as final.
-
+Projects 02–05 include generated PBIP snapshots containing plain tables for importing the results into Power BI. The browser reports contain the portfolio visualizations. Desktop rendering of the optional exports is unverified.

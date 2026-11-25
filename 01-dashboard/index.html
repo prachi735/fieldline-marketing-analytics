@@ -5,8 +5,10 @@
 <title>Fieldline | B2B Marketing Measurement</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#f2f5f1;color:#182e27;font:15px/1.55 system-ui,sans-serif}header{background:#12342b;color:#fff;padding:44px max(5vw,20px)}header p{color:#c4dfd3;margin:8px 0 0}h1{font-size:clamp(28px,5vw,48px);line-height:1.08;margin:8px 0}h2{font-size:22px;margin:0 0 12px}h3{margin:8px 0}.brand{color:#b7ec9d;font-weight:750;letter-spacing:.12em}main{max-width:1370px;margin:auto;padding:24px max(3vw,16px) 48px}.controls,.cards,.split{display:grid;gap:14px}.controls{grid-template-columns:repeat(auto-fit,minmax(145px,1fr));align-items:end;margin-bottom:18px}.cards{grid-template-columns:repeat(auto-fit,minmax(165px,1fr))}.split{grid-template-columns:repeat(auto-fit,minmax(min(100%,430px),1fr))}section,article,details{background:#fff;border:1px solid #dce6de;border-radius:14px;padding:18px;margin-bottom:16px}article strong{display:block;font-size:29px;letter-spacing:-.04em}small,.muted{color:#4b6259}select,button{width:100%;font:inherit;padding:9px;border:1px solid #9ab2a6;border-radius:7px;background:white;color:#18382e}button{cursor:pointer;background:#205a47;color:#fff;border-color:#205a47}summary{cursor:pointer;font-weight:700}.scroll{overflow:auto}table{border-collapse:collapse;width:100%;white-space:nowrap;font-variant-numeric:tabular-nums}th,td{text-align:right;padding:8px;border-bottom:1px solid #e2ebe4}th:first-child,td:first-child{text-align:left}th{color:#38574c}.bar{display:grid;grid-template-columns:35px 1fr 130px;gap:8px;align-items:center;margin:6px 0;font-size:13px}meter{width:100%;accent-color:#267e61}.flag{color:#8d411f}ol{padding-left:22px}li{margin-bottom:8px}
+@media(min-width:980px){.split:first-of-type{grid-template-columns:minmax(310px, .7fr) minmax(560px,1.3fr)}.cards+.split{grid-template-columns:minmax(285px,.7fr) minmax(590px,1.3fr)}}
+.plan-track{position:relative;background:#edf2ef;height:12px;border-radius:3px}.actual{display:block;height:100%;background:#34745f;border-radius:3px}.target{position:absolute;top:-3px;height:18px;border-left:2px solid #172e26}
 </style>
-<header><div class="brand">FIELDLINE ANALYTICS</div><h1>B2B Marketing Measurement</h1><p>Five fictional technology clients · $2M in annual paid media · January–December 2025</p></header>
+<header><div class="brand">FIELDLINE ANALYTICS</div><h1>B2B Marketing Measurement</h1><p>Five fictional technology clients · $2M in annual paid media · January–December 2025</p><p><a style="color:white" href="../index.html">All five projects</a></p></header>
 <main>
 <div class="controls">
 <label>Client<select id="client"></select></label>
@@ -95,12 +97,12 @@ function render() {
     card('Qualified leads',count(totals.qualified),ratio(totals.qualified,totals.target,x=>Math.round(x*100)+'%')+' of '+count(totals.target)+' planned')+
     card('Created pipeline',money(totals.pipeline),ratio(totals.pipeline,totals.spend,multiple)+' on spend')+
     card('Media CAC',ratio(totals.spend,totals.wins,money),count(totals.wins)+' closed-won deals')+
-    card('Spend to review',money(exposure),flags.length+' campaigns flagged')+'</div>'+
-    '<div class="split"><section><h2>Qualified leads against plan</h2><p class="muted">Monthly qualified leads · actual / target</p>'+
-    monthly.map(row=>'<div class="bar"><span>'+row.name+'</span><meter aria-label="'+row.name+' qualified leads" min="0" max="'+ceiling+'" value="'+row.qualified+'"></meter><span>'+count(row.qualified)+' / '+count(row.target)+'</span></div>').join('')+
+    card('Spend to review',money(exposure),flags.length+' '+(element('client').value ? (flags.length===1?'campaign':'campaigns') : (flags.length===1?'tactic':'tactics'))+' flagged')+'</div>'+
+    '<div class="split"><section><h2>Qualified leads against plan</h2><p class="muted">Bar = actual · vertical line = target. Counts show actual / target.</p>'+
+    monthly.map(row=>'<div class="bar"><span>'+row.name+'</span><span class="plan-track" aria-hidden="true"><span class="actual" style="width:'+100*row.qualified/ceiling+'%"></span><span class="target" style="left:calc('+100*row.target/ceiling+'% - 1px)"></span></span><span>'+count(row.qualified)+' / '+count(row.target)+'</span></div>').join('')+
     '</section><section><h2>Channel acquisition economics</h2>'+
     table(['Channel','Spend','Cost / qualified lead','Media CAC','Pipeline / spend'],channelsByCost.map(row=>[row.name,money(row.spend),ratio(row.spend,row.qualified,money),ratio(row.spend,row.wins,money),ratio(row.pipeline,row.spend,multiple)]))+
-    '</section></div><section><h2>Campaign contribution to pipeline</h2>'+
+    '</section></div><section><h2>'+(element('client').value?'Campaign contribution to pipeline':'Campaign tactics across clients')+'</h2>'+
     table(['Campaign','Spend','Qualified leads','Opportunities','Pipeline','Pipeline / spend','Wins','Booked revenue'],ranked.map(row=>[row.name,money(row.spend),count(row.qualified),count(row.opportunities),money(row.pipeline),ratio(row.pipeline,row.spend,multiple),count(row.wins),money(row.revenue)]))+
     '</section><div class="split"><section><h2>Budget to investigate</h2><p class="muted">At least $5,000 in spend and less than $1 in pipeline per $1 spent.</p>'+
     (flags.length?table(['Campaign','Spend','Pipeline / spend'],flags.map(row=>[row.name,money(row.spend),'<span class="flag">'+ratio(row.pipeline,row.spend,multiple)+'</span>'])):'<p>No campaigns flagged.</p>')+
