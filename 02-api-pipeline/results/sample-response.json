@@ -1,0 +1,29 @@
+[
+  {
+    "client": "C1",
+    "campaign": "K1",
+    "day": "2025-01-01",
+    "channel": "Paid Search",
+    "spend_cents": 8500,
+    "clicks": 19,
+    "updated_at": "2025-01-01T12:00:00Z"
+  },
+  {
+    "client": "C1",
+    "campaign": "K2",
+    "day": "2025-01-01",
+    "channel": "LinkedIn Ads",
+    "spend_cents": 9002,
+    "clicks": 20,
+    "updated_at": "2025-01-01T12:00:00Z"
+  },
+  {
+    "client": "C1",
+    "campaign": "K3",
+    "day": "2025-01-01",
+    "channel": "Display",
+    "spend_cents": 9504,
+    "clicks": 21,
+    "updated_at": "2025-01-01T12:00:00Z"
+  }
+]

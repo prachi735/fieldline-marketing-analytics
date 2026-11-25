@@ -1,0 +1,115 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "00000000000000000001",
+  "position": {
+    "x": 15,
+    "y": 15,
+    "z": 0,
+    "height": 680,
+    "width": 1250,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "reconciliation"
+                    }
+                  },
+                  "Property": "day"
+                }
+              },
+              "queryRef": "reconciliation.day",
+              "nativeQueryRef": "day"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "reconciliation"
+                    }
+                  },
+                  "Property": "ledger_usd"
+                }
+              },
+              "queryRef": "reconciliation.ledger_usd",
+              "nativeQueryRef": "ledger_usd"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "reconciliation"
+                    }
+                  },
+                  "Property": "convertible_extract_usd"
+                }
+              },
+              "queryRef": "reconciliation.convertible_extract_usd",
+              "nativeQueryRef": "convertible_extract_usd"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "reconciliation"
+                    }
+                  },
+                  "Property": "variance_usd"
+                }
+              },
+              "queryRef": "reconciliation.variance_usd",
+              "nativeQueryRef": "variance_usd"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "reconciliation"
+                    }
+                  },
+                  "Property": "unpriced_rows"
+                }
+              },
+              "queryRef": "reconciliation.unpriced_rows",
+              "nativeQueryRef": "unpriced_rows"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Reconciliation'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

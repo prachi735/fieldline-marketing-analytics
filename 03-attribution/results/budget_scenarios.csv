@@ -1,0 +1,4 @@
+label,transfer_usd,destination_yield_fraction,revenue_change_usd,gross_profit_change_usd
+Low,10000,0.25,-16582.75,-11939.58
+Base,10000,0.5,12008.1,8645.83
+High,10000,0.75,40598.96,29231.25

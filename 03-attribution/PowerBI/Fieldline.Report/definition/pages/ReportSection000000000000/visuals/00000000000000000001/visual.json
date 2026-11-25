@@ -1,0 +1,199 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "00000000000000000001",
+  "position": {
+    "x": 15,
+    "y": 15,
+    "z": 0,
+    "height": 680,
+    "width": 1250,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "comparison"
+                    }
+                  },
+                  "Property": "model"
+                }
+              },
+              "queryRef": "comparison.model",
+              "nativeQueryRef": "model"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "comparison"
+                    }
+                  },
+                  "Property": "channel"
+                }
+              },
+              "queryRef": "comparison.channel",
+              "nativeQueryRef": "channel"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "comparison"
+                    }
+                  },
+                  "Property": "leads"
+                }
+              },
+              "queryRef": "comparison.leads",
+              "nativeQueryRef": "leads"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "comparison"
+                    }
+                  },
+                  "Property": "qualified"
+                }
+              },
+              "queryRef": "comparison.qualified",
+              "nativeQueryRef": "qualified"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "comparison"
+                    }
+                  },
+                  "Property": "opportunities"
+                }
+              },
+              "queryRef": "comparison.opportunities",
+              "nativeQueryRef": "opportunities"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "comparison"
+                    }
+                  },
+                  "Property": "wins"
+                }
+              },
+              "queryRef": "comparison.wins",
+              "nativeQueryRef": "wins"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "comparison"
+                    }
+                  },
+                  "Property": "pipeline_usd"
+                }
+              },
+              "queryRef": "comparison.pipeline_usd",
+              "nativeQueryRef": "pipeline_usd"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "comparison"
+                    }
+                  },
+                  "Property": "revenue_usd"
+                }
+              },
+              "queryRef": "comparison.revenue_usd",
+              "nativeQueryRef": "revenue_usd"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "comparison"
+                    }
+                  },
+                  "Property": "spend_usd"
+                }
+              },
+              "queryRef": "comparison.spend_usd",
+              "nativeQueryRef": "spend_usd"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "comparison"
+                    }
+                  },
+                  "Property": "media_cac"
+                }
+              },
+              "queryRef": "comparison.media_cac",
+              "nativeQueryRef": "media_cac"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "comparison"
+                    }
+                  },
+                  "Property": "gross_profit_roi"
+                }
+              },
+              "queryRef": "comparison.gross_profit_roi",
+              "nativeQueryRef": "gross_profit_roi"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Channel credit by model'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

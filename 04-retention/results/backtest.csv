@@ -1,0 +1,2 @@
+eligible_customers,carryover,baseline_contribution,predicted_contribution,actual_contribution,aggregate_error_pct,customer_mae_usd
+1102,0.6843507256476243,61857.422000000006,42332.17163239133,41523.3335,0.019479123283570845,42.57799626765629

@@ -1,0 +1,121 @@
+﻿<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fieldline | B2B Marketing Measurement</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f2f5f1;color:#182e27;font:15px/1.55 system-ui,sans-serif}header{background:#12342b;color:#fff;padding:44px max(5vw,20px)}header p{color:#c4dfd3;margin:8px 0 0}h1{font-size:clamp(28px,5vw,48px);line-height:1.08;margin:8px 0}h2{font-size:22px;margin:0 0 12px}h3{margin:8px 0}.brand{color:#b7ec9d;font-weight:750;letter-spacing:.12em}main{max-width:1370px;margin:auto;padding:24px max(3vw,16px) 48px}.controls,.cards,.split{display:grid;gap:14px}.controls{grid-template-columns:repeat(auto-fit,minmax(145px,1fr));align-items:end;margin-bottom:18px}.cards{grid-template-columns:repeat(auto-fit,minmax(165px,1fr))}.split{grid-template-columns:repeat(auto-fit,minmax(min(100%,430px),1fr))}section,article,details{background:#fff;border:1px solid #dce6de;border-radius:14px;padding:18px;margin-bottom:16px}article strong{display:block;font-size:29px;letter-spacing:-.04em}small,.muted{color:#4b6259}select,button{width:100%;font:inherit;padding:9px;border:1px solid #9ab2a6;border-radius:7px;background:white;color:#18382e}button{cursor:pointer;background:#205a47;color:#fff;border-color:#205a47}summary{cursor:pointer;font-weight:700}.scroll{overflow:auto}table{border-collapse:collapse;width:100%;white-space:nowrap;font-variant-numeric:tabular-nums}th,td{text-align:right;padding:8px;border-bottom:1px solid #e2ebe4}th:first-child,td:first-child{text-align:left}th{color:#38574c}.bar{display:grid;grid-template-columns:35px 1fr 130px;gap:8px;align-items:center;margin:6px 0;font-size:13px}meter{width:100%;accent-color:#267e61}.flag{color:#8d411f}ol{padding-left:22px}li{margin-bottom:8px}
+</style>
+<header><div class="brand">FIELDLINE ANALYTICS</div><h1>B2B Marketing Measurement</h1><p>Five fictional technology clients · $2M in annual paid media · January–December 2025</p></header>
+<main>
+<div class="controls">
+<label>Client<select id="client"></select></label>
+<label>Quarter<select id="quarter"></select></label>
+<label>Channel<select id="channel"></select></label>
+<button id="download">Download filtered CSV</button>
+</div>
+<div id="dashboard" aria-live="polite"></div>
+<details><summary>Measurement methodology and data dictionary</summary>
+<p>All data is synthetic and generated deterministically at the campaign-month grain. Five clients each have two campaigns per channel. Spend uses fixed annual client allocations and monthly weights. Each campaign-month tracks spend, a planned qualified-lead target, leads, qualified leads, opportunities, created pipeline, wins and booked revenue. CSV columns use USD for monetary amounts.</p>
+<p>A qualified lead is a deduplicated lead who meets the client's fit and intent criteria. Each lead and its downstream outcomes are assigned to one campaign using a simulated first paid touch. Results use the month of that touch and assume fully matured cohorts. Created pipeline sums opportunity value at creation and includes won opportunities. Booked revenue sums closed-won deal value. Attribution is descriptive and does not establish incrementality.</p>
+<p>Cost per qualified lead divides spend by qualified leads. Media CAC divides ad spend by won deals and excludes sales and overhead. Pipeline multiple divides created pipeline by spend. Ratios use aggregated totals within the selected filters. A dash indicates a zero denominator.</p>
+<p>The review rule flags campaigns with at least $5,000 in selected spend and a pipeline multiple below 1×. Flagged spend is exposure to review. Recommended actions are hypotheses to test. The 3× pipeline threshold used for scaling candidates is illustrative.</p>
+</details>
+</main>
+<script>
+const clients = ['Aster Cloud','Bramble Security','Cobalt Data','Driftline DevOps','Everfield HR'];
+const budgets = [480000,440000,400000,360000,320000];
+const channels = ['Paid Search','LinkedIn Ads','Display','Review Sites'];
+const shares = [36,32,20,12];
+const tactics = [['Solution Keywords','Competitor Search'],['Demo Ads','Content Syndication'],['Retargeting','Cold Prospecting'],['Category Listings','Comparison Pages']];
+const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const weights = [7,7,8,8,8,8,8,8,9,9,10,10];
+const rows = [];
+for (const [c,client] of clients.entries()) {
+  for (const [h,channel] of channels.entries()) {
+    for (const [t,tactic] of tactics[h].entries()) {
+      for (const [m,month] of monthNames.entries()) {
+        const spend = budgets[c]*shares[h]*[60,40][t]*weights[m]/1e6;
+        const variation = .83 + ((m*17+c*13+h*7+t*3)%19)/50;
+        const target = Math.round(spend/[330,390,430,360][h]);
+        const leads = Math.round(spend*variation/[105,145,67,135][h]);
+        const qualified = Math.round(leads*[[.40,.29],[.39,.20],[.22,.065],[.42,.48]][h][t]);
+        const opportunities = Math.round(qualified*[[.21,.16],[.26,.12],[.15,.045],[.25,.29]][h][t]);
+        const wins = Math.round(opportunities*(.28+(m%4)*.05));
+        const deal = [23000,28500,19500,22000,14500][c];
+        rows.push({client,quarter:1+Math.floor(m/3),month,campaign:channel+' / '+tactic,channel,
+          spend,target,leads,qualified,opportunities,pipeline:opportunities*deal,wins,revenue:wins*deal});
+      }
+    }
+  }
+}
+const keys = ['spend','target','leads','qualified','opportunities','pipeline','wins','revenue'];
+const sum = data => Object.fromEntries(keys.map(key => [key,data.reduce((total,row)=>total+row[key],0)]));
+const group = (data,key) => Map.groupBy ? Map.groupBy(data,row=>row[key]) : data.reduce((map,row)=>{
+  const name=row[key];
+  if (!map.has(name)) map.set(name,[]);
+  map.get(name).push(row);
+  return map;
+},new Map());
+const by = (data,key) => [...group(data,key)].map(([name,items])=>({name,...sum(items)}));
+const number = new Intl.NumberFormat('en-US');
+const dollars = new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
+const money = value => dollars.format(value);
+const count = value => number.format(value);
+const multiple = value => value.toFixed(2)+'×';
+const ratio = (a,b,format) => b ? format(a/b) : '—';
+const element = id => document.getElementById(id);
+for (const [id,values,label] of [['client',clients,'All clients'],['quarter',[1,2,3,4],'Full year'],['channel',channels,'All channels']]) {
+  const select = element(id);
+  select.add(new Option(label,''));
+  for (const value of values) select.add(new Option(id==='quarter'?'Q'+value:value,value));
+  select.addEventListener('change',render);
+}
+const selected = () => rows.filter(row=>['client','quarter','channel'].every(key=>!element(key).value || String(row[key])===element(key).value));
+const card = (label,value,note) => '<article><div>'+label+'</div><strong>'+value+'</strong><small>'+note+'</small></article>';
+const table = (headers,body) => '<div class="scroll"><table><thead><tr>'+headers.map(h=>'<th scope="col">'+h+'</th>').join('')+'</tr></thead><tbody>'+
+  body.map(row=>'<tr>'+row.map((cell,i)=>i===0?'<th scope="row">'+cell+'</th>':'<td>'+cell+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';
+function render() {
+  const data=selected(), totals=sum(data);
+  const ranked=by(data,'campaign').sort((a,b)=>b.pipeline-a.pipeline);
+  const channelsByCost=by(data,'channel').sort((a,b)=>(a.spend/(a.wins||Number.MIN_VALUE))-(b.spend/(b.wins||Number.MIN_VALUE)));
+  const flags=ranked.filter(row=>row.spend>=5000 && row.pipeline<row.spend).sort((a,b)=>b.spend-a.spend);
+  const exposure=sum(flags).spend;
+  const gap=totals.qualified-totals.target;
+  const expand=ranked.find(row=>row.pipeline>=3*row.spend && row.wins>0);
+  const monthly=by(data,'month');
+  const ceiling=Math.max(1,...monthly.flatMap(row=>[row.qualified,row.target]));
+  const steps=[
+    gap<0?'Close the gap of '+count(-gap)+' qualified leads. Check targeting and lead-to-qualified conversion by client before adding spend.':'Qualified leads exceed or meet plan by '+count(gap)+'. Check lead-to-opportunity conversion before raising targets.',
+    expand?'Test a budget increase for '+expand.name+' in a controlled split. Track media CAC and qualified lead volume.':'Require additional evidence before increasing campaign budgets.',
+    flags.length?'Audit '+flags[0].name+' first. Inspect its targeting, placements and conversion tracking before reallocating budget.':'No campaign meets the spend and pipeline thresholds for review in this selection.'
+  ];
+  element('dashboard').innerHTML='<div class="cards">'+
+    card('Media spend',money(totals.spend),'Selected period')+
+    card('Qualified leads',count(totals.qualified),ratio(totals.qualified,totals.target,x=>Math.round(x*100)+'%')+' of '+count(totals.target)+' planned')+
+    card('Created pipeline',money(totals.pipeline),ratio(totals.pipeline,totals.spend,multiple)+' on spend')+
+    card('Media CAC',ratio(totals.spend,totals.wins,money),count(totals.wins)+' closed-won deals')+
+    card('Spend to review',money(exposure),flags.length+' campaigns flagged')+'</div>'+
+    '<div class="split"><section><h2>Qualified leads against plan</h2><p class="muted">Monthly qualified leads · actual / target</p>'+
+    monthly.map(row=>'<div class="bar"><span>'+row.name+'</span><meter aria-label="'+row.name+' qualified leads" min="0" max="'+ceiling+'" value="'+row.qualified+'"></meter><span>'+count(row.qualified)+' / '+count(row.target)+'</span></div>').join('')+
+    '</section><section><h2>Channel acquisition economics</h2>'+
+    table(['Channel','Spend','Cost / qualified lead','Media CAC','Pipeline / spend'],channelsByCost.map(row=>[row.name,money(row.spend),ratio(row.spend,row.qualified,money),ratio(row.spend,row.wins,money),ratio(row.pipeline,row.spend,multiple)]))+
+    '</section></div><section><h2>Campaign contribution to pipeline</h2>'+
+    table(['Campaign','Spend','Qualified leads','Opportunities','Pipeline','Pipeline / spend','Wins','Booked revenue'],ranked.map(row=>[row.name,money(row.spend),count(row.qualified),count(row.opportunities),money(row.pipeline),ratio(row.pipeline,row.spend,multiple),count(row.wins),money(row.revenue)]))+
+    '</section><div class="split"><section><h2>Budget to investigate</h2><p class="muted">At least $5,000 in spend and less than $1 in pipeline per $1 spent.</p>'+
+    (flags.length?table(['Campaign','Spend','Pipeline / spend'],flags.map(row=>[row.name,money(row.spend),'<span class="flag">'+ratio(row.pipeline,row.spend,multiple)+'</span>'])):'<p>No campaigns flagged.</p>')+
+    '</section><section><h2>Performance actions</h2><ol>'+steps.map(step=>'<li>'+step+'</li>').join('')+'</ol></section></div>';
+}
+element('download').addEventListener('click',()=>{
+  const fields=Object.keys(rows[0]);
+  const csv=[fields.join(','),...selected().map(row=>fields.map(field=>JSON.stringify(row[field])).join(','))].join('\r\n');
+  const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+  const link=document.createElement('a');
+  link.href=url;
+  link.download='fieldline-campaign-month.csv';
+  link.click();
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+});
+render();
+</script>
+</html>

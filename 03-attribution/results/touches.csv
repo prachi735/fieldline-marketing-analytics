@@ -1,0 +1,7627 @@
+lead_id,touch_no,channel
+1,1,Display
+2,1,LinkedIn Ads
+2,2,Review Sites
+2,3,Paid Search
+3,1,LinkedIn Ads
+3,2,Paid Search
+3,3,Paid Search
+4,1,Display
+5,1,LinkedIn Ads
+5,2,Paid Search
+6,1,Review Sites
+7,1,Display
+7,2,Review Sites
+8,1,Paid Search
+9,1,Paid Search
+9,2,Paid Search
+9,3,Review Sites
+10,1,LinkedIn Ads
+10,2,Display
+10,3,Review Sites
+10,4,Paid Search
+11,1,Paid Search
+11,2,LinkedIn Ads
+12,1,LinkedIn Ads
+13,1,Paid Search
+13,2,Paid Search
+14,1,Display
+14,2,Paid Search
+15,1,Display
+16,1,Paid Search
+16,2,Review Sites
+17,1,Display
+17,2,Paid Search
+17,3,Paid Search
+18,1,Paid Search
+19,1,Display
+19,2,Review Sites
+19,3,Review Sites
+20,1,Display
+20,2,Review Sites
+20,3,Paid Search
+21,1,Display
+21,2,Paid Search
+21,3,LinkedIn Ads
+22,1,Display
+23,1,LinkedIn Ads
+24,1,LinkedIn Ads
+25,1,Review Sites
+25,2,Review Sites
+26,1,LinkedIn Ads
+26,2,LinkedIn Ads
+26,3,Review Sites
+27,1,Paid Search
+27,2,Paid Search
+27,3,Review Sites
+28,1,LinkedIn Ads
+28,2,LinkedIn Ads
+28,3,Review Sites
+29,1,Display
+29,2,Review Sites
+29,3,Paid Search
+29,4,Display
+30,1,Paid Search
+30,2,Paid Search
+31,1,Review Sites
+31,2,Review Sites
+32,1,Display
+32,2,Display
+33,1,Paid Search
+33,2,Display
+34,1,Display
+35,1,LinkedIn Ads
+35,2,Paid Search
+35,3,Review Sites
+35,4,Review Sites
+36,1,Paid Search
+36,2,LinkedIn Ads
+37,1,Paid Search
+38,1,Paid Search
+38,2,Paid Search
+38,3,LinkedIn Ads
+39,1,Review Sites
+39,2,Paid Search
+39,3,LinkedIn Ads
+40,1,Display
+40,2,Paid Search
+41,1,LinkedIn Ads
+41,2,LinkedIn Ads
+42,1,LinkedIn Ads
+43,1,Display
+43,2,Paid Search
+43,3,Review Sites
+44,1,Paid Search
+44,2,LinkedIn Ads
+45,1,Paid Search
+46,1,LinkedIn Ads
+46,2,LinkedIn Ads
+47,1,Display
+47,2,Paid Search
+48,1,Paid Search
+48,2,Display
+48,3,Display
+48,4,Paid Search
+49,1,LinkedIn Ads
+50,1,Review Sites
+51,1,Display
+51,2,Review Sites
+51,3,Paid Search
+51,4,Review Sites
+52,1,Paid Search
+52,2,Paid Search
+52,3,Display
+53,1,Paid Search
+53,2,Review Sites
+53,3,Paid Search
+54,1,Paid Search
+55,1,Display
+55,2,Review Sites
+55,3,LinkedIn Ads
+56,1,Review Sites
+56,2,Paid Search
+56,3,Paid Search
+57,1,Paid Search
+57,2,Paid Search
+57,3,Review Sites
+58,1,LinkedIn Ads
+58,2,Review Sites
+58,3,Review Sites
+58,4,Display
+59,1,LinkedIn Ads
+59,2,Display
+59,3,Review Sites
+60,1,Display
+60,2,Review Sites
+60,3,Review Sites
+61,1,LinkedIn Ads
+61,2,Paid Search
+62,1,Paid Search
+62,2,Paid Search
+62,3,Paid Search
+63,1,LinkedIn Ads
+63,2,Paid Search
+64,1,Display
+64,2,Review Sites
+64,3,Paid Search
+65,1,Paid Search
+65,2,Display
+65,3,Paid Search
+66,1,Display
+66,2,LinkedIn Ads
+66,3,LinkedIn Ads
+66,4,Paid Search
+67,1,Review Sites
+67,2,Paid Search
+68,1,LinkedIn Ads
+68,2,Review Sites
+68,3,Review Sites
+68,4,Paid Search
+69,1,LinkedIn Ads
+69,2,Paid Search
+70,1,LinkedIn Ads
+70,2,Review Sites
+71,1,Paid Search
+71,2,Paid Search
+71,3,Review Sites
+72,1,Paid Search
+73,1,Review Sites
+73,2,Paid Search
+74,1,Paid Search
+75,1,Review Sites
+75,2,Paid Search
+76,1,Display
+76,2,Paid Search
+76,3,Paid Search
+77,1,Display
+77,2,Display
+78,1,Display
+78,2,Review Sites
+79,1,Display
+80,1,Paid Search
+80,2,Paid Search
+80,3,LinkedIn Ads
+81,1,LinkedIn Ads
+81,2,Review Sites
+81,3,Review Sites
+82,1,LinkedIn Ads
+82,2,Review Sites
+82,3,Paid Search
+82,4,LinkedIn Ads
+83,1,Paid Search
+83,2,Paid Search
+84,1,Review Sites
+84,2,LinkedIn Ads
+84,3,Display
+85,1,Display
+85,2,Paid Search
+85,3,Paid Search
+86,1,Paid Search
+86,2,Review Sites
+86,3,Review Sites
+87,1,Display
+87,2,Paid Search
+88,1,LinkedIn Ads
+88,2,Paid Search
+88,3,Paid Search
+89,1,LinkedIn Ads
+89,2,Paid Search
+89,3,Review Sites
+90,1,Display
+90,2,Display
+90,3,Paid Search
+91,1,Review Sites
+91,2,Review Sites
+91,3,Paid Search
+92,1,Display
+92,2,LinkedIn Ads
+92,3,Review Sites
+93,1,Paid Search
+93,2,LinkedIn Ads
+94,1,Paid Search
+94,2,Review Sites
+94,3,Review Sites
+94,4,Paid Search
+95,1,Paid Search
+95,2,Paid Search
+95,3,Review Sites
+96,1,Review Sites
+96,2,Paid Search
+96,3,LinkedIn Ads
+97,1,Display
+97,2,Paid Search
+97,3,Paid Search
+98,1,Paid Search
+98,2,Review Sites
+99,1,Paid Search
+99,2,Review Sites
+99,3,Paid Search
+100,1,LinkedIn Ads
+100,2,Paid Search
+100,3,LinkedIn Ads
+101,1,Paid Search
+101,2,Review Sites
+101,3,Paid Search
+102,1,Paid Search
+102,2,Display
+103,1,Paid Search
+103,2,Paid Search
+103,3,Paid Search
+104,1,Paid Search
+104,2,Paid Search
+104,3,Paid Search
+105,1,Display
+105,2,Review Sites
+106,1,Display
+106,2,Paid Search
+107,1,Display
+108,1,Display
+108,2,Paid Search
+108,3,Review Sites
+109,1,Paid Search
+109,2,Paid Search
+110,1,LinkedIn Ads
+110,2,Paid Search
+111,1,Paid Search
+111,2,Review Sites
+111,3,Paid Search
+111,4,Review Sites
+112,1,LinkedIn Ads
+112,2,Review Sites
+113,1,Display
+113,2,Review Sites
+113,3,Display
+114,1,Display
+114,2,Paid Search
+114,3,Paid Search
+115,1,Review Sites
+115,2,Paid Search
+116,1,Paid Search
+116,2,Paid Search
+116,3,Review Sites
+116,4,Review Sites
+117,1,LinkedIn Ads
+117,2,Review Sites
+118,1,Display
+119,1,Display
+119,2,Paid Search
+119,3,Paid Search
+120,1,LinkedIn Ads
+120,2,Review Sites
+120,3,LinkedIn Ads
+121,1,Paid Search
+121,2,Paid Search
+121,3,Display
+122,1,LinkedIn Ads
+122,2,Review Sites
+123,1,Display
+124,1,Paid Search
+125,1,LinkedIn Ads
+126,1,LinkedIn Ads
+126,2,LinkedIn Ads
+126,3,Review Sites
+126,4,Review Sites
+127,1,LinkedIn Ads
+127,2,Display
+127,3,Paid Search
+128,1,Display
+128,2,Review Sites
+129,1,LinkedIn Ads
+129,2,Paid Search
+129,3,Paid Search
+130,1,LinkedIn Ads
+130,2,Review Sites
+130,3,Paid Search
+130,4,Review Sites
+131,1,Paid Search
+131,2,Paid Search
+132,1,LinkedIn Ads
+132,2,Display
+133,1,Display
+133,2,LinkedIn Ads
+134,1,Paid Search
+134,2,Review Sites
+135,1,Paid Search
+135,2,LinkedIn Ads
+136,1,Paid Search
+136,2,Review Sites
+137,1,Review Sites
+137,2,Display
+138,1,LinkedIn Ads
+138,2,Paid Search
+138,3,Display
+139,1,Display
+139,2,Paid Search
+140,1,LinkedIn Ads
+140,2,Review Sites
+140,3,Paid Search
+141,1,LinkedIn Ads
+141,2,Paid Search
+141,3,Display
+141,4,Display
+142,1,Paid Search
+142,2,Review Sites
+142,3,Review Sites
+142,4,Review Sites
+143,1,LinkedIn Ads
+143,2,Paid Search
+143,3,Review Sites
+143,4,Paid Search
+144,1,Paid Search
+144,2,Display
+144,3,Review Sites
+145,1,LinkedIn Ads
+146,1,Paid Search
+146,2,LinkedIn Ads
+146,3,Paid Search
+147,1,Paid Search
+147,2,Paid Search
+148,1,Display
+148,2,Review Sites
+149,1,Paid Search
+150,1,LinkedIn Ads
+150,2,Paid Search
+150,3,Review Sites
+151,1,LinkedIn Ads
+151,2,Paid Search
+152,1,LinkedIn Ads
+153,1,LinkedIn Ads
+154,1,Paid Search
+154,2,Review Sites
+155,1,Paid Search
+156,1,LinkedIn Ads
+157,1,Display
+157,2,Paid Search
+158,1,Display
+158,2,Paid Search
+159,1,Display
+159,2,Paid Search
+159,3,Paid Search
+159,4,Paid Search
+160,1,LinkedIn Ads
+160,2,Review Sites
+161,1,Paid Search
+161,2,Review Sites
+161,3,Display
+162,1,LinkedIn Ads
+162,2,Paid Search
+163,1,LinkedIn Ads
+163,2,Paid Search
+163,3,Paid Search
+164,1,Paid Search
+164,2,Paid Search
+165,1,Display
+165,2,Paid Search
+165,3,Review Sites
+166,1,Review Sites
+166,2,Paid Search
+166,3,LinkedIn Ads
+167,1,Display
+167,2,Paid Search
+168,1,LinkedIn Ads
+168,2,Review Sites
+168,3,Paid Search
+169,1,Paid Search
+169,2,Paid Search
+169,3,LinkedIn Ads
+170,1,Paid Search
+170,2,LinkedIn Ads
+170,3,Paid Search
+171,1,Paid Search
+171,2,LinkedIn Ads
+171,3,LinkedIn Ads
+172,1,Paid Search
+172,2,Review Sites
+173,1,Paid Search
+173,2,LinkedIn Ads
+173,3,Review Sites
+173,4,Paid Search
+174,1,Display
+174,2,Paid Search
+174,3,Paid Search
+175,1,Review Sites
+175,2,Paid Search
+176,1,Display
+176,2,Paid Search
+176,3,Review Sites
+177,1,LinkedIn Ads
+177,2,Paid Search
+177,3,Review Sites
+178,1,Paid Search
+178,2,Paid Search
+179,1,LinkedIn Ads
+180,1,Display
+181,1,LinkedIn Ads
+181,2,LinkedIn Ads
+181,3,Paid Search
+182,1,Paid Search
+182,2,Paid Search
+183,1,Paid Search
+184,1,Paid Search
+184,2,Review Sites
+184,3,LinkedIn Ads
+184,4,Paid Search
+185,1,Paid Search
+185,2,Paid Search
+186,1,Display
+186,2,Review Sites
+186,3,Paid Search
+187,1,LinkedIn Ads
+187,2,Review Sites
+187,3,Paid Search
+188,1,LinkedIn Ads
+188,2,Review Sites
+188,3,Paid Search
+188,4,Paid Search
+189,1,Paid Search
+189,2,Review Sites
+190,1,Review Sites
+190,2,Review Sites
+190,3,Review Sites
+191,1,LinkedIn Ads
+191,2,LinkedIn Ads
+191,3,Review Sites
+191,4,Paid Search
+192,1,Paid Search
+192,2,Review Sites
+192,3,Paid Search
+193,1,Display
+193,2,Paid Search
+194,1,Paid Search
+194,2,Paid Search
+195,1,Display
+195,2,Review Sites
+196,1,Paid Search
+196,2,Paid Search
+197,1,LinkedIn Ads
+197,2,Paid Search
+198,1,Display
+198,2,LinkedIn Ads
+198,3,Paid Search
+199,1,Display
+199,2,Review Sites
+199,3,LinkedIn Ads
+200,1,Paid Search
+201,1,Display
+201,2,Paid Search
+201,3,LinkedIn Ads
+202,1,Paid Search
+203,1,LinkedIn Ads
+203,2,Paid Search
+203,3,Review Sites
+204,1,Paid Search
+205,1,LinkedIn Ads
+205,2,Paid Search
+205,3,LinkedIn Ads
+206,1,Paid Search
+206,2,LinkedIn Ads
+206,3,Review Sites
+207,1,LinkedIn Ads
+207,2,Display
+207,3,Review Sites
+208,1,Display
+208,2,Review Sites
+209,1,Paid Search
+210,1,LinkedIn Ads
+210,2,Paid Search
+210,3,Display
+211,1,Paid Search
+212,1,Paid Search
+212,2,Display
+213,1,Display
+213,2,Display
+214,1,LinkedIn Ads
+214,2,LinkedIn Ads
+214,3,Review Sites
+215,1,Paid Search
+215,2,Paid Search
+215,3,Review Sites
+215,4,Paid Search
+216,1,Paid Search
+216,2,Review Sites
+217,1,LinkedIn Ads
+217,2,Paid Search
+218,1,LinkedIn Ads
+218,2,Review Sites
+218,3,Paid Search
+219,1,Paid Search
+219,2,LinkedIn Ads
+219,3,Paid Search
+220,1,Display
+220,2,Paid Search
+221,1,LinkedIn Ads
+222,1,Review Sites
+222,2,Display
+223,1,LinkedIn Ads
+223,2,Review Sites
+224,1,LinkedIn Ads
+224,2,Paid Search
+224,3,Paid Search
+225,1,Paid Search
+226,1,Display
+226,2,Paid Search
+226,3,Review Sites
+226,4,Paid Search
+227,1,LinkedIn Ads
+227,2,Review Sites
+228,1,Review Sites
+229,1,LinkedIn Ads
+229,2,Paid Search
+230,1,Display
+230,2,Review Sites
+230,3,Review Sites
+231,1,Paid Search
+231,2,Paid Search
+232,1,LinkedIn Ads
+232,2,Review Sites
+232,3,Paid Search
+232,4,Paid Search
+233,1,Review Sites
+233,2,Review Sites
+233,3,LinkedIn Ads
+233,4,Paid Search
+234,1,LinkedIn Ads
+234,2,Paid Search
+235,1,Paid Search
+235,2,Paid Search
+236,1,Display
+237,1,Paid Search
+237,2,Review Sites
+237,3,Review Sites
+238,1,LinkedIn Ads
+238,2,Paid Search
+239,1,Review Sites
+240,1,Paid Search
+240,2,Paid Search
+240,3,Review Sites
+241,1,Display
+241,2,Paid Search
+241,3,Review Sites
+242,1,Paid Search
+243,1,Paid Search
+243,2,Paid Search
+243,3,Display
+244,1,LinkedIn Ads
+244,2,Review Sites
+245,1,LinkedIn Ads
+246,1,LinkedIn Ads
+246,2,Paid Search
+246,3,Paid Search
+246,4,LinkedIn Ads
+247,1,Display
+247,2,LinkedIn Ads
+248,1,LinkedIn Ads
+249,1,LinkedIn Ads
+249,2,Review Sites
+249,3,Display
+250,1,Paid Search
+250,2,Paid Search
+250,3,Review Sites
+251,1,LinkedIn Ads
+251,2,Paid Search
+251,3,Paid Search
+252,1,Display
+252,2,Paid Search
+253,1,Display
+253,2,Paid Search
+253,3,Paid Search
+254,1,LinkedIn Ads
+254,2,Review Sites
+255,1,Review Sites
+255,2,Paid Search
+256,1,Paid Search
+257,1,Paid Search
+258,1,Paid Search
+258,2,LinkedIn Ads
+259,1,Display
+259,2,Paid Search
+259,3,Paid Search
+260,1,LinkedIn Ads
+260,2,Paid Search
+261,1,Display
+262,1,Paid Search
+262,2,Paid Search
+263,1,LinkedIn Ads
+263,2,Review Sites
+264,1,Paid Search
+264,2,Display
+265,1,Paid Search
+265,2,Display
+266,1,Display
+266,2,Display
+267,1,Review Sites
+267,2,Review Sites
+267,3,Paid Search
+267,4,Review Sites
+268,1,Display
+268,2,Paid Search
+269,1,Paid Search
+270,1,LinkedIn Ads
+270,2,Display
+271,1,LinkedIn Ads
+271,2,Paid Search
+272,1,Paid Search
+272,2,Paid Search
+273,1,Paid Search
+273,2,Paid Search
+273,3,Review Sites
+274,1,Paid Search
+274,2,Display
+275,1,LinkedIn Ads
+275,2,Review Sites
+276,1,LinkedIn Ads
+276,2,Review Sites
+277,1,LinkedIn Ads
+277,2,Review Sites
+278,1,LinkedIn Ads
+278,2,LinkedIn Ads
+279,1,Display
+279,2,Paid Search
+279,3,Review Sites
+280,1,LinkedIn Ads
+280,2,Display
+280,3,Paid Search
+281,1,LinkedIn Ads
+281,2,Display
+282,1,LinkedIn Ads
+282,2,Paid Search
+283,1,LinkedIn Ads
+283,2,Display
+283,3,Review Sites
+283,4,Review Sites
+284,1,Paid Search
+285,1,Paid Search
+285,2,Review Sites
+285,3,Paid Search
+286,1,Display
+286,2,Review Sites
+287,1,Paid Search
+287,2,Paid Search
+287,3,LinkedIn Ads
+287,4,Paid Search
+288,1,Paid Search
+288,2,Paid Search
+289,1,LinkedIn Ads
+289,2,LinkedIn Ads
+289,3,LinkedIn Ads
+290,1,Paid Search
+290,2,LinkedIn Ads
+291,1,Paid Search
+291,2,Review Sites
+292,1,LinkedIn Ads
+292,2,Review Sites
+293,1,LinkedIn Ads
+293,2,Review Sites
+294,1,LinkedIn Ads
+294,2,Display
+295,1,Review Sites
+295,2,Review Sites
+295,3,Display
+296,1,LinkedIn Ads
+296,2,Review Sites
+297,1,Display
+297,2,Paid Search
+297,3,LinkedIn Ads
+297,4,Paid Search
+298,1,LinkedIn Ads
+298,2,Paid Search
+298,3,Review Sites
+298,4,LinkedIn Ads
+299,1,Paid Search
+299,2,Display
+300,1,Review Sites
+301,1,LinkedIn Ads
+302,1,Display
+302,2,Review Sites
+303,1,Paid Search
+303,2,LinkedIn Ads
+304,1,Display
+304,2,Review Sites
+304,3,Paid Search
+305,1,Paid Search
+305,2,Paid Search
+306,1,Display
+306,2,Review Sites
+306,3,Paid Search
+307,1,LinkedIn Ads
+307,2,LinkedIn Ads
+307,3,Review Sites
+307,4,Review Sites
+308,1,Review Sites
+308,2,Paid Search
+309,1,Paid Search
+309,2,Paid Search
+309,3,Paid Search
+310,1,LinkedIn Ads
+311,1,Paid Search
+311,2,Paid Search
+311,3,LinkedIn Ads
+312,1,Paid Search
+313,1,Display
+314,1,LinkedIn Ads
+314,2,Review Sites
+315,1,Paid Search
+316,1,Paid Search
+316,2,Display
+316,3,Paid Search
+317,1,Paid Search
+317,2,Display
+317,3,Review Sites
+318,1,LinkedIn Ads
+318,2,Review Sites
+318,3,Paid Search
+318,4,Paid Search
+319,1,Review Sites
+319,2,Review Sites
+319,3,Paid Search
+320,1,Paid Search
+320,2,Paid Search
+320,3,Paid Search
+321,1,LinkedIn Ads
+321,2,Review Sites
+321,3,Display
+321,4,Paid Search
+322,1,LinkedIn Ads
+322,2,Paid Search
+323,1,LinkedIn Ads
+323,2,Review Sites
+324,1,Display
+324,2,Paid Search
+325,1,LinkedIn Ads
+325,2,Paid Search
+326,1,LinkedIn Ads
+326,2,Display
+326,3,Paid Search
+326,4,Review Sites
+327,1,Display
+327,2,LinkedIn Ads
+327,3,Paid Search
+328,1,LinkedIn Ads
+328,2,Review Sites
+329,1,Paid Search
+329,2,LinkedIn Ads
+329,3,Review Sites
+329,4,LinkedIn Ads
+330,1,Review Sites
+331,1,LinkedIn Ads
+331,2,Review Sites
+331,3,Paid Search
+332,1,Review Sites
+332,2,LinkedIn Ads
+332,3,Display
+333,1,Paid Search
+334,1,Display
+334,2,Paid Search
+334,3,Paid Search
+334,4,Paid Search
+335,1,LinkedIn Ads
+335,2,Display
+336,1,Review Sites
+336,2,Review Sites
+337,1,LinkedIn Ads
+337,2,Paid Search
+337,3,Review Sites
+338,1,Paid Search
+338,2,Display
+339,1,Paid Search
+339,2,LinkedIn Ads
+339,3,Paid Search
+340,1,LinkedIn Ads
+340,2,Review Sites
+340,3,Review Sites
+341,1,LinkedIn Ads
+341,2,Paid Search
+342,1,Paid Search
+343,1,LinkedIn Ads
+343,2,Paid Search
+344,1,Paid Search
+344,2,LinkedIn Ads
+344,3,Paid Search
+344,4,Review Sites
+345,1,Display
+346,1,Review Sites
+346,2,Review Sites
+346,3,Paid Search
+347,1,Display
+348,1,Paid Search
+348,2,Review Sites
+349,1,Paid Search
+349,2,Paid Search
+350,1,Display
+351,1,Review Sites
+352,1,LinkedIn Ads
+352,2,Paid Search
+353,1,Paid Search
+353,2,Paid Search
+353,3,Paid Search
+353,4,Review Sites
+354,1,Paid Search
+354,2,Review Sites
+355,1,Display
+355,2,Review Sites
+355,3,LinkedIn Ads
+355,4,Paid Search
+356,1,Display
+356,2,Paid Search
+356,3,Paid Search
+357,1,Display
+357,2,Review Sites
+358,1,Display
+358,2,Review Sites
+359,1,LinkedIn Ads
+359,2,Paid Search
+359,3,Review Sites
+360,1,LinkedIn Ads
+361,1,Paid Search
+361,2,Review Sites
+361,3,Display
+362,1,LinkedIn Ads
+362,2,Paid Search
+363,1,Display
+363,2,Paid Search
+364,1,LinkedIn Ads
+364,2,Review Sites
+365,1,LinkedIn Ads
+365,2,Paid Search
+366,1,Display
+366,2,Paid Search
+367,1,LinkedIn Ads
+368,1,Display
+368,2,Display
+368,3,Paid Search
+369,1,Paid Search
+369,2,Paid Search
+370,1,LinkedIn Ads
+370,2,Paid Search
+370,3,LinkedIn Ads
+370,4,Review Sites
+371,1,Display
+371,2,Paid Search
+372,1,Paid Search
+372,2,Review Sites
+372,3,LinkedIn Ads
+373,1,Paid Search
+373,2,Review Sites
+374,1,LinkedIn Ads
+374,2,Paid Search
+375,1,Review Sites
+375,2,LinkedIn Ads
+376,1,LinkedIn Ads
+377,1,Display
+377,2,Display
+377,3,Paid Search
+377,4,Paid Search
+378,1,Review Sites
+378,2,LinkedIn Ads
+379,1,Paid Search
+379,2,Review Sites
+380,1,Review Sites
+380,2,Paid Search
+381,1,Paid Search
+381,2,LinkedIn Ads
+382,1,LinkedIn Ads
+382,2,Paid Search
+382,3,Paid Search
+383,1,Display
+383,2,Review Sites
+383,3,Paid Search
+384,1,LinkedIn Ads
+384,2,Display
+385,1,Paid Search
+385,2,Paid Search
+385,3,Review Sites
+385,4,Paid Search
+386,1,LinkedIn Ads
+386,2,Display
+386,3,Paid Search
+386,4,LinkedIn Ads
+387,1,LinkedIn Ads
+387,2,LinkedIn Ads
+388,1,Paid Search
+388,2,Display
+389,1,LinkedIn Ads
+389,2,LinkedIn Ads
+390,1,LinkedIn Ads
+390,2,Review Sites
+391,1,LinkedIn Ads
+391,2,Paid Search
+392,1,Paid Search
+393,1,LinkedIn Ads
+393,2,Review Sites
+394,1,LinkedIn Ads
+394,2,Paid Search
+395,1,Paid Search
+395,2,Paid Search
+395,3,Display
+396,1,Display
+396,2,LinkedIn Ads
+397,1,Paid Search
+397,2,LinkedIn Ads
+398,1,Display
+398,2,Review Sites
+399,1,LinkedIn Ads
+399,2,Paid Search
+399,3,Review Sites
+400,1,Display
+400,2,LinkedIn Ads
+400,3,Paid Search
+400,4,Review Sites
+401,1,Paid Search
+401,2,Review Sites
+401,3,Review Sites
+401,4,Paid Search
+402,1,Display
+402,2,Paid Search
+402,3,Review Sites
+403,1,Display
+403,2,Paid Search
+403,3,Review Sites
+404,1,LinkedIn Ads
+404,2,Review Sites
+404,3,Paid Search
+404,4,Review Sites
+405,1,Review Sites
+405,2,Display
+406,1,Review Sites
+406,2,Paid Search
+407,1,LinkedIn Ads
+407,2,Display
+407,3,Paid Search
+408,1,LinkedIn Ads
+408,2,Paid Search
+409,1,LinkedIn Ads
+409,2,Paid Search
+410,1,Paid Search
+410,2,Review Sites
+410,3,Review Sites
+410,4,Review Sites
+411,1,LinkedIn Ads
+411,2,Review Sites
+411,3,Review Sites
+412,1,Paid Search
+412,2,Paid Search
+412,3,LinkedIn Ads
+413,1,Display
+413,2,Review Sites
+413,3,Paid Search
+414,1,Paid Search
+414,2,Review Sites
+414,3,Paid Search
+415,1,Paid Search
+415,2,Review Sites
+415,3,Review Sites
+416,1,LinkedIn Ads
+416,2,Review Sites
+417,1,Display
+417,2,Paid Search
+418,1,Display
+418,2,Display
+419,1,Display
+419,2,Display
+420,1,Paid Search
+420,2,Review Sites
+420,3,Paid Search
+421,1,LinkedIn Ads
+421,2,Paid Search
+421,3,Display
+422,1,Paid Search
+422,2,Paid Search
+423,1,Paid Search
+423,2,Paid Search
+424,1,Display
+424,2,Review Sites
+424,3,LinkedIn Ads
+425,1,Paid Search
+425,2,Review Sites
+425,3,Review Sites
+426,1,Display
+426,2,Paid Search
+426,3,Paid Search
+427,1,Display
+427,2,Review Sites
+427,3,Paid Search
+427,4,Review Sites
+428,1,Paid Search
+428,2,Paid Search
+428,3,Review Sites
+428,4,Review Sites
+429,1,Paid Search
+429,2,Paid Search
+429,3,Review Sites
+430,1,Review Sites
+430,2,Paid Search
+431,1,LinkedIn Ads
+431,2,Display
+431,3,Review Sites
+432,1,Display
+432,2,Display
+432,3,Paid Search
+432,4,LinkedIn Ads
+433,1,LinkedIn Ads
+433,2,Display
+433,3,Review Sites
+434,1,Display
+434,2,LinkedIn Ads
+435,1,Paid Search
+435,2,Review Sites
+436,1,LinkedIn Ads
+436,2,Display
+437,1,LinkedIn Ads
+437,2,Display
+437,3,Paid Search
+437,4,Review Sites
+438,1,LinkedIn Ads
+438,2,LinkedIn Ads
+438,3,Paid Search
+438,4,Review Sites
+439,1,LinkedIn Ads
+439,2,Paid Search
+440,1,Review Sites
+440,2,Review Sites
+441,1,Display
+441,2,Paid Search
+441,3,Paid Search
+442,1,Paid Search
+442,2,Paid Search
+442,3,Paid Search
+442,4,Paid Search
+443,1,Display
+443,2,Review Sites
+443,3,Paid Search
+444,1,Review Sites
+444,2,Review Sites
+444,3,Paid Search
+444,4,Paid Search
+445,1,Review Sites
+446,1,Paid Search
+446,2,Review Sites
+446,3,LinkedIn Ads
+447,1,Paid Search
+447,2,Review Sites
+447,3,Review Sites
+447,4,Paid Search
+448,1,Display
+448,2,Review Sites
+448,3,Review Sites
+449,1,Paid Search
+449,2,Display
+450,1,Display
+450,2,Paid Search
+451,1,LinkedIn Ads
+451,2,Review Sites
+452,1,Review Sites
+452,2,Paid Search
+452,3,Paid Search
+453,1,Paid Search
+453,2,LinkedIn Ads
+453,3,Review Sites
+454,1,Display
+454,2,Paid Search
+455,1,Display
+455,2,LinkedIn Ads
+455,3,LinkedIn Ads
+456,1,Display
+456,2,Paid Search
+456,3,Paid Search
+457,1,Paid Search
+458,1,Display
+458,2,Paid Search
+458,3,Review Sites
+459,1,LinkedIn Ads
+460,1,Paid Search
+461,1,Paid Search
+461,2,Paid Search
+461,3,LinkedIn Ads
+461,4,Paid Search
+462,1,Display
+462,2,LinkedIn Ads
+463,1,Display
+463,2,Display
+464,1,LinkedIn Ads
+464,2,Display
+464,3,LinkedIn Ads
+465,1,Paid Search
+465,2,Paid Search
+466,1,Display
+466,2,Display
+466,3,Paid Search
+467,1,Paid Search
+467,2,Paid Search
+467,3,Paid Search
+468,1,Paid Search
+469,1,Review Sites
+469,2,LinkedIn Ads
+470,1,Paid Search
+471,1,Paid Search
+471,2,LinkedIn Ads
+471,3,Review Sites
+471,4,Paid Search
+472,1,LinkedIn Ads
+472,2,Display
+473,1,Display
+473,2,Review Sites
+473,3,Display
+474,1,Display
+474,2,Paid Search
+474,3,Paid Search
+475,1,Display
+476,1,Paid Search
+476,2,Display
+476,3,Display
+476,4,LinkedIn Ads
+477,1,Display
+477,2,Review Sites
+477,3,Paid Search
+477,4,Paid Search
+478,1,LinkedIn Ads
+478,2,Review Sites
+479,1,Review Sites
+480,1,Review Sites
+480,2,Paid Search
+480,3,Paid Search
+480,4,LinkedIn Ads
+481,1,Review Sites
+481,2,Paid Search
+481,3,LinkedIn Ads
+482,1,Paid Search
+482,2,Paid Search
+482,3,LinkedIn Ads
+483,1,Display
+483,2,Review Sites
+483,3,LinkedIn Ads
+483,4,Review Sites
+484,1,LinkedIn Ads
+484,2,Review Sites
+484,3,Paid Search
+485,1,Review Sites
+486,1,LinkedIn Ads
+486,2,Paid Search
+486,3,Paid Search
+486,4,Review Sites
+487,1,LinkedIn Ads
+487,2,Paid Search
+487,3,Review Sites
+488,1,LinkedIn Ads
+488,2,Review Sites
+488,3,Paid Search
+489,1,LinkedIn Ads
+489,2,Display
+490,1,LinkedIn Ads
+490,2,LinkedIn Ads
+491,1,LinkedIn Ads
+491,2,LinkedIn Ads
+491,3,LinkedIn Ads
+492,1,Display
+492,2,Display
+493,1,Review Sites
+493,2,LinkedIn Ads
+493,3,Review Sites
+494,1,Paid Search
+494,2,Paid Search
+495,1,Paid Search
+495,2,Review Sites
+495,3,Review Sites
+496,1,Paid Search
+497,1,Review Sites
+497,2,Review Sites
+497,3,LinkedIn Ads
+498,1,LinkedIn Ads
+498,2,Review Sites
+499,1,LinkedIn Ads
+500,1,Paid Search
+500,2,Review Sites
+500,3,Paid Search
+501,1,Paid Search
+501,2,Paid Search
+502,1,Review Sites
+502,2,Paid Search
+503,1,Review Sites
+503,2,Review Sites
+503,3,Paid Search
+504,1,LinkedIn Ads
+504,2,Display
+504,3,Paid Search
+504,4,Paid Search
+505,1,LinkedIn Ads
+505,2,Paid Search
+506,1,Display
+506,2,Paid Search
+507,1,Paid Search
+507,2,Review Sites
+508,1,Review Sites
+508,2,LinkedIn Ads
+508,3,Review Sites
+509,1,Paid Search
+509,2,Display
+509,3,Review Sites
+509,4,Review Sites
+510,1,Paid Search
+511,1,LinkedIn Ads
+511,2,Review Sites
+512,1,Paid Search
+512,2,LinkedIn Ads
+513,1,Display
+514,1,Paid Search
+514,2,Paid Search
+514,3,Review Sites
+515,1,LinkedIn Ads
+515,2,Review Sites
+515,3,Paid Search
+516,1,LinkedIn Ads
+516,2,Paid Search
+517,1,LinkedIn Ads
+518,1,Display
+519,1,Display
+519,2,Paid Search
+520,1,LinkedIn Ads
+520,2,LinkedIn Ads
+521,1,LinkedIn Ads
+521,2,Review Sites
+521,3,Paid Search
+522,1,LinkedIn Ads
+523,1,Display
+523,2,Paid Search
+523,3,Paid Search
+524,1,Review Sites
+524,2,Review Sites
+525,1,LinkedIn Ads
+526,1,LinkedIn Ads
+526,2,Review Sites
+527,1,Display
+527,2,Paid Search
+527,3,Paid Search
+527,4,Paid Search
+528,1,LinkedIn Ads
+529,1,LinkedIn Ads
+529,2,Paid Search
+530,1,Display
+531,1,LinkedIn Ads
+531,2,LinkedIn Ads
+531,3,Paid Search
+531,4,Review Sites
+532,1,LinkedIn Ads
+533,1,Paid Search
+534,1,Paid Search
+534,2,Display
+535,1,Paid Search
+535,2,LinkedIn Ads
+536,1,Paid Search
+536,2,Paid Search
+536,3,Display
+537,1,LinkedIn Ads
+537,2,Paid Search
+537,3,Paid Search
+538,1,LinkedIn Ads
+538,2,LinkedIn Ads
+539,1,Paid Search
+539,2,Review Sites
+540,1,LinkedIn Ads
+540,2,Paid Search
+541,1,LinkedIn Ads
+541,2,Review Sites
+542,1,Paid Search
+542,2,Paid Search
+543,1,LinkedIn Ads
+543,2,Paid Search
+543,3,LinkedIn Ads
+543,4,Paid Search
+544,1,LinkedIn Ads
+544,2,Display
+545,1,Paid Search
+545,2,LinkedIn Ads
+545,3,Display
+546,1,LinkedIn Ads
+546,2,Review Sites
+547,1,Display
+548,1,LinkedIn Ads
+548,2,LinkedIn Ads
+549,1,LinkedIn Ads
+549,2,LinkedIn Ads
+549,3,Display
+549,4,Paid Search
+550,1,Paid Search
+550,2,Review Sites
+551,1,Review Sites
+551,2,Paid Search
+552,1,LinkedIn Ads
+552,2,Paid Search
+553,1,Paid Search
+553,2,Paid Search
+553,3,Paid Search
+553,4,Review Sites
+554,1,LinkedIn Ads
+555,1,Display
+555,2,Paid Search
+555,3,Paid Search
+556,1,Display
+556,2,Paid Search
+557,1,Display
+557,2,Paid Search
+557,3,Display
+558,1,Review Sites
+558,2,Paid Search
+558,3,Review Sites
+559,1,Paid Search
+559,2,Paid Search
+559,3,LinkedIn Ads
+560,1,Paid Search
+561,1,Display
+561,2,Paid Search
+561,3,Review Sites
+562,1,Display
+562,2,Display
+562,3,LinkedIn Ads
+563,1,Display
+563,2,Paid Search
+563,3,Paid Search
+564,1,LinkedIn Ads
+564,2,Paid Search
+565,1,Display
+565,2,Review Sites
+566,1,Paid Search
+567,1,LinkedIn Ads
+567,2,Paid Search
+567,3,Review Sites
+568,1,LinkedIn Ads
+569,1,Paid Search
+569,2,Review Sites
+569,3,Review Sites
+570,1,Display
+570,2,Display
+571,1,Paid Search
+571,2,Paid Search
+572,1,Review Sites
+572,2,Paid Search
+573,1,LinkedIn Ads
+573,2,LinkedIn Ads
+574,1,Display
+575,1,Display
+575,2,LinkedIn Ads
+575,3,Review Sites
+575,4,Paid Search
+576,1,Paid Search
+577,1,LinkedIn Ads
+577,2,Review Sites
+577,3,Review Sites
+578,1,LinkedIn Ads
+578,2,Paid Search
+578,3,Review Sites
+579,1,Paid Search
+579,2,Review Sites
+580,1,Display
+580,2,LinkedIn Ads
+581,1,Paid Search
+581,2,Display
+581,3,Review Sites
+582,1,LinkedIn Ads
+582,2,Paid Search
+582,3,Review Sites
+583,1,LinkedIn Ads
+583,2,Paid Search
+583,3,Review Sites
+584,1,LinkedIn Ads
+584,2,LinkedIn Ads
+585,1,LinkedIn Ads
+585,2,Paid Search
+586,1,Paid Search
+586,2,Paid Search
+586,3,Review Sites
+586,4,LinkedIn Ads
+587,1,LinkedIn Ads
+587,2,Paid Search
+587,3,LinkedIn Ads
+588,1,LinkedIn Ads
+588,2,Review Sites
+588,3,Review Sites
+589,1,LinkedIn Ads
+589,2,Paid Search
+589,3,Paid Search
+590,1,LinkedIn Ads
+591,1,Display
+591,2,Paid Search
+591,3,Paid Search
+592,1,Paid Search
+592,2,Paid Search
+592,3,Paid Search
+592,4,Review Sites
+593,1,LinkedIn Ads
+593,2,Review Sites
+594,1,LinkedIn Ads
+595,1,LinkedIn Ads
+596,1,LinkedIn Ads
+596,2,Review Sites
+597,1,Paid Search
+597,2,Paid Search
+598,1,Display
+598,2,Paid Search
+598,3,Paid Search
+599,1,Paid Search
+599,2,Paid Search
+599,3,Review Sites
+599,4,Paid Search
+600,1,Review Sites
+601,1,Paid Search
+602,1,LinkedIn Ads
+602,2,Paid Search
+603,1,LinkedIn Ads
+603,2,Review Sites
+604,1,Paid Search
+605,1,Display
+605,2,Paid Search
+605,3,Display
+605,4,LinkedIn Ads
+606,1,Display
+607,1,Paid Search
+607,2,Paid Search
+607,3,Review Sites
+608,1,LinkedIn Ads
+609,1,Paid Search
+609,2,LinkedIn Ads
+609,3,LinkedIn Ads
+610,1,Display
+610,2,Paid Search
+610,3,Paid Search
+611,1,LinkedIn Ads
+611,2,Review Sites
+611,3,Paid Search
+611,4,Paid Search
+612,1,Paid Search
+612,2,Paid Search
+612,3,Review Sites
+613,1,Display
+613,2,LinkedIn Ads
+614,1,Paid Search
+614,2,Paid Search
+614,3,Display
+615,1,Display
+615,2,Paid Search
+615,3,Paid Search
+616,1,Review Sites
+616,2,Review Sites
+617,1,Display
+617,2,Display
+618,1,Display
+618,2,LinkedIn Ads
+618,3,Review Sites
+619,1,Paid Search
+619,2,Review Sites
+619,3,Paid Search
+619,4,Paid Search
+620,1,Display
+620,2,Display
+621,1,LinkedIn Ads
+621,2,LinkedIn Ads
+621,3,Review Sites
+621,4,Review Sites
+622,1,Paid Search
+622,2,Paid Search
+623,1,Paid Search
+623,2,Review Sites
+624,1,Display
+624,2,Paid Search
+624,3,LinkedIn Ads
+624,4,Review Sites
+625,1,Review Sites
+625,2,Review Sites
+625,3,Paid Search
+625,4,Paid Search
+626,1,Paid Search
+627,1,Display
+627,2,LinkedIn Ads
+627,3,Paid Search
+628,1,LinkedIn Ads
+628,2,Paid Search
+628,3,Paid Search
+629,1,Paid Search
+629,2,Paid Search
+629,3,Display
+630,1,LinkedIn Ads
+630,2,Review Sites
+630,3,Display
+630,4,Review Sites
+631,1,LinkedIn Ads
+631,2,Paid Search
+631,3,Review Sites
+632,1,Display
+632,2,Review Sites
+633,1,Paid Search
+633,2,Review Sites
+634,1,Paid Search
+634,2,LinkedIn Ads
+635,1,LinkedIn Ads
+635,2,Paid Search
+635,3,Review Sites
+635,4,Review Sites
+636,1,Paid Search
+636,2,Review Sites
+637,1,LinkedIn Ads
+637,2,Paid Search
+638,1,Display
+638,2,Review Sites
+638,3,Review Sites
+639,1,Paid Search
+639,2,Display
+639,3,Paid Search
+640,1,Paid Search
+640,2,Review Sites
+640,3,Review Sites
+641,1,Paid Search
+641,2,Paid Search
+642,1,Display
+643,1,Paid Search
+643,2,Paid Search
+643,3,Paid Search
+644,1,LinkedIn Ads
+644,2,Paid Search
+645,1,LinkedIn Ads
+646,1,Paid Search
+647,1,LinkedIn Ads
+647,2,Review Sites
+647,3,Paid Search
+647,4,Review Sites
+648,1,Paid Search
+648,2,Review Sites
+648,3,Paid Search
+649,1,LinkedIn Ads
+649,2,Display
+650,1,Paid Search
+650,2,LinkedIn Ads
+650,3,Review Sites
+651,1,Paid Search
+651,2,Display
+651,3,LinkedIn Ads
+652,1,Paid Search
+652,2,Review Sites
+653,1,LinkedIn Ads
+654,1,LinkedIn Ads
+654,2,Review Sites
+654,3,Review Sites
+655,1,LinkedIn Ads
+656,1,Paid Search
+656,2,Display
+657,1,Paid Search
+657,2,Review Sites
+657,3,Paid Search
+658,1,Paid Search
+659,1,Paid Search
+659,2,Paid Search
+660,1,Paid Search
+660,2,Paid Search
+660,3,Paid Search
+661,1,Display
+661,2,Review Sites
+661,3,Paid Search
+662,1,Paid Search
+662,2,Paid Search
+662,3,Display
+662,4,Paid Search
+663,1,Review Sites
+663,2,Review Sites
+663,3,Paid Search
+663,4,Paid Search
+664,1,Paid Search
+664,2,LinkedIn Ads
+664,3,Paid Search
+665,1,LinkedIn Ads
+665,2,Paid Search
+666,1,Display
+667,1,Paid Search
+667,2,Review Sites
+667,3,Paid Search
+668,1,Display
+669,1,LinkedIn Ads
+669,2,Review Sites
+669,3,Review Sites
+670,1,Display
+670,2,Review Sites
+671,1,Paid Search
+671,2,Paid Search
+671,3,Display
+672,1,LinkedIn Ads
+672,2,Review Sites
+672,3,Review Sites
+673,1,LinkedIn Ads
+673,2,Paid Search
+673,3,LinkedIn Ads
+673,4,Review Sites
+674,1,LinkedIn Ads
+674,2,Display
+675,1,Paid Search
+675,2,Review Sites
+675,3,Paid Search
+676,1,Paid Search
+677,1,LinkedIn Ads
+677,2,LinkedIn Ads
+678,1,Paid Search
+678,2,Paid Search
+679,1,Display
+679,2,Display
+680,1,Paid Search
+680,2,LinkedIn Ads
+681,1,Review Sites
+681,2,Display
+681,3,Review Sites
+682,1,Paid Search
+682,2,Paid Search
+682,3,Review Sites
+683,1,LinkedIn Ads
+683,2,Paid Search
+683,3,Paid Search
+684,1,Display
+684,2,Review Sites
+684,3,Paid Search
+685,1,Display
+685,2,Paid Search
+685,3,Review Sites
+685,4,Review Sites
+686,1,Display
+686,2,LinkedIn Ads
+687,1,Paid Search
+687,2,Paid Search
+687,3,Review Sites
+687,4,LinkedIn Ads
+688,1,Paid Search
+688,2,LinkedIn Ads
+688,3,LinkedIn Ads
+688,4,Paid Search
+689,1,LinkedIn Ads
+689,2,Review Sites
+689,3,LinkedIn Ads
+690,1,Review Sites
+690,2,Paid Search
+691,1,Paid Search
+691,2,Paid Search
+691,3,Paid Search
+692,1,LinkedIn Ads
+692,2,Review Sites
+693,1,LinkedIn Ads
+694,1,LinkedIn Ads
+694,2,Paid Search
+694,3,Review Sites
+695,1,Display
+695,2,Paid Search
+696,1,Display
+696,2,Display
+697,1,Paid Search
+697,2,LinkedIn Ads
+698,1,LinkedIn Ads
+698,2,Review Sites
+699,1,Paid Search
+699,2,Paid Search
+700,1,LinkedIn Ads
+700,2,LinkedIn Ads
+701,1,LinkedIn Ads
+702,1,LinkedIn Ads
+703,1,Display
+704,1,Display
+704,2,Review Sites
+705,1,Paid Search
+705,2,Paid Search
+705,3,Review Sites
+706,1,Review Sites
+706,2,LinkedIn Ads
+707,1,Paid Search
+707,2,LinkedIn Ads
+708,1,LinkedIn Ads
+708,2,Paid Search
+708,3,Review Sites
+709,1,Review Sites
+709,2,Review Sites
+709,3,Paid Search
+710,1,LinkedIn Ads
+711,1,Display
+711,2,Review Sites
+711,3,Review Sites
+712,1,LinkedIn Ads
+713,1,Paid Search
+714,1,LinkedIn Ads
+715,1,LinkedIn Ads
+715,2,Review Sites
+716,1,LinkedIn Ads
+717,1,Paid Search
+718,1,Review Sites
+718,2,Paid Search
+718,3,Paid Search
+719,1,Paid Search
+720,1,Display
+720,2,Paid Search
+721,1,LinkedIn Ads
+721,2,Review Sites
+721,3,LinkedIn Ads
+722,1,LinkedIn Ads
+722,2,LinkedIn Ads
+722,3,Review Sites
+722,4,Review Sites
+723,1,LinkedIn Ads
+723,2,Review Sites
+723,3,Review Sites
+724,1,Paid Search
+724,2,Paid Search
+725,1,Paid Search
+726,1,Paid Search
+726,2,Paid Search
+726,3,LinkedIn Ads
+727,1,LinkedIn Ads
+728,1,LinkedIn Ads
+728,2,Paid Search
+729,1,LinkedIn Ads
+729,2,Paid Search
+729,3,Paid Search
+729,4,Display
+730,1,Paid Search
+730,2,LinkedIn Ads
+731,1,Paid Search
+731,2,Display
+732,1,Display
+732,2,Paid Search
+733,1,Display
+733,2,Paid Search
+733,3,Paid Search
+734,1,Display
+735,1,Paid Search
+735,2,Paid Search
+735,3,Review Sites
+735,4,Paid Search
+736,1,Paid Search
+736,2,Display
+736,3,Review Sites
+736,4,Paid Search
+737,1,Display
+738,1,Paid Search
+738,2,Paid Search
+738,3,Review Sites
+738,4,Paid Search
+739,1,LinkedIn Ads
+740,1,Paid Search
+740,2,Paid Search
+740,3,Display
+741,1,LinkedIn Ads
+741,2,Review Sites
+742,1,Paid Search
+742,2,Paid Search
+743,1,Display
+743,2,Display
+743,3,Review Sites
+744,1,LinkedIn Ads
+744,2,Display
+744,3,Paid Search
+745,1,LinkedIn Ads
+745,2,Review Sites
+745,3,Paid Search
+746,1,Display
+746,2,Review Sites
+747,1,Paid Search
+748,1,Paid Search
+748,2,Paid Search
+748,3,Paid Search
+748,4,Paid Search
+749,1,Display
+749,2,Paid Search
+749,3,Paid Search
+749,4,LinkedIn Ads
+750,1,Display
+751,1,Paid Search
+751,2,Paid Search
+752,1,Display
+752,2,Paid Search
+752,3,Paid Search
+752,4,Review Sites
+753,1,Display
+753,2,Review Sites
+754,1,Paid Search
+755,1,Review Sites
+755,2,Paid Search
+755,3,Paid Search
+755,4,Display
+756,1,Paid Search
+756,2,Review Sites
+757,1,Display
+757,2,Paid Search
+757,3,Review Sites
+757,4,Review Sites
+758,1,Paid Search
+758,2,Review Sites
+759,1,Display
+760,1,Paid Search
+760,2,Review Sites
+761,1,LinkedIn Ads
+761,2,Paid Search
+762,1,LinkedIn Ads
+762,2,Review Sites
+762,3,Review Sites
+763,1,Display
+763,2,Paid Search
+763,3,Paid Search
+764,1,Display
+764,2,Review Sites
+765,1,Review Sites
+766,1,Paid Search
+766,2,LinkedIn Ads
+767,1,LinkedIn Ads
+767,2,Paid Search
+767,3,Paid Search
+767,4,Review Sites
+768,1,LinkedIn Ads
+768,2,Paid Search
+768,3,Review Sites
+769,1,Display
+769,2,Review Sites
+769,3,Paid Search
+770,1,Paid Search
+770,2,Paid Search
+770,3,Review Sites
+771,1,Review Sites
+771,2,Review Sites
+772,1,Display
+772,2,Review Sites
+773,1,Paid Search
+773,2,LinkedIn Ads
+773,3,Paid Search
+774,1,Paid Search
+775,1,Paid Search
+775,2,Display
+775,3,Paid Search
+776,1,Paid Search
+776,2,Display
+776,3,Paid Search
+776,4,LinkedIn Ads
+777,1,LinkedIn Ads
+777,2,LinkedIn Ads
+777,3,Paid Search
+777,4,Review Sites
+778,1,LinkedIn Ads
+779,1,Review Sites
+779,2,LinkedIn Ads
+779,3,Display
+780,1,LinkedIn Ads
+780,2,Display
+780,3,Display
+781,1,LinkedIn Ads
+781,2,Paid Search
+782,1,Paid Search
+782,2,Display
+783,1,Display
+783,2,LinkedIn Ads
+783,3,Review Sites
+784,1,LinkedIn Ads
+785,1,LinkedIn Ads
+785,2,Paid Search
+785,3,LinkedIn Ads
+786,1,Paid Search
+786,2,Review Sites
+786,3,Paid Search
+786,4,Paid Search
+787,1,Display
+788,1,Paid Search
+788,2,Paid Search
+789,1,Paid Search
+789,2,LinkedIn Ads
+790,1,Display
+790,2,Paid Search
+791,1,LinkedIn Ads
+791,2,Review Sites
+792,1,LinkedIn Ads
+793,1,Paid Search
+793,2,Paid Search
+793,3,Paid Search
+793,4,Paid Search
+794,1,Display
+794,2,Paid Search
+795,1,Review Sites
+795,2,Paid Search
+795,3,Review Sites
+796,1,Paid Search
+796,2,Display
+797,1,Paid Search
+797,2,Paid Search
+798,1,Display
+799,1,Display
+799,2,Paid Search
+800,1,Paid Search
+800,2,Paid Search
+801,1,LinkedIn Ads
+802,1,Paid Search
+802,2,Display
+803,1,Review Sites
+803,2,Review Sites
+804,1,LinkedIn Ads
+805,1,Paid Search
+805,2,Review Sites
+806,1,Review Sites
+806,2,Display
+806,3,Review Sites
+806,4,LinkedIn Ads
+807,1,Display
+807,2,Paid Search
+807,3,LinkedIn Ads
+808,1,Paid Search
+809,1,LinkedIn Ads
+809,2,Paid Search
+809,3,Paid Search
+810,1,Paid Search
+811,1,LinkedIn Ads
+811,2,Paid Search
+811,3,Paid Search
+812,1,Review Sites
+812,2,LinkedIn Ads
+812,3,Review Sites
+813,1,LinkedIn Ads
+813,2,Paid Search
+813,3,Display
+814,1,LinkedIn Ads
+815,1,Paid Search
+815,2,Display
+815,3,Paid Search
+815,4,Review Sites
+816,1,Display
+817,1,Display
+818,1,Paid Search
+818,2,Review Sites
+819,1,Paid Search
+819,2,Paid Search
+820,1,Review Sites
+820,2,Paid Search
+821,1,Review Sites
+821,2,LinkedIn Ads
+822,1,Paid Search
+822,2,Paid Search
+823,1,Display
+823,2,Paid Search
+823,3,Paid Search
+823,4,Review Sites
+824,1,Display
+824,2,Paid Search
+824,3,Paid Search
+825,1,Paid Search
+826,1,Display
+827,1,LinkedIn Ads
+827,2,Review Sites
+828,1,Paid Search
+828,2,Paid Search
+829,1,LinkedIn Ads
+829,2,Review Sites
+829,3,Paid Search
+830,1,Paid Search
+830,2,Review Sites
+831,1,LinkedIn Ads
+831,2,Review Sites
+832,1,LinkedIn Ads
+832,2,Review Sites
+832,3,Paid Search
+833,1,LinkedIn Ads
+833,2,Review Sites
+834,1,Paid Search
+834,2,Review Sites
+835,1,Paid Search
+835,2,Paid Search
+835,3,Paid Search
+836,1,LinkedIn Ads
+836,2,Paid Search
+836,3,Review Sites
+837,1,LinkedIn Ads
+837,2,Paid Search
+837,3,Paid Search
+837,4,Paid Search
+838,1,Display
+839,1,Display
+839,2,Paid Search
+839,3,Paid Search
+840,1,LinkedIn Ads
+841,1,LinkedIn Ads
+841,2,Display
+841,3,Review Sites
+842,1,Paid Search
+842,2,Review Sites
+842,3,Review Sites
+843,1,Paid Search
+843,2,Display
+843,3,Paid Search
+843,4,Review Sites
+844,1,Display
+844,2,Review Sites
+844,3,Paid Search
+845,1,Display
+845,2,LinkedIn Ads
+846,1,Paid Search
+846,2,Review Sites
+846,3,Paid Search
+846,4,Paid Search
+847,1,LinkedIn Ads
+847,2,Paid Search
+847,3,Display
+847,4,Review Sites
+848,1,LinkedIn Ads
+848,2,Paid Search
+849,1,Display
+849,2,Review Sites
+849,3,Paid Search
+850,1,Paid Search
+850,2,Paid Search
+851,1,Paid Search
+851,2,Paid Search
+852,1,Paid Search
+852,2,Review Sites
+852,3,Paid Search
+853,1,Paid Search
+853,2,Paid Search
+853,3,Paid Search
+854,1,Paid Search
+854,2,Review Sites
+855,1,Display
+855,2,LinkedIn Ads
+856,1,Display
+856,2,Paid Search
+857,1,LinkedIn Ads
+857,2,Paid Search
+858,1,Paid Search
+859,1,LinkedIn Ads
+860,1,LinkedIn Ads
+861,1,LinkedIn Ads
+861,2,Paid Search
+861,3,Paid Search
+862,1,Review Sites
+862,2,Paid Search
+862,3,Paid Search
+863,1,LinkedIn Ads
+863,2,Review Sites
+863,3,Review Sites
+864,1,LinkedIn Ads
+864,2,Review Sites
+864,3,Paid Search
+865,1,Paid Search
+865,2,Paid Search
+865,3,LinkedIn Ads
+866,1,Display
+866,2,Paid Search
+867,1,Review Sites
+867,2,Display
+867,3,Paid Search
+867,4,Review Sites
+868,1,Display
+868,2,Review Sites
+869,1,Paid Search
+869,2,Review Sites
+870,1,LinkedIn Ads
+870,2,Review Sites
+871,1,Review Sites
+872,1,LinkedIn Ads
+872,2,Paid Search
+872,3,Display
+872,4,Paid Search
+873,1,Display
+873,2,LinkedIn Ads
+874,1,Paid Search
+874,2,Paid Search
+874,3,Display
+875,1,Display
+875,2,Paid Search
+876,1,LinkedIn Ads
+877,1,Review Sites
+877,2,LinkedIn Ads
+878,1,Display
+878,2,Review Sites
+879,1,LinkedIn Ads
+879,2,Review Sites
+879,3,Display
+880,1,Review Sites
+880,2,Paid Search
+881,1,Display
+881,2,Paid Search
+882,1,Display
+882,2,Paid Search
+882,3,Paid Search
+883,1,Display
+883,2,LinkedIn Ads
+883,3,Review Sites
+884,1,Review Sites
+884,2,Review Sites
+884,3,Display
+885,1,Paid Search
+885,2,Review Sites
+886,1,Display
+887,1,Display
+887,2,Display
+887,3,Review Sites
+888,1,LinkedIn Ads
+888,2,Review Sites
+889,1,Paid Search
+889,2,Paid Search
+890,1,Display
+890,2,Paid Search
+890,3,Review Sites
+891,1,Paid Search
+891,2,Paid Search
+891,3,Paid Search
+892,1,Paid Search
+892,2,Review Sites
+892,3,Review Sites
+893,1,LinkedIn Ads
+894,1,Paid Search
+894,2,Display
+895,1,Display
+895,2,Paid Search
+896,1,Display
+896,2,LinkedIn Ads
+897,1,Paid Search
+897,2,Paid Search
+898,1,Paid Search
+898,2,Review Sites
+899,1,LinkedIn Ads
+899,2,Review Sites
+900,1,Paid Search
+901,1,Paid Search
+901,2,Review Sites
+902,1,Paid Search
+902,2,Review Sites
+903,1,LinkedIn Ads
+904,1,Display
+904,2,Paid Search
+905,1,Display
+905,2,Review Sites
+905,3,Review Sites
+905,4,Paid Search
+906,1,Paid Search
+906,2,Paid Search
+906,3,LinkedIn Ads
+907,1,LinkedIn Ads
+907,2,Paid Search
+907,3,Review Sites
+908,1,Display
+908,2,Paid Search
+909,1,Paid Search
+909,2,Paid Search
+909,3,Paid Search
+910,1,LinkedIn Ads
+910,2,Review Sites
+910,3,Paid Search
+911,1,LinkedIn Ads
+911,2,LinkedIn Ads
+912,1,Display
+912,2,Review Sites
+913,1,LinkedIn Ads
+913,2,Paid Search
+913,3,Review Sites
+914,1,LinkedIn Ads
+914,2,Paid Search
+914,3,Paid Search
+914,4,Paid Search
+915,1,LinkedIn Ads
+915,2,Review Sites
+915,3,Review Sites
+915,4,Paid Search
+916,1,LinkedIn Ads
+916,2,LinkedIn Ads
+916,3,Review Sites
+917,1,Paid Search
+917,2,Review Sites
+917,3,Paid Search
+918,1,Paid Search
+919,1,Review Sites
+919,2,Review Sites
+919,3,Review Sites
+920,1,Paid Search
+920,2,Paid Search
+920,3,Display
+921,1,LinkedIn Ads
+921,2,Review Sites
+921,3,Paid Search
+922,1,Paid Search
+922,2,Paid Search
+923,1,Paid Search
+923,2,Paid Search
+923,3,LinkedIn Ads
+924,1,Paid Search
+924,2,Display
+925,1,LinkedIn Ads
+926,1,LinkedIn Ads
+926,2,Paid Search
+927,1,LinkedIn Ads
+927,2,Review Sites
+928,1,LinkedIn Ads
+928,2,Paid Search
+929,1,Review Sites
+930,1,Display
+930,2,LinkedIn Ads
+931,1,Paid Search
+932,1,Paid Search
+932,2,Review Sites
+932,3,Review Sites
+932,4,Paid Search
+933,1,LinkedIn Ads
+933,2,Review Sites
+934,1,LinkedIn Ads
+934,2,Review Sites
+935,1,Review Sites
+936,1,Review Sites
+936,2,Paid Search
+937,1,LinkedIn Ads
+937,2,LinkedIn Ads
+938,1,Paid Search
+938,2,LinkedIn Ads
+938,3,Paid Search
+938,4,Paid Search
+939,1,Display
+939,2,Paid Search
+939,3,LinkedIn Ads
+939,4,Paid Search
+940,1,LinkedIn Ads
+940,2,Review Sites
+941,1,LinkedIn Ads
+941,2,Paid Search
+941,3,LinkedIn Ads
+942,1,LinkedIn Ads
+942,2,Review Sites
+943,1,LinkedIn Ads
+943,2,Paid Search
+944,1,LinkedIn Ads
+944,2,Paid Search
+944,3,Review Sites
+944,4,Paid Search
+945,1,LinkedIn Ads
+945,2,Display
+946,1,Paid Search
+946,2,LinkedIn Ads
+946,3,Paid Search
+947,1,LinkedIn Ads
+947,2,Review Sites
+947,3,LinkedIn Ads
+948,1,LinkedIn Ads
+948,2,Display
+949,1,Paid Search
+949,2,Paid Search
+949,3,LinkedIn Ads
+950,1,Paid Search
+950,2,Review Sites
+951,1,Display
+952,1,Paid Search
+952,2,Review Sites
+953,1,Paid Search
+953,2,Review Sites
+954,1,LinkedIn Ads
+954,2,Review Sites
+955,1,Display
+955,2,Paid Search
+956,1,Display
+956,2,Review Sites
+956,3,Paid Search
+957,1,Review Sites
+957,2,Review Sites
+957,3,LinkedIn Ads
+957,4,Display
+958,1,Paid Search
+958,2,Paid Search
+959,1,Review Sites
+959,2,Paid Search
+960,1,Review Sites
+960,2,Review Sites
+960,3,Review Sites
+961,1,LinkedIn Ads
+961,2,Paid Search
+962,1,Review Sites
+963,1,LinkedIn Ads
+963,2,Paid Search
+964,1,Paid Search
+965,1,Display
+966,1,Display
+967,1,Paid Search
+968,1,Display
+968,2,Paid Search
+968,3,Paid Search
+969,1,Display
+969,2,LinkedIn Ads
+970,1,Review Sites
+970,2,Paid Search
+970,3,Paid Search
+971,1,Paid Search
+972,1,LinkedIn Ads
+972,2,Paid Search
+973,1,LinkedIn Ads
+974,1,LinkedIn Ads
+974,2,Paid Search
+975,1,Paid Search
+975,2,Display
+975,3,Review Sites
+976,1,Review Sites
+977,1,LinkedIn Ads
+977,2,Paid Search
+977,3,Paid Search
+978,1,LinkedIn Ads
+978,2,Paid Search
+979,1,Paid Search
+980,1,LinkedIn Ads
+980,2,Paid Search
+980,3,LinkedIn Ads
+980,4,Display
+981,1,LinkedIn Ads
+982,1,Paid Search
+982,2,Paid Search
+982,3,Paid Search
+983,1,Paid Search
+983,2,Review Sites
+984,1,Review Sites
+984,2,Review Sites
+985,1,Review Sites
+986,1,Paid Search
+986,2,Paid Search
+986,3,Display
+987,1,Display
+987,2,Paid Search
+988,1,LinkedIn Ads
+988,2,Paid Search
+989,1,Display
+989,2,Paid Search
+990,1,Display
+990,2,LinkedIn Ads
+990,3,Paid Search
+991,1,Display
+991,2,Paid Search
+991,3,Paid Search
+991,4,Review Sites
+992,1,Paid Search
+993,1,Display
+993,2,Paid Search
+994,1,Paid Search
+995,1,Paid Search
+995,2,LinkedIn Ads
+996,1,LinkedIn Ads
+996,2,Paid Search
+997,1,LinkedIn Ads
+997,2,Review Sites
+997,3,Review Sites
+998,1,Display
+998,2,Paid Search
+999,1,Display
+999,2,Paid Search
+999,3,Display
+1000,1,Display
+1001,1,LinkedIn Ads
+1001,2,Review Sites
+1001,3,Paid Search
+1002,1,Display
+1002,2,Review Sites
+1002,3,Paid Search
+1003,1,LinkedIn Ads
+1004,1,LinkedIn Ads
+1004,2,Review Sites
+1004,3,Display
+1005,1,Paid Search
+1006,1,Paid Search
+1006,2,Paid Search
+1007,1,Paid Search
+1008,1,Display
+1008,2,Paid Search
+1009,1,Paid Search
+1010,1,Paid Search
+1010,2,Review Sites
+1011,1,LinkedIn Ads
+1011,2,Paid Search
+1011,3,Review Sites
+1012,1,LinkedIn Ads
+1012,2,Paid Search
+1012,3,LinkedIn Ads
+1013,1,Display
+1013,2,Review Sites
+1013,3,LinkedIn Ads
+1013,4,LinkedIn Ads
+1014,1,Display
+1014,2,Review Sites
+1015,1,LinkedIn Ads
+1015,2,Review Sites
+1016,1,LinkedIn Ads
+1017,1,LinkedIn Ads
+1017,2,LinkedIn Ads
+1018,1,Display
+1018,2,Paid Search
+1019,1,LinkedIn Ads
+1019,2,Review Sites
+1020,1,Paid Search
+1020,2,Paid Search
+1020,3,Paid Search
+1021,1,Paid Search
+1021,2,Review Sites
+1021,3,Paid Search
+1022,1,Paid Search
+1022,2,Review Sites
+1022,3,LinkedIn Ads
+1022,4,Paid Search
+1023,1,Display
+1024,1,LinkedIn Ads
+1025,1,Display
+1025,2,Paid Search
+1025,3,Paid Search
+1026,1,Paid Search
+1026,2,Review Sites
+1027,1,Paid Search
+1027,2,Review Sites
+1028,1,Paid Search
+1028,2,Paid Search
+1028,3,Paid Search
+1029,1,Paid Search
+1029,2,Paid Search
+1029,3,Review Sites
+1030,1,LinkedIn Ads
+1030,2,LinkedIn Ads
+1030,3,Review Sites
+1031,1,Display
+1031,2,LinkedIn Ads
+1031,3,Paid Search
+1032,1,Review Sites
+1032,2,Review Sites
+1032,3,Review Sites
+1032,4,LinkedIn Ads
+1033,1,Paid Search
+1034,1,LinkedIn Ads
+1035,1,LinkedIn Ads
+1035,2,LinkedIn Ads
+1036,1,Display
+1036,2,LinkedIn Ads
+1037,1,LinkedIn Ads
+1038,1,LinkedIn Ads
+1038,2,Paid Search
+1039,1,Paid Search
+1039,2,Review Sites
+1039,3,LinkedIn Ads
+1039,4,Paid Search
+1040,1,Paid Search
+1040,2,Paid Search
+1041,1,Review Sites
+1042,1,LinkedIn Ads
+1042,2,Paid Search
+1042,3,Review Sites
+1043,1,Paid Search
+1044,1,Paid Search
+1044,2,Display
+1044,3,Paid Search
+1045,1,LinkedIn Ads
+1045,2,Paid Search
+1046,1,Review Sites
+1046,2,Review Sites
+1047,1,LinkedIn Ads
+1048,1,LinkedIn Ads
+1048,2,Display
+1048,3,Paid Search
+1049,1,LinkedIn Ads
+1049,2,Review Sites
+1049,3,LinkedIn Ads
+1050,1,Display
+1050,2,LinkedIn Ads
+1050,3,Display
+1050,4,Paid Search
+1051,1,Paid Search
+1051,2,Review Sites
+1052,1,Review Sites
+1052,2,Review Sites
+1053,1,LinkedIn Ads
+1053,2,Display
+1053,3,Display
+1054,1,Display
+1054,2,Display
+1055,1,LinkedIn Ads
+1055,2,LinkedIn Ads
+1055,3,Paid Search
+1056,1,LinkedIn Ads
+1056,2,Review Sites
+1057,1,Paid Search
+1057,2,Review Sites
+1058,1,Display
+1058,2,Paid Search
+1058,3,LinkedIn Ads
+1059,1,Paid Search
+1060,1,Paid Search
+1060,2,Display
+1060,3,Paid Search
+1061,1,Paid Search
+1061,2,Paid Search
+1062,1,LinkedIn Ads
+1062,2,LinkedIn Ads
+1062,3,Paid Search
+1062,4,Paid Search
+1063,1,Display
+1063,2,Paid Search
+1063,3,Review Sites
+1063,4,Review Sites
+1064,1,LinkedIn Ads
+1064,2,Review Sites
+1064,3,LinkedIn Ads
+1065,1,Display
+1065,2,Review Sites
+1065,3,Paid Search
+1066,1,LinkedIn Ads
+1066,2,Paid Search
+1066,3,LinkedIn Ads
+1067,1,LinkedIn Ads
+1067,2,Paid Search
+1067,3,Paid Search
+1068,1,Paid Search
+1068,2,Review Sites
+1068,3,Paid Search
+1068,4,Paid Search
+1069,1,Review Sites
+1069,2,Paid Search
+1070,1,LinkedIn Ads
+1070,2,Paid Search
+1071,1,Review Sites
+1072,1,Review Sites
+1072,2,Paid Search
+1073,1,Display
+1073,2,Paid Search
+1073,3,Review Sites
+1073,4,Paid Search
+1074,1,Paid Search
+1074,2,LinkedIn Ads
+1074,3,Review Sites
+1075,1,Paid Search
+1075,2,Paid Search
+1075,3,Review Sites
+1076,1,LinkedIn Ads
+1076,2,Review Sites
+1077,1,Paid Search
+1077,2,Review Sites
+1077,3,Review Sites
+1077,4,Review Sites
+1078,1,Display
+1079,1,Review Sites
+1079,2,Paid Search
+1080,1,Display
+1080,2,LinkedIn Ads
+1081,1,Display
+1081,2,Review Sites
+1081,3,Paid Search
+1081,4,LinkedIn Ads
+1082,1,Paid Search
+1082,2,Paid Search
+1082,3,Review Sites
+1083,1,LinkedIn Ads
+1083,2,LinkedIn Ads
+1084,1,Paid Search
+1084,2,Review Sites
+1085,1,Paid Search
+1085,2,Review Sites
+1086,1,LinkedIn Ads
+1087,1,LinkedIn Ads
+1087,2,Paid Search
+1087,3,Display
+1088,1,Display
+1088,2,Paid Search
+1089,1,Display
+1089,2,Paid Search
+1090,1,LinkedIn Ads
+1090,2,Review Sites
+1090,3,Review Sites
+1090,4,Display
+1091,1,Display
+1091,2,Review Sites
+1091,3,Paid Search
+1092,1,LinkedIn Ads
+1093,1,LinkedIn Ads
+1093,2,Review Sites
+1094,1,Paid Search
+1094,2,Display
+1095,1,Review Sites
+1095,2,Review Sites
+1095,3,Paid Search
+1096,1,Paid Search
+1096,2,Paid Search
+1097,1,Review Sites
+1097,2,Paid Search
+1098,1,Paid Search
+1098,2,Display
+1098,3,Paid Search
+1099,1,LinkedIn Ads
+1099,2,Review Sites
+1100,1,Display
+1100,2,Paid Search
+1100,3,Review Sites
+1100,4,Display
+1101,1,LinkedIn Ads
+1101,2,Review Sites
+1102,1,Display
+1102,2,Display
+1103,1,LinkedIn Ads
+1103,2,Paid Search
+1103,3,Display
+1103,4,Paid Search
+1104,1,LinkedIn Ads
+1105,1,Paid Search
+1105,2,Review Sites
+1106,1,Paid Search
+1106,2,Paid Search
+1106,3,Review Sites
+1107,1,LinkedIn Ads
+1107,2,Paid Search
+1107,3,Review Sites
+1108,1,Review Sites
+1109,1,Display
+1109,2,Review Sites
+1109,3,Display
+1110,1,LinkedIn Ads
+1110,2,Review Sites
+1110,3,Paid Search
+1111,1,LinkedIn Ads
+1112,1,Paid Search
+1113,1,LinkedIn Ads
+1113,2,Paid Search
+1113,3,Review Sites
+1114,1,Paid Search
+1115,1,LinkedIn Ads
+1115,2,LinkedIn Ads
+1115,3,Paid Search
+1116,1,Paid Search
+1116,2,Paid Search
+1116,3,Paid Search
+1117,1,Display
+1117,2,Review Sites
+1118,1,Display
+1118,2,Display
+1118,3,LinkedIn Ads
+1119,1,Display
+1120,1,Paid Search
+1120,2,Review Sites
+1120,3,Paid Search
+1121,1,Paid Search
+1121,2,Review Sites
+1121,3,LinkedIn Ads
+1122,1,LinkedIn Ads
+1122,2,Display
+1122,3,Paid Search
+1122,4,Review Sites
+1123,1,Paid Search
+1123,2,Display
+1124,1,LinkedIn Ads
+1124,2,Paid Search
+1124,3,Review Sites
+1125,1,LinkedIn Ads
+1126,1,Display
+1126,2,Display
+1126,3,Review Sites
+1126,4,Review Sites
+1127,1,LinkedIn Ads
+1127,2,Paid Search
+1127,3,Display
+1128,1,LinkedIn Ads
+1128,2,Paid Search
+1128,3,Display
+1129,1,Paid Search
+1129,2,Review Sites
+1130,1,LinkedIn Ads
+1130,2,Paid Search
+1130,3,Paid Search
+1131,1,LinkedIn Ads
+1131,2,Paid Search
+1131,3,Paid Search
+1131,4,Paid Search
+1132,1,Review Sites
+1132,2,LinkedIn Ads
+1133,1,Paid Search
+1133,2,Review Sites
+1133,3,LinkedIn Ads
+1134,1,Paid Search
+1134,2,Review Sites
+1134,3,LinkedIn Ads
+1134,4,Review Sites
+1135,1,LinkedIn Ads
+1135,2,Display
+1136,1,Paid Search
+1136,2,Paid Search
+1136,3,Display
+1137,1,LinkedIn Ads
+1137,2,Review Sites
+1137,3,Paid Search
+1138,1,Display
+1138,2,Review Sites
+1138,3,Paid Search
+1139,1,LinkedIn Ads
+1140,1,Display
+1140,2,Paid Search
+1140,3,Review Sites
+1141,1,Display
+1141,2,Paid Search
+1141,3,Review Sites
+1142,1,LinkedIn Ads
+1142,2,Display
+1142,3,Paid Search
+1143,1,LinkedIn Ads
+1143,2,Display
+1143,3,Paid Search
+1144,1,Paid Search
+1144,2,Review Sites
+1145,1,LinkedIn Ads
+1145,2,Paid Search
+1146,1,Paid Search
+1146,2,Paid Search
+1146,3,Paid Search
+1147,1,Display
+1148,1,LinkedIn Ads
+1148,2,Paid Search
+1148,3,Review Sites
+1149,1,LinkedIn Ads
+1149,2,Display
+1150,1,Paid Search
+1150,2,Review Sites
+1151,1,LinkedIn Ads
+1151,2,Paid Search
+1152,1,LinkedIn Ads
+1152,2,Display
+1153,1,LinkedIn Ads
+1153,2,Paid Search
+1153,3,LinkedIn Ads
+1154,1,Display
+1154,2,Paid Search
+1154,3,Review Sites
+1154,4,Review Sites
+1155,1,Review Sites
+1156,1,Review Sites
+1156,2,Paid Search
+1157,1,Paid Search
+1158,1,Display
+1159,1,Paid Search
+1159,2,Display
+1160,1,LinkedIn Ads
+1161,1,Paid Search
+1161,2,Paid Search
+1161,3,Paid Search
+1162,1,Display
+1162,2,Paid Search
+1162,3,Review Sites
+1163,1,LinkedIn Ads
+1163,2,Review Sites
+1163,3,Paid Search
+1164,1,Display
+1164,2,Review Sites
+1164,3,Paid Search
+1164,4,Display
+1165,1,LinkedIn Ads
+1165,2,Paid Search
+1166,1,Display
+1166,2,LinkedIn Ads
+1167,1,Paid Search
+1167,2,Paid Search
+1167,3,Paid Search
+1168,1,LinkedIn Ads
+1168,2,Review Sites
+1168,3,Paid Search
+1169,1,Display
+1169,2,Paid Search
+1170,1,Review Sites
+1171,1,Display
+1171,2,Display
+1171,3,LinkedIn Ads
+1171,4,LinkedIn Ads
+1172,1,Display
+1172,2,Display
+1173,1,Paid Search
+1174,1,Display
+1174,2,Paid Search
+1174,3,Paid Search
+1175,1,Paid Search
+1175,2,Review Sites
+1176,1,Paid Search
+1176,2,Display
+1176,3,Paid Search
+1177,1,LinkedIn Ads
+1177,2,LinkedIn Ads
+1178,1,LinkedIn Ads
+1178,2,Review Sites
+1179,1,Display
+1179,2,Review Sites
+1179,3,Paid Search
+1180,1,Paid Search
+1180,2,Paid Search
+1181,1,Paid Search
+1181,2,Review Sites
+1181,3,Review Sites
+1181,4,Paid Search
+1182,1,LinkedIn Ads
+1182,2,Review Sites
+1183,1,LinkedIn Ads
+1183,2,Review Sites
+1183,3,Display
+1184,1,LinkedIn Ads
+1185,1,Paid Search
+1185,2,Review Sites
+1186,1,Display
+1186,2,Review Sites
+1186,3,Review Sites
+1187,1,Review Sites
+1187,2,Paid Search
+1187,3,Paid Search
+1188,1,Display
+1188,2,Review Sites
+1189,1,LinkedIn Ads
+1189,2,Paid Search
+1190,1,Display
+1190,2,Display
+1191,1,Review Sites
+1191,2,LinkedIn Ads
+1192,1,Display
+1192,2,Review Sites
+1192,3,Paid Search
+1193,1,Display
+1193,2,Review Sites
+1194,1,Paid Search
+1194,2,Paid Search
+1194,3,LinkedIn Ads
+1195,1,LinkedIn Ads
+1196,1,LinkedIn Ads
+1196,2,Review Sites
+1196,3,Paid Search
+1197,1,Paid Search
+1197,2,Review Sites
+1198,1,Review Sites
+1199,1,Paid Search
+1199,2,Review Sites
+1200,1,Display
+1200,2,Paid Search
+1201,1,Paid Search
+1202,1,LinkedIn Ads
+1202,2,Paid Search
+1203,1,Display
+1204,1,Display
+1204,2,Display
+1205,1,Paid Search
+1205,2,Display
+1205,3,Review Sites
+1205,4,Review Sites
+1206,1,LinkedIn Ads
+1206,2,LinkedIn Ads
+1206,3,LinkedIn Ads
+1207,1,Display
+1207,2,LinkedIn Ads
+1207,3,Paid Search
+1208,1,LinkedIn Ads
+1208,2,Paid Search
+1208,3,Paid Search
+1208,4,Review Sites
+1209,1,LinkedIn Ads
+1209,2,Review Sites
+1210,1,LinkedIn Ads
+1210,2,Display
+1210,3,LinkedIn Ads
+1211,1,LinkedIn Ads
+1211,2,LinkedIn Ads
+1211,3,Display
+1211,4,Paid Search
+1212,1,LinkedIn Ads
+1212,2,Paid Search
+1213,1,Display
+1213,2,Paid Search
+1214,1,LinkedIn Ads
+1214,2,Paid Search
+1214,3,Display
+1215,1,Paid Search
+1215,2,Paid Search
+1215,3,LinkedIn Ads
+1216,1,LinkedIn Ads
+1216,2,LinkedIn Ads
+1216,3,Paid Search
+1217,1,Paid Search
+1217,2,Paid Search
+1217,3,Review Sites
+1218,1,Display
+1219,1,Paid Search
+1219,2,Paid Search
+1220,1,LinkedIn Ads
+1220,2,Review Sites
+1220,3,Review Sites
+1220,4,Review Sites
+1221,1,LinkedIn Ads
+1221,2,Review Sites
+1221,3,Review Sites
+1221,4,LinkedIn Ads
+1222,1,Review Sites
+1223,1,Paid Search
+1223,2,Review Sites
+1223,3,Paid Search
+1223,4,LinkedIn Ads
+1224,1,LinkedIn Ads
+1224,2,Review Sites
+1225,1,LinkedIn Ads
+1225,2,Paid Search
+1226,1,LinkedIn Ads
+1226,2,LinkedIn Ads
+1227,1,Paid Search
+1227,2,Paid Search
+1228,1,Paid Search
+1229,1,Paid Search
+1230,1,LinkedIn Ads
+1230,2,Review Sites
+1231,1,LinkedIn Ads
+1231,2,Paid Search
+1232,1,Display
+1232,2,Paid Search
+1233,1,LinkedIn Ads
+1233,2,Paid Search
+1234,1,LinkedIn Ads
+1234,2,Review Sites
+1235,1,Display
+1235,2,Review Sites
+1235,3,Paid Search
+1236,1,LinkedIn Ads
+1236,2,Paid Search
+1236,3,Review Sites
+1236,4,Display
+1237,1,Display
+1238,1,Paid Search
+1238,2,Paid Search
+1238,3,Review Sites
+1239,1,Paid Search
+1240,1,Review Sites
+1240,2,Paid Search
+1240,3,Paid Search
+1241,1,Paid Search
+1242,1,Paid Search
+1242,2,Review Sites
+1242,3,Display
+1243,1,LinkedIn Ads
+1243,2,LinkedIn Ads
+1244,1,Paid Search
+1244,2,Review Sites
+1244,3,Paid Search
+1244,4,Paid Search
+1245,1,LinkedIn Ads
+1245,2,LinkedIn Ads
+1245,3,Review Sites
+1246,1,Review Sites
+1246,2,Review Sites
+1246,3,Review Sites
+1246,4,Paid Search
+1247,1,Paid Search
+1247,2,Display
+1248,1,LinkedIn Ads
+1248,2,Review Sites
+1249,1,Review Sites
+1250,1,Display
+1250,2,LinkedIn Ads
+1250,3,Review Sites
+1251,1,Display
+1251,2,Paid Search
+1251,3,Paid Search
+1252,1,Review Sites
+1253,1,LinkedIn Ads
+1253,2,Paid Search
+1254,1,Paid Search
+1254,2,Paid Search
+1255,1,LinkedIn Ads
+1256,1,Review Sites
+1256,2,Review Sites
+1257,1,Paid Search
+1257,2,Paid Search
+1257,3,Paid Search
+1258,1,LinkedIn Ads
+1258,2,Review Sites
+1259,1,Display
+1259,2,Review Sites
+1259,3,Paid Search
+1259,4,Review Sites
+1260,1,Display
+1260,2,Review Sites
+1261,1,LinkedIn Ads
+1261,2,Paid Search
+1261,3,Display
+1261,4,Paid Search
+1262,1,Display
+1262,2,LinkedIn Ads
+1262,3,Paid Search
+1263,1,Display
+1263,2,Paid Search
+1263,3,Review Sites
+1264,1,LinkedIn Ads
+1264,2,Review Sites
+1264,3,Display
+1265,1,Display
+1265,2,Paid Search
+1265,3,Review Sites
+1265,4,Display
+1266,1,LinkedIn Ads
+1266,2,Review Sites
+1266,3,Paid Search
+1266,4,Review Sites
+1267,1,Paid Search
+1267,2,Review Sites
+1267,3,Paid Search
+1267,4,Paid Search
+1268,1,Display
+1268,2,Review Sites
+1269,1,Display
+1270,1,Display
+1270,2,Review Sites
+1270,3,Review Sites
+1270,4,Review Sites
+1271,1,LinkedIn Ads
+1272,1,Display
+1272,2,Paid Search
+1273,1,Paid Search
+1273,2,Review Sites
+1274,1,Paid Search
+1274,2,Paid Search
+1274,3,Display
+1275,1,Paid Search
+1275,2,Review Sites
+1276,1,Review Sites
+1276,2,Review Sites
+1277,1,LinkedIn Ads
+1277,2,Review Sites
+1278,1,Paid Search
+1279,1,LinkedIn Ads
+1279,2,Review Sites
+1279,3,LinkedIn Ads
+1279,4,Paid Search
+1280,1,Paid Search
+1280,2,Paid Search
+1280,3,Paid Search
+1281,1,LinkedIn Ads
+1282,1,Paid Search
+1282,2,Paid Search
+1283,1,Review Sites
+1283,2,Review Sites
+1284,1,Review Sites
+1284,2,Review Sites
+1284,3,Paid Search
+1285,1,Paid Search
+1286,1,Paid Search
+1286,2,Review Sites
+1286,3,Review Sites
+1287,1,Paid Search
+1288,1,LinkedIn Ads
+1288,2,Review Sites
+1289,1,LinkedIn Ads
+1289,2,Paid Search
+1290,1,Paid Search
+1290,2,LinkedIn Ads
+1291,1,Review Sites
+1292,1,Paid Search
+1292,2,Paid Search
+1292,3,Paid Search
+1293,1,LinkedIn Ads
+1293,2,LinkedIn Ads
+1293,3,Display
+1293,4,Paid Search
+1294,1,LinkedIn Ads
+1294,2,Review Sites
+1294,3,Review Sites
+1295,1,LinkedIn Ads
+1295,2,Review Sites
+1295,3,Review Sites
+1295,4,Review Sites
+1296,1,LinkedIn Ads
+1296,2,Paid Search
+1296,3,Display
+1297,1,LinkedIn Ads
+1298,1,Paid Search
+1298,2,LinkedIn Ads
+1299,1,LinkedIn Ads
+1300,1,Display
+1300,2,Review Sites
+1301,1,Paid Search
+1301,2,Review Sites
+1301,3,Review Sites
+1302,1,LinkedIn Ads
+1302,2,Review Sites
+1302,3,Review Sites
+1303,1,Display
+1303,2,Paid Search
+1303,3,Paid Search
+1303,4,Paid Search
+1304,1,Paid Search
+1304,2,Review Sites
+1305,1,LinkedIn Ads
+1305,2,Review Sites
+1306,1,LinkedIn Ads
+1306,2,Review Sites
+1306,3,Paid Search
+1306,4,Review Sites
+1307,1,Display
+1308,1,Paid Search
+1308,2,Paid Search
+1309,1,Review Sites
+1309,2,Review Sites
+1309,3,Review Sites
+1310,1,LinkedIn Ads
+1310,2,Paid Search
+1310,3,Review Sites
+1311,1,LinkedIn Ads
+1312,1,LinkedIn Ads
+1312,2,Paid Search
+1313,1,LinkedIn Ads
+1313,2,Paid Search
+1313,3,Display
+1314,1,Review Sites
+1314,2,Display
+1314,3,Paid Search
+1315,1,Display
+1316,1,Paid Search
+1316,2,Paid Search
+1316,3,Paid Search
+1317,1,Display
+1317,2,Paid Search
+1317,3,Review Sites
+1317,4,Review Sites
+1318,1,Paid Search
+1318,2,Review Sites
+1319,1,Paid Search
+1319,2,Review Sites
+1319,3,Display
+1320,1,LinkedIn Ads
+1320,2,Review Sites
+1320,3,Review Sites
+1321,1,Display
+1321,2,LinkedIn Ads
+1321,3,Paid Search
+1321,4,Paid Search
+1322,1,Paid Search
+1323,1,LinkedIn Ads
+1323,2,LinkedIn Ads
+1324,1,Paid Search
+1324,2,LinkedIn Ads
+1325,1,LinkedIn Ads
+1325,2,LinkedIn Ads
+1325,3,Review Sites
+1325,4,LinkedIn Ads
+1326,1,LinkedIn Ads
+1326,2,Review Sites
+1327,1,Display
+1327,2,LinkedIn Ads
+1328,1,Review Sites
+1328,2,Paid Search
+1328,3,Review Sites
+1328,4,Review Sites
+1329,1,Paid Search
+1329,2,Review Sites
+1330,1,LinkedIn Ads
+1331,1,Display
+1331,2,Paid Search
+1331,3,LinkedIn Ads
+1332,1,LinkedIn Ads
+1332,2,Paid Search
+1333,1,LinkedIn Ads
+1333,2,Paid Search
+1333,3,Display
+1334,1,Display
+1334,2,LinkedIn Ads
+1334,3,Paid Search
+1335,1,LinkedIn Ads
+1335,2,LinkedIn Ads
+1335,3,Display
+1335,4,Paid Search
+1336,1,Display
+1336,2,Paid Search
+1336,3,Display
+1337,1,Review Sites
+1337,2,Review Sites
+1337,3,Paid Search
+1338,1,Review Sites
+1339,1,Paid Search
+1339,2,Paid Search
+1339,3,Paid Search
+1340,1,Display
+1340,2,Review Sites
+1340,3,Paid Search
+1341,1,LinkedIn Ads
+1342,1,Paid Search
+1342,2,Review Sites
+1343,1,LinkedIn Ads
+1343,2,Review Sites
+1343,3,Paid Search
+1344,1,Paid Search
+1344,2,Display
+1344,3,Paid Search
+1345,1,LinkedIn Ads
+1345,2,Review Sites
+1345,3,LinkedIn Ads
+1345,4,Paid Search
+1346,1,Display
+1347,1,Paid Search
+1347,2,Paid Search
+1348,1,LinkedIn Ads
+1349,1,Paid Search
+1349,2,LinkedIn Ads
+1349,3,Paid Search
+1350,1,Review Sites
+1350,2,Paid Search
+1351,1,Paid Search
+1351,2,Review Sites
+1352,1,Paid Search
+1353,1,Display
+1353,2,Paid Search
+1353,3,Paid Search
+1354,1,LinkedIn Ads
+1354,2,Paid Search
+1354,3,Paid Search
+1355,1,Paid Search
+1355,2,Review Sites
+1356,1,LinkedIn Ads
+1356,2,Display
+1356,3,Paid Search
+1357,1,Paid Search
+1357,2,LinkedIn Ads
+1357,3,LinkedIn Ads
+1358,1,Display
+1358,2,Paid Search
+1358,3,Review Sites
+1358,4,Review Sites
+1359,1,LinkedIn Ads
+1359,2,Review Sites
+1360,1,LinkedIn Ads
+1360,2,Paid Search
+1361,1,Review Sites
+1361,2,Paid Search
+1362,1,LinkedIn Ads
+1362,2,LinkedIn Ads
+1362,3,Review Sites
+1363,1,LinkedIn Ads
+1363,2,Review Sites
+1364,1,Review Sites
+1364,2,LinkedIn Ads
+1364,3,Display
+1364,4,Paid Search
+1365,1,Display
+1365,2,Paid Search
+1366,1,Display
+1366,2,Review Sites
+1366,3,Display
+1367,1,Paid Search
+1367,2,Paid Search
+1367,3,Review Sites
+1368,1,Display
+1368,2,Paid Search
+1369,1,Display
+1370,1,Review Sites
+1370,2,Paid Search
+1371,1,LinkedIn Ads
+1371,2,LinkedIn Ads
+1372,1,LinkedIn Ads
+1372,2,Paid Search
+1372,3,Paid Search
+1372,4,Review Sites
+1373,1,LinkedIn Ads
+1373,2,Review Sites
+1373,3,Review Sites
+1374,1,LinkedIn Ads
+1375,1,Paid Search
+1375,2,LinkedIn Ads
+1375,3,Display
+1376,1,Paid Search
+1376,2,Review Sites
+1376,3,Display
+1376,4,Review Sites
+1377,1,LinkedIn Ads
+1377,2,Paid Search
+1377,3,Paid Search
+1378,1,Display
+1378,2,Paid Search
+1378,3,Paid Search
+1379,1,LinkedIn Ads
+1379,2,Paid Search
+1379,3,Review Sites
+1379,4,Paid Search
+1380,1,Review Sites
+1380,2,Paid Search
+1381,1,Display
+1381,2,Review Sites
+1381,3,LinkedIn Ads
+1381,4,Review Sites
+1382,1,LinkedIn Ads
+1383,1,Display
+1383,2,LinkedIn Ads
+1384,1,LinkedIn Ads
+1384,2,LinkedIn Ads
+1385,1,Display
+1385,2,LinkedIn Ads
+1386,1,LinkedIn Ads
+1386,2,Paid Search
+1386,3,Review Sites
+1387,1,LinkedIn Ads
+1387,2,Review Sites
+1388,1,Display
+1388,2,Paid Search
+1388,3,Paid Search
+1389,1,Paid Search
+1390,1,Display
+1390,2,Paid Search
+1390,3,Paid Search
+1391,1,LinkedIn Ads
+1391,2,Paid Search
+1392,1,Display
+1392,2,Paid Search
+1393,1,Paid Search
+1393,2,Paid Search
+1394,1,LinkedIn Ads
+1394,2,Paid Search
+1394,3,Paid Search
+1394,4,Review Sites
+1395,1,LinkedIn Ads
+1395,2,Review Sites
+1396,1,Paid Search
+1396,2,Paid Search
+1397,1,Paid Search
+1397,2,Review Sites
+1398,1,LinkedIn Ads
+1398,2,LinkedIn Ads
+1399,1,Paid Search
+1399,2,LinkedIn Ads
+1400,1,Display
+1400,2,LinkedIn Ads
+1400,3,Paid Search
+1400,4,Review Sites
+1401,1,Display
+1401,2,Review Sites
+1401,3,Paid Search
+1402,1,Display
+1402,2,Review Sites
+1403,1,LinkedIn Ads
+1403,2,Review Sites
+1403,3,Paid Search
+1404,1,LinkedIn Ads
+1405,1,Paid Search
+1405,2,Paid Search
+1405,3,Paid Search
+1406,1,Review Sites
+1406,2,Paid Search
+1407,1,LinkedIn Ads
+1407,2,Review Sites
+1407,3,Review Sites
+1408,1,Display
+1409,1,LinkedIn Ads
+1409,2,Review Sites
+1409,3,Display
+1409,4,Paid Search
+1410,1,LinkedIn Ads
+1410,2,Paid Search
+1410,3,LinkedIn Ads
+1411,1,Paid Search
+1411,2,Paid Search
+1411,3,LinkedIn Ads
+1412,1,LinkedIn Ads
+1412,2,Review Sites
+1412,3,Review Sites
+1413,1,LinkedIn Ads
+1413,2,Review Sites
+1413,3,Paid Search
+1414,1,LinkedIn Ads
+1414,2,Paid Search
+1414,3,Review Sites
+1415,1,Paid Search
+1416,1,Display
+1416,2,Display
+1416,3,Paid Search
+1417,1,Paid Search
+1417,2,Paid Search
+1417,3,Paid Search
+1418,1,LinkedIn Ads
+1418,2,Paid Search
+1418,3,Review Sites
+1419,1,LinkedIn Ads
+1420,1,Paid Search
+1420,2,Review Sites
+1421,1,LinkedIn Ads
+1421,2,LinkedIn Ads
+1421,3,Paid Search
+1422,1,Paid Search
+1423,1,Paid Search
+1423,2,LinkedIn Ads
+1424,1,Paid Search
+1424,2,Paid Search
+1424,3,Paid Search
+1425,1,Display
+1426,1,Paid Search
+1426,2,Paid Search
+1426,3,Paid Search
+1427,1,Review Sites
+1427,2,Display
+1427,3,LinkedIn Ads
+1428,1,Review Sites
+1428,2,Review Sites
+1429,1,Display
+1429,2,Paid Search
+1429,3,Display
+1430,1,Display
+1430,2,Review Sites
+1430,3,Display
+1431,1,LinkedIn Ads
+1431,2,Paid Search
+1432,1,Paid Search
+1432,2,Display
+1433,1,Display
+1433,2,Paid Search
+1433,3,Review Sites
+1433,4,Display
+1434,1,Paid Search
+1435,1,Display
+1435,2,Paid Search
+1435,3,Review Sites
+1436,1,Paid Search
+1436,2,LinkedIn Ads
+1437,1,LinkedIn Ads
+1437,2,Review Sites
+1437,3,Paid Search
+1438,1,LinkedIn Ads
+1438,2,Review Sites
+1438,3,Paid Search
+1439,1,LinkedIn Ads
+1439,2,LinkedIn Ads
+1439,3,Review Sites
+1440,1,LinkedIn Ads
+1441,1,Review Sites
+1442,1,LinkedIn Ads
+1442,2,Review Sites
+1442,3,Paid Search
+1443,1,Review Sites
+1443,2,Paid Search
+1444,1,LinkedIn Ads
+1444,2,Paid Search
+1445,1,Display
+1445,2,Paid Search
+1445,3,Review Sites
+1446,1,Paid Search
+1446,2,Paid Search
+1447,1,LinkedIn Ads
+1447,2,Review Sites
+1448,1,Display
+1449,1,LinkedIn Ads
+1449,2,Review Sites
+1449,3,Review Sites
+1450,1,LinkedIn Ads
+1450,2,Paid Search
+1450,3,Display
+1451,1,Display
+1451,2,Paid Search
+1451,3,Review Sites
+1451,4,Display
+1452,1,LinkedIn Ads
+1452,2,Review Sites
+1453,1,Display
+1453,2,Review Sites
+1454,1,Paid Search
+1454,2,Review Sites
+1454,3,Paid Search
+1455,1,LinkedIn Ads
+1456,1,Paid Search
+1456,2,Display
+1456,3,LinkedIn Ads
+1456,4,Review Sites
+1457,1,Paid Search
+1457,2,Paid Search
+1457,3,Paid Search
+1458,1,LinkedIn Ads
+1458,2,Paid Search
+1458,3,LinkedIn Ads
+1459,1,Paid Search
+1459,2,Display
+1459,3,Review Sites
+1459,4,Display
+1460,1,Paid Search
+1460,2,Paid Search
+1460,3,Review Sites
+1461,1,Paid Search
+1462,1,Display
+1462,2,Review Sites
+1463,1,LinkedIn Ads
+1464,1,LinkedIn Ads
+1465,1,Paid Search
+1465,2,Paid Search
+1465,3,Review Sites
+1466,1,LinkedIn Ads
+1467,1,Paid Search
+1467,2,Paid Search
+1467,3,Review Sites
+1468,1,Display
+1468,2,Paid Search
+1468,3,Paid Search
+1468,4,Paid Search
+1469,1,Paid Search
+1470,1,Display
+1470,2,Review Sites
+1471,1,LinkedIn Ads
+1471,2,Review Sites
+1472,1,Paid Search
+1472,2,Paid Search
+1473,1,LinkedIn Ads
+1474,1,LinkedIn Ads
+1474,2,LinkedIn Ads
+1475,1,Display
+1475,2,Paid Search
+1476,1,Paid Search
+1476,2,LinkedIn Ads
+1476,3,Paid Search
+1477,1,LinkedIn Ads
+1477,2,Paid Search
+1477,3,Paid Search
+1477,4,Paid Search
+1478,1,LinkedIn Ads
+1478,2,Paid Search
+1478,3,Review Sites
+1479,1,LinkedIn Ads
+1479,2,Review Sites
+1480,1,Paid Search
+1480,2,Paid Search
+1480,3,Paid Search
+1481,1,Paid Search
+1481,2,Display
+1481,3,Paid Search
+1481,4,LinkedIn Ads
+1482,1,LinkedIn Ads
+1482,2,Review Sites
+1482,3,Review Sites
+1483,1,Display
+1483,2,Review Sites
+1483,3,Review Sites
+1483,4,Paid Search
+1484,1,LinkedIn Ads
+1484,2,Paid Search
+1484,3,Review Sites
+1485,1,LinkedIn Ads
+1485,2,Paid Search
+1485,3,Paid Search
+1486,1,LinkedIn Ads
+1486,2,Review Sites
+1486,3,Review Sites
+1486,4,Paid Search
+1487,1,LinkedIn Ads
+1487,2,Review Sites
+1488,1,LinkedIn Ads
+1488,2,Display
+1488,3,Paid Search
+1489,1,Paid Search
+1489,2,Paid Search
+1490,1,LinkedIn Ads
+1490,2,Review Sites
+1491,1,Paid Search
+1491,2,Paid Search
+1492,1,Display
+1492,2,Paid Search
+1493,1,Paid Search
+1493,2,Display
+1494,1,LinkedIn Ads
+1494,2,Paid Search
+1495,1,LinkedIn Ads
+1496,1,Display
+1496,2,Review Sites
+1496,3,Paid Search
+1497,1,Paid Search
+1497,2,LinkedIn Ads
+1497,3,Review Sites
+1498,1,LinkedIn Ads
+1498,2,Paid Search
+1499,1,Paid Search
+1499,2,Paid Search
+1500,1,Paid Search
+1500,2,Paid Search
+1500,3,Review Sites
+1501,1,Display
+1502,1,Paid Search
+1502,2,Paid Search
+1503,1,Paid Search
+1504,1,Paid Search
+1504,2,LinkedIn Ads
+1504,3,Review Sites
+1505,1,Display
+1506,1,Paid Search
+1506,2,Paid Search
+1506,3,LinkedIn Ads
+1506,4,Display
+1507,1,Display
+1507,2,Paid Search
+1507,3,LinkedIn Ads
+1508,1,LinkedIn Ads
+1508,2,Paid Search
+1508,3,Paid Search
+1509,1,Paid Search
+1510,1,Review Sites
+1510,2,Review Sites
+1510,3,Review Sites
+1510,4,LinkedIn Ads
+1511,1,Paid Search
+1511,2,Paid Search
+1512,1,LinkedIn Ads
+1513,1,LinkedIn Ads
+1513,2,Review Sites
+1513,3,Review Sites
+1514,1,LinkedIn Ads
+1515,1,LinkedIn Ads
+1515,2,Review Sites
+1516,1,Display
+1516,2,Paid Search
+1517,1,Paid Search
+1517,2,Review Sites
+1518,1,LinkedIn Ads
+1518,2,Paid Search
+1518,3,LinkedIn Ads
+1519,1,Display
+1519,2,Paid Search
+1519,3,LinkedIn Ads
+1520,1,Review Sites
+1520,2,Paid Search
+1521,1,LinkedIn Ads
+1521,2,Paid Search
+1521,3,Paid Search
+1522,1,LinkedIn Ads
+1522,2,Paid Search
+1522,3,Review Sites
+1523,1,Paid Search
+1523,2,Paid Search
+1524,1,LinkedIn Ads
+1524,2,Review Sites
+1525,1,Display
+1525,2,Review Sites
+1525,3,Display
+1526,1,Paid Search
+1526,2,Paid Search
+1527,1,Display
+1527,2,Display
+1528,1,LinkedIn Ads
+1528,2,LinkedIn Ads
+1528,3,Paid Search
+1528,4,Review Sites
+1529,1,Paid Search
+1529,2,Paid Search
+1530,1,LinkedIn Ads
+1531,1,LinkedIn Ads
+1531,2,LinkedIn Ads
+1531,3,Paid Search
+1531,4,LinkedIn Ads
+1532,1,Review Sites
+1533,1,Paid Search
+1533,2,Paid Search
+1533,3,Paid Search
+1534,1,LinkedIn Ads
+1534,2,Review Sites
+1535,1,Paid Search
+1535,2,Paid Search
+1536,1,Paid Search
+1537,1,Review Sites
+1537,2,Review Sites
+1537,3,Paid Search
+1538,1,LinkedIn Ads
+1538,2,Review Sites
+1539,1,Review Sites
+1539,2,Review Sites
+1540,1,LinkedIn Ads
+1540,2,Paid Search
+1540,3,Review Sites
+1540,4,Paid Search
+1541,1,Paid Search
+1541,2,Review Sites
+1542,1,Display
+1542,2,LinkedIn Ads
+1542,3,Paid Search
+1543,1,LinkedIn Ads
+1543,2,LinkedIn Ads
+1544,1,LinkedIn Ads
+1544,2,Display
+1545,1,Paid Search
+1546,1,Paid Search
+1547,1,Display
+1547,2,Review Sites
+1548,1,LinkedIn Ads
+1549,1,Display
+1550,1,Paid Search
+1550,2,Paid Search
+1551,1,Display
+1551,2,Review Sites
+1551,3,Paid Search
+1552,1,Paid Search
+1552,2,Review Sites
+1552,3,Review Sites
+1553,1,Display
+1553,2,Paid Search
+1554,1,LinkedIn Ads
+1554,2,Review Sites
+1554,3,Display
+1555,1,Review Sites
+1556,1,LinkedIn Ads
+1556,2,Review Sites
+1556,3,Review Sites
+1557,1,Paid Search
+1557,2,Review Sites
+1558,1,Display
+1558,2,Paid Search
+1558,3,Review Sites
+1558,4,Paid Search
+1559,1,LinkedIn Ads
+1559,2,LinkedIn Ads
+1559,3,Review Sites
+1560,1,Paid Search
+1560,2,Display
+1560,3,Paid Search
+1560,4,Paid Search
+1561,1,Paid Search
+1561,2,Paid Search
+1562,1,Display
+1562,2,Paid Search
+1563,1,Paid Search
+1563,2,Paid Search
+1564,1,Display
+1564,2,Paid Search
+1564,3,Paid Search
+1564,4,Display
+1565,1,Display
+1565,2,Paid Search
+1565,3,Review Sites
+1566,1,Paid Search
+1566,2,Review Sites
+1567,1,Display
+1567,2,Review Sites
+1568,1,Display
+1568,2,Display
+1569,1,Display
+1569,2,Paid Search
+1570,1,LinkedIn Ads
+1571,1,Display
+1571,2,Paid Search
+1572,1,Paid Search
+1572,2,Review Sites
+1573,1,LinkedIn Ads
+1573,2,Paid Search
+1573,3,LinkedIn Ads
+1574,1,Paid Search
+1574,2,Review Sites
+1575,1,Display
+1575,2,Paid Search
+1576,1,Paid Search
+1576,2,Paid Search
+1576,3,LinkedIn Ads
+1577,1,Paid Search
+1577,2,LinkedIn Ads
+1578,1,Display
+1578,2,Review Sites
+1579,1,LinkedIn Ads
+1579,2,Review Sites
+1579,3,Paid Search
+1580,1,LinkedIn Ads
+1580,2,Paid Search
+1581,1,Paid Search
+1581,2,Paid Search
+1581,3,Paid Search
+1582,1,Paid Search
+1582,2,LinkedIn Ads
+1583,1,Display
+1584,1,Paid Search
+1584,2,Paid Search
+1585,1,Paid Search
+1585,2,Paid Search
+1585,3,Review Sites
+1586,1,Paid Search
+1586,2,Paid Search
+1586,3,Display
+1587,1,LinkedIn Ads
+1587,2,Paid Search
+1587,3,Display
+1588,1,Display
+1588,2,Paid Search
+1588,3,Review Sites
+1588,4,Paid Search
+1589,1,LinkedIn Ads
+1589,2,Paid Search
+1590,1,Paid Search
+1590,2,Review Sites
+1590,3,Display
+1590,4,Paid Search
+1591,1,LinkedIn Ads
+1591,2,Display
+1592,1,LinkedIn Ads
+1593,1,Paid Search
+1593,2,LinkedIn Ads
+1594,1,Display
+1594,2,Paid Search
+1594,3,Review Sites
+1594,4,Review Sites
+1595,1,LinkedIn Ads
+1595,2,Paid Search
+1596,1,Paid Search
+1596,2,Review Sites
+1596,3,Review Sites
+1597,1,Display
+1597,2,Review Sites
+1598,1,LinkedIn Ads
+1598,2,Paid Search
+1599,1,Display
+1599,2,Review Sites
+1599,3,Display
+1600,1,Display
+1600,2,LinkedIn Ads
+1600,3,Paid Search
+1601,1,Display
+1601,2,Review Sites
+1602,1,Paid Search
+1602,2,Review Sites
+1602,3,Paid Search
+1603,1,LinkedIn Ads
+1603,2,Review Sites
+1603,3,Paid Search
+1604,1,LinkedIn Ads
+1604,2,Review Sites
+1605,1,Display
+1605,2,LinkedIn Ads
+1606,1,Display
+1606,2,LinkedIn Ads
+1606,3,Paid Search
+1607,1,Review Sites
+1607,2,Review Sites
+1607,3,Paid Search
+1608,1,LinkedIn Ads
+1608,2,Paid Search
+1608,3,Review Sites
+1609,1,Display
+1609,2,Review Sites
+1609,3,Paid Search
+1610,1,LinkedIn Ads
+1610,2,Review Sites
+1610,3,Review Sites
+1610,4,Review Sites
+1611,1,Review Sites
+1612,1,LinkedIn Ads
+1612,2,Paid Search
+1613,1,Display
+1613,2,Display
+1614,1,Review Sites
+1614,2,Paid Search
+1614,3,Paid Search
+1615,1,LinkedIn Ads
+1615,2,Paid Search
+1616,1,Review Sites
+1616,2,Review Sites
+1616,3,Review Sites
+1617,1,Display
+1617,2,Review Sites
+1617,3,Paid Search
+1618,1,Display
+1618,2,Review Sites
+1618,3,Review Sites
+1618,4,Paid Search
+1619,1,Display
+1619,2,Review Sites
+1620,1,Paid Search
+1620,2,Paid Search
+1620,3,Review Sites
+1620,4,Display
+1621,1,Display
+1621,2,Paid Search
+1621,3,Review Sites
+1621,4,Display
+1622,1,LinkedIn Ads
+1622,2,LinkedIn Ads
+1623,1,Display
+1623,2,LinkedIn Ads
+1623,3,Review Sites
+1623,4,Display
+1624,1,Display
+1624,2,Paid Search
+1624,3,Paid Search
+1625,1,Paid Search
+1626,1,Review Sites
+1626,2,Review Sites
+1626,3,Paid Search
+1627,1,LinkedIn Ads
+1627,2,Paid Search
+1627,3,Paid Search
+1628,1,LinkedIn Ads
+1628,2,Paid Search
+1629,1,LinkedIn Ads
+1629,2,Paid Search
+1629,3,Review Sites
+1630,1,LinkedIn Ads
+1630,2,Review Sites
+1631,1,Display
+1631,2,Review Sites
+1631,3,Review Sites
+1632,1,LinkedIn Ads
+1632,2,Paid Search
+1633,1,LinkedIn Ads
+1634,1,Paid Search
+1634,2,Paid Search
+1634,3,Review Sites
+1634,4,Paid Search
+1635,1,Paid Search
+1636,1,Display
+1636,2,Paid Search
+1636,3,Paid Search
+1637,1,LinkedIn Ads
+1637,2,Paid Search
+1637,3,Paid Search
+1638,1,Paid Search
+1638,2,Paid Search
+1639,1,Paid Search
+1639,2,Paid Search
+1639,3,Review Sites
+1640,1,Paid Search
+1640,2,Review Sites
+1640,3,Paid Search
+1641,1,Display
+1642,1,Display
+1643,1,LinkedIn Ads
+1644,1,LinkedIn Ads
+1644,2,Paid Search
+1644,3,Review Sites
+1645,1,LinkedIn Ads
+1645,2,Display
+1645,3,LinkedIn Ads
+1646,1,Paid Search
+1646,2,Paid Search
+1647,1,Display
+1647,2,Paid Search
+1647,3,Paid Search
+1648,1,Display
+1648,2,Review Sites
+1649,1,LinkedIn Ads
+1649,2,Paid Search
+1649,3,Paid Search
+1650,1,Display
+1650,2,Review Sites
+1651,1,Display
+1652,1,LinkedIn Ads
+1652,2,Paid Search
+1652,3,Paid Search
+1653,1,Display
+1653,2,Review Sites
+1653,3,Review Sites
+1654,1,LinkedIn Ads
+1655,1,LinkedIn Ads
+1656,1,Review Sites
+1656,2,Paid Search
+1656,3,Review Sites
+1656,4,Paid Search
+1657,1,LinkedIn Ads
+1657,2,Review Sites
+1658,1,LinkedIn Ads
+1658,2,Review Sites
+1658,3,Review Sites
+1659,1,LinkedIn Ads
+1659,2,Review Sites
+1660,1,LinkedIn Ads
+1660,2,LinkedIn Ads
+1660,3,Review Sites
+1661,1,Review Sites
+1661,2,Paid Search
+1662,1,Paid Search
+1662,2,Paid Search
+1663,1,LinkedIn Ads
+1663,2,Review Sites
+1663,3,Review Sites
+1663,4,Paid Search
+1664,1,LinkedIn Ads
+1664,2,Review Sites
+1665,1,LinkedIn Ads
+1665,2,Paid Search
+1665,3,Display
+1666,1,Paid Search
+1666,2,Display
+1667,1,LinkedIn Ads
+1667,2,Review Sites
+1667,3,Paid Search
+1668,1,LinkedIn Ads
+1669,1,Display
+1669,2,LinkedIn Ads
+1670,1,LinkedIn Ads
+1670,2,Review Sites
+1670,3,Paid Search
+1671,1,Paid Search
+1671,2,Display
+1671,3,LinkedIn Ads
+1672,1,LinkedIn Ads
+1673,1,LinkedIn Ads
+1674,1,Paid Search
+1674,2,LinkedIn Ads
+1674,3,Paid Search
+1674,4,Display
+1675,1,Paid Search
+1675,2,Paid Search
+1676,1,LinkedIn Ads
+1676,2,Paid Search
+1676,3,Review Sites
+1677,1,Paid Search
+1677,2,LinkedIn Ads
+1677,3,Paid Search
+1678,1,LinkedIn Ads
+1678,2,Display
+1678,3,Paid Search
+1678,4,Paid Search
+1679,1,Display
+1679,2,Paid Search
+1679,3,Display
+1680,1,LinkedIn Ads
+1680,2,LinkedIn Ads
+1681,1,Paid Search
+1681,2,Review Sites
+1681,3,Paid Search
+1682,1,LinkedIn Ads
+1682,2,Paid Search
+1683,1,Paid Search
+1683,2,Paid Search
+1684,1,LinkedIn Ads
+1684,2,Review Sites
+1684,3,Review Sites
+1685,1,Paid Search
+1685,2,Review Sites
+1685,3,Review Sites
+1685,4,LinkedIn Ads
+1686,1,LinkedIn Ads
+1686,2,Paid Search
+1687,1,LinkedIn Ads
+1687,2,Paid Search
+1688,1,LinkedIn Ads
+1688,2,Paid Search
+1689,1,Display
+1690,1,LinkedIn Ads
+1690,2,LinkedIn Ads
+1690,3,Review Sites
+1691,1,LinkedIn Ads
+1691,2,Review Sites
+1692,1,Display
+1692,2,LinkedIn Ads
+1693,1,Display
+1693,2,Review Sites
+1693,3,Review Sites
+1694,1,Display
+1694,2,LinkedIn Ads
+1695,1,Paid Search
+1695,2,Review Sites
+1696,1,LinkedIn Ads
+1696,2,Review Sites
+1696,3,LinkedIn Ads
+1697,1,Display
+1697,2,LinkedIn Ads
+1698,1,Review Sites
+1698,2,Paid Search
+1699,1,Display
+1700,1,LinkedIn Ads
+1701,1,Display
+1701,2,Paid Search
+1701,3,Review Sites
+1702,1,LinkedIn Ads
+1702,2,Paid Search
+1703,1,Display
+1703,2,Review Sites
+1703,3,Paid Search
+1703,4,Display
+1704,1,Paid Search
+1704,2,Review Sites
+1705,1,Display
+1705,2,Review Sites
+1706,1,Paid Search
+1706,2,Paid Search
+1707,1,Paid Search
+1707,2,LinkedIn Ads
+1707,3,Paid Search
+1708,1,Paid Search
+1708,2,Paid Search
+1709,1,LinkedIn Ads
+1709,2,Paid Search
+1710,1,LinkedIn Ads
+1711,1,LinkedIn Ads
+1711,2,Paid Search
+1712,1,Paid Search
+1712,2,Paid Search
+1713,1,Paid Search
+1714,1,Paid Search
+1714,2,Review Sites
+1715,1,Paid Search
+1715,2,Paid Search
+1716,1,LinkedIn Ads
+1716,2,Review Sites
+1716,3,Paid Search
+1716,4,Paid Search
+1717,1,LinkedIn Ads
+1718,1,Paid Search
+1719,1,LinkedIn Ads
+1719,2,Paid Search
+1719,3,Paid Search
+1719,4,Review Sites
+1720,1,Paid Search
+1720,2,Review Sites
+1720,3,Display
+1721,1,Paid Search
+1721,2,Review Sites
+1721,3,Paid Search
+1722,1,Display
+1722,2,Display
+1722,3,LinkedIn Ads
+1723,1,Paid Search
+1723,2,Paid Search
+1724,1,LinkedIn Ads
+1724,2,Review Sites
+1724,3,LinkedIn Ads
+1725,1,Paid Search
+1725,2,Review Sites
+1726,1,LinkedIn Ads
+1726,2,Paid Search
+1727,1,Display
+1727,2,Review Sites
+1728,1,Display
+1729,1,Paid Search
+1730,1,LinkedIn Ads
+1730,2,Review Sites
+1730,3,Paid Search
+1731,1,Review Sites
+1731,2,Paid Search
+1731,3,LinkedIn Ads
+1732,1,Paid Search
+1732,2,Paid Search
+1732,3,Paid Search
+1732,4,Review Sites
+1733,1,Display
+1733,2,LinkedIn Ads
+1734,1,LinkedIn Ads
+1734,2,Review Sites
+1734,3,Review Sites
+1735,1,Display
+1735,2,Display
+1736,1,Paid Search
+1736,2,LinkedIn Ads
+1736,3,LinkedIn Ads
+1736,4,Review Sites
+1737,1,Review Sites
+1737,2,Review Sites
+1737,3,Paid Search
+1738,1,LinkedIn Ads
+1738,2,Paid Search
+1739,1,Review Sites
+1739,2,Review Sites
+1740,1,LinkedIn Ads
+1740,2,Review Sites
+1740,3,Paid Search
+1741,1,Display
+1741,2,Review Sites
+1741,3,Paid Search
+1741,4,Paid Search
+1742,1,LinkedIn Ads
+1742,2,Paid Search
+1742,3,Paid Search
+1743,1,Display
+1743,2,Review Sites
+1743,3,Review Sites
+1744,1,Display
+1744,2,Paid Search
+1745,1,Paid Search
+1745,2,Paid Search
+1746,1,LinkedIn Ads
+1747,1,Display
+1747,2,Paid Search
+1747,3,Review Sites
+1748,1,LinkedIn Ads
+1748,2,Review Sites
+1749,1,LinkedIn Ads
+1749,2,Review Sites
+1750,1,Display
+1750,2,Paid Search
+1751,1,Display
+1751,2,Paid Search
+1752,1,Review Sites
+1752,2,Review Sites
+1753,1,LinkedIn Ads
+1754,1,LinkedIn Ads
+1754,2,LinkedIn Ads
+1754,3,Paid Search
+1755,1,Paid Search
+1756,1,LinkedIn Ads
+1757,1,Paid Search
+1757,2,Review Sites
+1757,3,LinkedIn Ads
+1758,1,Paid Search
+1758,2,Review Sites
+1759,1,Paid Search
+1759,2,Paid Search
+1760,1,Review Sites
+1760,2,Paid Search
+1761,1,LinkedIn Ads
+1761,2,LinkedIn Ads
+1762,1,LinkedIn Ads
+1763,1,Display
+1763,2,Paid Search
+1764,1,Display
+1764,2,Review Sites
+1765,1,LinkedIn Ads
+1765,2,Paid Search
+1766,1,LinkedIn Ads
+1767,1,Paid Search
+1767,2,Review Sites
+1767,3,Paid Search
+1767,4,Review Sites
+1768,1,LinkedIn Ads
+1768,2,Paid Search
+1769,1,Paid Search
+1769,2,Paid Search
+1770,1,Paid Search
+1770,2,Paid Search
+1770,3,Review Sites
+1770,4,Display
+1771,1,Paid Search
+1771,2,Paid Search
+1771,3,Paid Search
+1772,1,Display
+1772,2,Paid Search
+1773,1,LinkedIn Ads
+1773,2,LinkedIn Ads
+1773,3,Review Sites
+1774,1,Display
+1774,2,Paid Search
+1774,3,Review Sites
+1774,4,Paid Search
+1775,1,Paid Search
+1775,2,Review Sites
+1775,3,Paid Search
+1776,1,Display
+1776,2,LinkedIn Ads
+1776,3,Paid Search
+1776,4,Paid Search
+1777,1,Paid Search
+1778,1,Display
+1778,2,Paid Search
+1778,3,LinkedIn Ads
+1779,1,Display
+1779,2,Paid Search
+1780,1,Display
+1780,2,LinkedIn Ads
+1780,3,LinkedIn Ads
+1781,1,Paid Search
+1782,1,Paid Search
+1783,1,Review Sites
+1783,2,Paid Search
+1783,3,Paid Search
+1783,4,Review Sites
+1784,1,Paid Search
+1784,2,Paid Search
+1784,3,LinkedIn Ads
+1784,4,Review Sites
+1785,1,Paid Search
+1785,2,Paid Search
+1785,3,Paid Search
+1785,4,Display
+1786,1,Paid Search
+1786,2,Review Sites
+1787,1,LinkedIn Ads
+1788,1,LinkedIn Ads
+1788,2,Paid Search
+1788,3,Review Sites
+1788,4,Paid Search
+1789,1,Display
+1789,2,Review Sites
+1789,3,Paid Search
+1790,1,Review Sites
+1790,2,Review Sites
+1790,3,Review Sites
+1790,4,LinkedIn Ads
+1791,1,LinkedIn Ads
+1791,2,Review Sites
+1792,1,LinkedIn Ads
+1793,1,Review Sites
+1793,2,Review Sites
+1793,3,Paid Search
+1794,1,Paid Search
+1794,2,Display
+1794,3,Paid Search
+1795,1,LinkedIn Ads
+1795,2,Review Sites
+1795,3,Paid Search
+1796,1,Paid Search
+1797,1,Review Sites
+1797,2,Display
+1797,3,LinkedIn Ads
+1798,1,LinkedIn Ads
+1799,1,Review Sites
+1799,2,LinkedIn Ads
+1800,1,LinkedIn Ads
+1800,2,Display
+1801,1,Review Sites
+1801,2,Paid Search
+1802,1,Display
+1802,2,Review Sites
+1803,1,Display
+1803,2,Review Sites
+1804,1,Review Sites
+1804,2,Review Sites
+1804,3,Paid Search
+1805,1,Review Sites
+1805,2,Review Sites
+1806,1,LinkedIn Ads
+1807,1,LinkedIn Ads
+1808,1,Paid Search
+1808,2,Review Sites
+1808,3,Paid Search
+1809,1,LinkedIn Ads
+1809,2,Review Sites
+1810,1,LinkedIn Ads
+1810,2,Display
+1811,1,Review Sites
+1811,2,Paid Search
+1811,3,Paid Search
+1811,4,Review Sites
+1812,1,LinkedIn Ads
+1812,2,Paid Search
+1813,1,Paid Search
+1813,2,Review Sites
+1814,1,LinkedIn Ads
+1814,2,Review Sites
+1814,3,Review Sites
+1814,4,Display
+1815,1,Paid Search
+1815,2,LinkedIn Ads
+1815,3,Display
+1816,1,Display
+1816,2,Display
+1816,3,Display
+1817,1,Display
+1818,1,Paid Search
+1819,1,LinkedIn Ads
+1819,2,Review Sites
+1820,1,LinkedIn Ads
+1820,2,Paid Search
+1820,3,Review Sites
+1821,1,Paid Search
+1821,2,Paid Search
+1821,3,Paid Search
+1822,1,LinkedIn Ads
+1822,2,Paid Search
+1822,3,Paid Search
+1823,1,Display
+1823,2,Paid Search
+1823,3,Display
+1823,4,Paid Search
+1824,1,Paid Search
+1825,1,LinkedIn Ads
+1825,2,LinkedIn Ads
+1825,3,Review Sites
+1826,1,LinkedIn Ads
+1826,2,Review Sites
+1826,3,Paid Search
+1826,4,Review Sites
+1827,1,LinkedIn Ads
+1828,1,Paid Search
+1829,1,Display
+1829,2,Display
+1829,3,Review Sites
+1829,4,Review Sites
+1830,1,Display
+1830,2,Review Sites
+1830,3,Paid Search
+1830,4,LinkedIn Ads
+1831,1,Display
+1831,2,Review Sites
+1831,3,Review Sites
+1831,4,Paid Search
+1832,1,LinkedIn Ads
+1832,2,LinkedIn Ads
+1832,3,Paid Search
+1832,4,Review Sites
+1833,1,LinkedIn Ads
+1833,2,Review Sites
+1833,3,Paid Search
+1834,1,Display
+1834,2,Paid Search
+1835,1,Paid Search
+1835,2,Paid Search
+1835,3,LinkedIn Ads
+1836,1,Paid Search
+1836,2,Review Sites
+1836,3,Paid Search
+1837,1,Display
+1837,2,Paid Search
+1838,1,LinkedIn Ads
+1838,2,Review Sites
+1838,3,Paid Search
+1838,4,Display
+1839,1,Paid Search
+1839,2,Review Sites
+1840,1,Display
+1841,1,LinkedIn Ads
+1842,1,LinkedIn Ads
+1842,2,Display
+1843,1,Paid Search
+1844,1,Review Sites
+1844,2,Review Sites
+1845,1,Paid Search
+1845,2,Review Sites
+1846,1,Review Sites
+1846,2,Review Sites
+1846,3,LinkedIn Ads
+1846,4,Review Sites
+1847,1,Paid Search
+1847,2,Review Sites
+1847,3,Paid Search
+1847,4,LinkedIn Ads
+1848,1,Display
+1848,2,Paid Search
+1848,3,Review Sites
+1849,1,Review Sites
+1849,2,Paid Search
+1849,3,Review Sites
+1850,1,LinkedIn Ads
+1850,2,Review Sites
+1851,1,Review Sites
+1851,2,Paid Search
+1851,3,Review Sites
+1851,4,Paid Search
+1852,1,Paid Search
+1852,2,Review Sites
+1852,3,Review Sites
+1853,1,LinkedIn Ads
+1853,2,Review Sites
+1854,1,Paid Search
+1854,2,LinkedIn Ads
+1854,3,Paid Search
+1855,1,Paid Search
+1855,2,Paid Search
+1855,3,Paid Search
+1855,4,Review Sites
+1856,1,Display
+1856,2,Display
+1857,1,LinkedIn Ads
+1857,2,Paid Search
+1858,1,Paid Search
+1858,2,Paid Search
+1858,3,Paid Search
+1858,4,Paid Search
+1859,1,LinkedIn Ads
+1859,2,LinkedIn Ads
+1860,1,LinkedIn Ads
+1860,2,LinkedIn Ads
+1861,1,LinkedIn Ads
+1861,2,Paid Search
+1862,1,Display
+1862,2,Paid Search
+1863,1,Paid Search
+1863,2,Review Sites
+1864,1,Display
+1864,2,Review Sites
+1865,1,Paid Search
+1865,2,LinkedIn Ads
+1865,3,Paid Search
+1866,1,LinkedIn Ads
+1866,2,Review Sites
+1866,3,LinkedIn Ads
+1867,1,Display
+1867,2,Review Sites
+1867,3,Paid Search
+1867,4,Paid Search
+1868,1,LinkedIn Ads
+1868,2,Review Sites
+1869,1,Display
+1869,2,Review Sites
+1869,3,Paid Search
+1870,1,LinkedIn Ads
+1870,2,Review Sites
+1870,3,Paid Search
+1871,1,Paid Search
+1871,2,Display
+1872,1,Display
+1872,2,Paid Search
+1872,3,Review Sites
+1873,1,LinkedIn Ads
+1873,2,Review Sites
+1873,3,Review Sites
+1874,1,Display
+1874,2,Paid Search
+1875,1,Review Sites
+1875,2,Paid Search
+1875,3,LinkedIn Ads
+1875,4,Review Sites
+1876,1,Paid Search
+1876,2,Review Sites
+1876,3,LinkedIn Ads
+1877,1,LinkedIn Ads
+1877,2,Paid Search
+1877,3,Paid Search
+1878,1,Paid Search
+1878,2,Review Sites
+1879,1,Display
+1879,2,Display
+1880,1,Display
+1880,2,Review Sites
+1881,1,Review Sites
+1881,2,Paid Search
+1881,3,Paid Search
+1881,4,Review Sites
+1882,1,Display
+1882,2,Paid Search
+1882,3,LinkedIn Ads
+1883,1,Display
+1884,1,LinkedIn Ads
+1884,2,Paid Search
+1884,3,Display
+1885,1,Paid Search
+1885,2,LinkedIn Ads
+1886,1,Paid Search
+1886,2,Paid Search
+1887,1,Display
+1888,1,Paid Search
+1888,2,Paid Search
+1889,1,Paid Search
+1890,1,Paid Search
+1890,2,Review Sites
+1890,3,Paid Search
+1891,1,LinkedIn Ads
+1892,1,Display
+1892,2,Display
+1892,3,Review Sites
+1893,1,LinkedIn Ads
+1893,2,Review Sites
+1893,3,Review Sites
+1894,1,LinkedIn Ads
+1895,1,Paid Search
+1896,1,LinkedIn Ads
+1896,2,Review Sites
+1896,3,LinkedIn Ads
+1897,1,Paid Search
+1897,2,Review Sites
+1898,1,LinkedIn Ads
+1898,2,Review Sites
+1899,1,Review Sites
+1899,2,Review Sites
+1899,3,Paid Search
+1900,1,Paid Search
+1900,2,Review Sites
+1900,3,Review Sites
+1901,1,Display
+1901,2,Display
+1901,3,Review Sites
+1901,4,Review Sites
+1902,1,Paid Search
+1902,2,Paid Search
+1903,1,Paid Search
+1903,2,Review Sites
+1903,3,Display
+1904,1,LinkedIn Ads
+1904,2,LinkedIn Ads
+1904,3,Paid Search
+1905,1,LinkedIn Ads
+1905,2,Review Sites
+1906,1,LinkedIn Ads
+1906,2,Review Sites
+1907,1,LinkedIn Ads
+1908,1,LinkedIn Ads
+1908,2,Display
+1909,1,Display
+1909,2,Paid Search
+1910,1,LinkedIn Ads
+1911,1,Review Sites
+1912,1,Review Sites
+1912,2,Review Sites
+1912,3,Review Sites
+1912,4,Review Sites
+1913,1,Display
+1913,2,Paid Search
+1913,3,Paid Search
+1914,1,LinkedIn Ads
+1914,2,Display
+1914,3,Paid Search
+1915,1,LinkedIn Ads
+1915,2,Paid Search
+1915,3,Paid Search
+1916,1,Display
+1916,2,Display
+1916,3,Display
+1917,1,LinkedIn Ads
+1917,2,Review Sites
+1918,1,LinkedIn Ads
+1918,2,Paid Search
+1918,3,Review Sites
+1918,4,Review Sites
+1919,1,LinkedIn Ads
+1919,2,Review Sites
+1920,1,Display
+1921,1,LinkedIn Ads
+1921,2,Review Sites
+1922,1,LinkedIn Ads
+1922,2,Paid Search
+1923,1,Display
+1924,1,Display
+1924,2,Paid Search
+1925,1,Display
+1926,1,Display
+1926,2,Review Sites
+1926,3,Review Sites
+1927,1,LinkedIn Ads
+1927,2,Paid Search
+1927,3,Review Sites
+1928,1,Paid Search
+1928,2,Review Sites
+1928,3,LinkedIn Ads
+1929,1,Display
+1930,1,Paid Search
+1930,2,Paid Search
+1930,3,Review Sites
+1930,4,LinkedIn Ads
+1931,1,Display
+1932,1,Display
+1932,2,Review Sites
+1933,1,Paid Search
+1933,2,Paid Search
+1933,3,Review Sites
+1933,4,Paid Search
+1934,1,LinkedIn Ads
+1934,2,Paid Search
+1935,1,Display
+1935,2,Paid Search
+1936,1,Display
+1936,2,Paid Search
+1936,3,Display
+1937,1,Paid Search
+1937,2,LinkedIn Ads
+1938,1,Paid Search
+1938,2,LinkedIn Ads
+1939,1,Paid Search
+1939,2,Paid Search
+1940,1,LinkedIn Ads
+1941,1,LinkedIn Ads
+1941,2,Review Sites
+1941,3,Paid Search
+1942,1,Display
+1942,2,Review Sites
+1942,3,Paid Search
+1943,1,Display
+1944,1,Review Sites
+1945,1,LinkedIn Ads
+1945,2,Paid Search
+1946,1,LinkedIn Ads
+1946,2,Paid Search
+1947,1,LinkedIn Ads
+1947,2,Display
+1948,1,Display
+1949,1,Paid Search
+1949,2,Paid Search
+1950,1,Paid Search
+1950,2,Review Sites
+1951,1,Paid Search
+1952,1,LinkedIn Ads
+1952,2,Paid Search
+1953,1,Paid Search
+1953,2,Paid Search
+1953,3,Paid Search
+1954,1,LinkedIn Ads
+1954,2,Display
+1954,3,Review Sites
+1955,1,Paid Search
+1955,2,Paid Search
+1955,3,Display
+1955,4,Review Sites
+1956,1,Display
+1957,1,Display
+1957,2,Paid Search
+1958,1,Review Sites
+1958,2,Display
+1959,1,LinkedIn Ads
+1959,2,Display
+1960,1,LinkedIn Ads
+1960,2,Review Sites
+1961,1,Paid Search
+1961,2,Paid Search
+1961,3,LinkedIn Ads
+1962,1,LinkedIn Ads
+1962,2,Paid Search
+1962,3,Paid Search
+1963,1,Paid Search
+1963,2,LinkedIn Ads
+1963,3,Paid Search
+1964,1,LinkedIn Ads
+1965,1,Display
+1965,2,Review Sites
+1966,1,LinkedIn Ads
+1966,2,Paid Search
+1967,1,LinkedIn Ads
+1967,2,Review Sites
+1967,3,Paid Search
+1968,1,Display
+1968,2,Paid Search
+1968,3,Paid Search
+1969,1,Paid Search
+1969,2,Review Sites
+1969,3,Review Sites
+1970,1,Paid Search
+1970,2,LinkedIn Ads
+1971,1,Paid Search
+1971,2,LinkedIn Ads
+1971,3,Paid Search
+1972,1,Display
+1972,2,Review Sites
+1973,1,LinkedIn Ads
+1973,2,Paid Search
+1973,3,LinkedIn Ads
+1973,4,Review Sites
+1974,1,Paid Search
+1975,1,Paid Search
+1975,2,Display
+1976,1,Paid Search
+1976,2,Review Sites
+1976,3,Paid Search
+1977,1,LinkedIn Ads
+1977,2,Review Sites
+1978,1,Paid Search
+1979,1,Display
+1979,2,Paid Search
+1980,1,Paid Search
+1980,2,Paid Search
+1980,3,Paid Search
+1981,1,Paid Search
+1982,1,Paid Search
+1982,2,Display
+1982,3,Review Sites
+1982,4,LinkedIn Ads
+1983,1,LinkedIn Ads
+1983,2,Paid Search
+1984,1,Paid Search
+1984,2,Review Sites
+1984,3,Review Sites
+1985,1,Display
+1985,2,Review Sites
+1985,3,Display
+1986,1,LinkedIn Ads
+1986,2,Review Sites
+1987,1,Review Sites
+1987,2,Paid Search
+1987,3,Review Sites
+1988,1,Paid Search
+1988,2,Review Sites
+1988,3,Paid Search
+1989,1,Paid Search
+1989,2,Paid Search
+1989,3,Paid Search
+1990,1,Paid Search
+1990,2,Display
+1990,3,Review Sites
+1991,1,Paid Search
+1991,2,LinkedIn Ads
+1991,3,Review Sites
+1992,1,LinkedIn Ads
+1993,1,Review Sites
+1993,2,Review Sites
+1994,1,Display
+1994,2,Review Sites
+1994,3,Paid Search
+1995,1,Display
+1995,2,Paid Search
+1996,1,LinkedIn Ads
+1997,1,LinkedIn Ads
+1997,2,Paid Search
+1997,3,Paid Search
+1998,1,Display
+1999,1,Paid Search
+1999,2,Paid Search
+1999,3,Review Sites
+2000,1,LinkedIn Ads
+2000,2,Review Sites
+2001,1,Display
+2001,2,Display
+2001,3,Review Sites
+2002,1,Paid Search
+2002,2,Paid Search
+2003,1,Review Sites
+2004,1,LinkedIn Ads
+2005,1,Paid Search
+2005,2,Paid Search
+2006,1,LinkedIn Ads
+2007,1,LinkedIn Ads
+2008,1,LinkedIn Ads
+2008,2,Review Sites
+2008,3,Display
+2008,4,Display
+2009,1,Display
+2009,2,Paid Search
+2009,3,Review Sites
+2010,1,LinkedIn Ads
+2010,2,LinkedIn Ads
+2010,3,LinkedIn Ads
+2011,1,Paid Search
+2011,2,Paid Search
+2012,1,LinkedIn Ads
+2013,1,Paid Search
+2013,2,Display
+2013,3,Paid Search
+2013,4,Paid Search
+2014,1,Display
+2014,2,Paid Search
+2015,1,Display
+2015,2,Display
+2015,3,Review Sites
+2016,1,LinkedIn Ads
+2016,2,Paid Search
+2016,3,Paid Search
+2017,1,Review Sites
+2017,2,Review Sites
+2018,1,Paid Search
+2018,2,Review Sites
+2019,1,LinkedIn Ads
+2019,2,Paid Search
+2020,1,LinkedIn Ads
+2020,2,Display
+2021,1,Review Sites
+2021,2,Paid Search
+2021,3,Review Sites
+2022,1,LinkedIn Ads
+2022,2,Paid Search
+2023,1,Review Sites
+2024,1,LinkedIn Ads
+2024,2,Paid Search
+2025,1,Paid Search
+2025,2,Review Sites
+2026,1,Display
+2026,2,Display
+2027,1,Paid Search
+2027,2,LinkedIn Ads
+2028,1,LinkedIn Ads
+2028,2,Paid Search
+2029,1,Paid Search
+2030,1,LinkedIn Ads
+2030,2,Paid Search
+2030,3,Review Sites
+2031,1,Paid Search
+2031,2,Paid Search
+2032,1,Display
+2032,2,Paid Search
+2033,1,Display
+2033,2,Display
+2034,1,LinkedIn Ads
+2034,2,Review Sites
+2034,3,Display
+2035,1,Paid Search
+2036,1,LinkedIn Ads
+2037,1,LinkedIn Ads
+2037,2,Review Sites
+2037,3,Display
+2038,1,LinkedIn Ads
+2039,1,Display
+2039,2,Paid Search
+2039,3,Paid Search
+2039,4,Review Sites
+2040,1,LinkedIn Ads
+2040,2,LinkedIn Ads
+2041,1,Paid Search
+2041,2,Paid Search
+2041,3,Paid Search
+2042,1,LinkedIn Ads
+2042,2,Paid Search
+2042,3,Review Sites
+2042,4,Paid Search
+2043,1,LinkedIn Ads
+2043,2,Review Sites
+2043,3,Review Sites
+2044,1,Display
+2044,2,Review Sites
+2045,1,LinkedIn Ads
+2045,2,Display
+2045,3,Review Sites
+2045,4,Paid Search
+2046,1,Display
+2046,2,Paid Search
+2047,1,Paid Search
+2047,2,Review Sites
+2048,1,LinkedIn Ads
+2048,2,Review Sites
+2048,3,Paid Search
+2049,1,LinkedIn Ads
+2049,2,LinkedIn Ads
+2049,3,Display
+2049,4,Display
+2050,1,LinkedIn Ads
+2050,2,Paid Search
+2051,1,Paid Search
+2051,2,Paid Search
+2051,3,Paid Search
+2051,4,Review Sites
+2052,1,Review Sites
+2053,1,Display
+2054,1,Review Sites
+2054,2,Review Sites
+2054,3,Paid Search
+2055,1,LinkedIn Ads
+2055,2,Display
+2055,3,LinkedIn Ads
+2056,1,LinkedIn Ads
+2056,2,LinkedIn Ads
+2057,1,LinkedIn Ads
+2057,2,Paid Search
+2057,3,LinkedIn Ads
+2058,1,LinkedIn Ads
+2059,1,Review Sites
+2059,2,Review Sites
+2060,1,Display
+2060,2,Paid Search
+2061,1,Paid Search
+2061,2,Paid Search
+2061,3,LinkedIn Ads
+2062,1,LinkedIn Ads
+2062,2,Review Sites
+2062,3,Paid Search
+2062,4,Review Sites
+2063,1,LinkedIn Ads
+2063,2,Review Sites
+2063,3,Review Sites
+2064,1,Paid Search
+2064,2,Paid Search
+2064,3,Review Sites
+2065,1,Display
+2065,2,Paid Search
+2066,1,LinkedIn Ads
+2066,2,Paid Search
+2066,3,Display
+2067,1,LinkedIn Ads
+2067,2,Paid Search
+2067,3,LinkedIn Ads
+2068,1,LinkedIn Ads
+2069,1,Paid Search
+2069,2,LinkedIn Ads
+2069,3,Review Sites
+2069,4,Paid Search
+2070,1,Paid Search
+2070,2,Display
+2070,3,LinkedIn Ads
+2071,1,Paid Search
+2071,2,Review Sites
+2072,1,Display
+2072,2,Review Sites
+2072,3,Review Sites
+2073,1,Display
+2073,2,Paid Search
+2074,1,LinkedIn Ads
+2074,2,Paid Search
+2075,1,Paid Search
+2075,2,Review Sites
+2076,1,LinkedIn Ads
+2076,2,Review Sites
+2076,3,Review Sites
+2077,1,Paid Search
+2077,2,Paid Search
+2078,1,Display
+2078,2,Review Sites
+2079,1,LinkedIn Ads
+2079,2,Paid Search
+2080,1,Display
+2080,2,Paid Search
+2080,3,Paid Search
+2081,1,Display
+2082,1,LinkedIn Ads
+2082,2,Paid Search
+2083,1,Paid Search
+2084,1,Review Sites
+2084,2,Paid Search
+2084,3,Paid Search
+2085,1,Paid Search
+2085,2,Paid Search
+2085,3,Display
+2086,1,Paid Search
+2086,2,LinkedIn Ads
+2086,3,Paid Search
+2087,1,LinkedIn Ads
+2087,2,LinkedIn Ads
+2088,1,Display
+2088,2,Paid Search
+2089,1,Paid Search
+2089,2,LinkedIn Ads
+2089,3,Display
+2090,1,Display
+2090,2,Display
+2090,3,Display
+2090,4,Review Sites
+2091,1,LinkedIn Ads
+2092,1,LinkedIn Ads
+2092,2,Paid Search
+2092,3,LinkedIn Ads
+2093,1,Display
+2093,2,Display
+2094,1,Paid Search
+2094,2,Review Sites
+2094,3,Paid Search
+2095,1,Display
+2096,1,Paid Search
+2096,2,Review Sites
+2096,3,LinkedIn Ads
+2097,1,LinkedIn Ads
+2097,2,Display
+2098,1,LinkedIn Ads
+2098,2,LinkedIn Ads
+2098,3,LinkedIn Ads
+2099,1,Paid Search
+2099,2,LinkedIn Ads
+2099,3,LinkedIn Ads
+2100,1,Paid Search
+2101,1,Display
+2101,2,Review Sites
+2102,1,LinkedIn Ads
+2102,2,Paid Search
+2102,3,Review Sites
+2103,1,LinkedIn Ads
+2103,2,LinkedIn Ads
+2103,3,Paid Search
+2104,1,Paid Search
+2104,2,Paid Search
+2104,3,Paid Search
+2105,1,LinkedIn Ads
+2106,1,LinkedIn Ads
+2106,2,Paid Search
+2107,1,LinkedIn Ads
+2107,2,Review Sites
+2107,3,Paid Search
+2107,4,Paid Search
+2108,1,LinkedIn Ads
+2109,1,LinkedIn Ads
+2109,2,Paid Search
+2110,1,Paid Search
+2110,2,LinkedIn Ads
+2110,3,Paid Search
+2110,4,Display
+2111,1,LinkedIn Ads
+2111,2,Paid Search
+2112,1,Review Sites
+2112,2,Paid Search
+2113,1,Review Sites
+2114,1,Display
+2114,2,Paid Search
+2115,1,LinkedIn Ads
+2115,2,LinkedIn Ads
+2115,3,Paid Search
+2116,1,Display
+2116,2,Review Sites
+2116,3,LinkedIn Ads
+2117,1,LinkedIn Ads
+2117,2,LinkedIn Ads
+2118,1,LinkedIn Ads
+2118,2,Review Sites
+2119,1,Paid Search
+2119,2,LinkedIn Ads
+2119,3,LinkedIn Ads
+2120,1,Display
+2120,2,Display
+2120,3,Review Sites
+2121,1,LinkedIn Ads
+2122,1,Paid Search
+2122,2,Review Sites
+2122,3,Review Sites
+2122,4,LinkedIn Ads
+2123,1,LinkedIn Ads
+2123,2,LinkedIn Ads
+2124,1,Display
+2124,2,Paid Search
+2124,3,Review Sites
+2125,1,Paid Search
+2125,2,Review Sites
+2125,3,LinkedIn Ads
+2126,1,Display
+2126,2,Paid Search
+2127,1,Display
+2127,2,Review Sites
+2127,3,Review Sites
+2127,4,Paid Search
+2128,1,Display
+2128,2,Display
+2128,3,Review Sites
+2129,1,Display
+2129,2,Paid Search
+2130,1,Display
+2130,2,Review Sites
+2130,3,Paid Search
+2131,1,LinkedIn Ads
+2131,2,Review Sites
+2131,3,LinkedIn Ads
+2132,1,LinkedIn Ads
+2132,2,Review Sites
+2132,3,Paid Search
+2133,1,LinkedIn Ads
+2133,2,Review Sites
+2133,3,Review Sites
+2134,1,Paid Search
+2134,2,Review Sites
+2134,3,LinkedIn Ads
+2135,1,Review Sites
+2135,2,Review Sites
+2136,1,LinkedIn Ads
+2136,2,Paid Search
+2137,1,Paid Search
+2138,1,Paid Search
+2138,2,Review Sites
+2138,3,Review Sites
+2139,1,LinkedIn Ads
+2139,2,Paid Search
+2139,3,Paid Search
+2140,1,Review Sites
+2140,2,Display
+2141,1,Review Sites
+2141,2,Review Sites
+2142,1,Paid Search
+2142,2,Display
+2142,3,Review Sites
+2143,1,Paid Search
+2144,1,Review Sites
+2144,2,Review Sites
+2145,1,Display
+2145,2,Review Sites
+2145,3,Paid Search
+2146,1,LinkedIn Ads
+2146,2,Review Sites
+2147,1,Paid Search
+2147,2,LinkedIn Ads
+2148,1,Display
+2148,2,Review Sites
+2148,3,Paid Search
+2149,1,LinkedIn Ads
+2149,2,Paid Search
+2150,1,LinkedIn Ads
+2151,1,LinkedIn Ads
+2151,2,Review Sites
+2151,3,Paid Search
+2152,1,Paid Search
+2152,2,Paid Search
+2152,3,Review Sites
+2153,1,Display
+2153,2,LinkedIn Ads
+2154,1,Paid Search
+2154,2,Paid Search
+2155,1,Paid Search
+2155,2,Display
+2155,3,Review Sites
+2155,4,Review Sites
+2156,1,Paid Search
+2157,1,Paid Search
+2157,2,Review Sites
+2157,3,LinkedIn Ads
+2158,1,Paid Search
+2158,2,Review Sites
+2158,3,Paid Search
+2159,1,LinkedIn Ads
+2159,2,Paid Search
+2160,1,Paid Search
+2160,2,Review Sites
+2161,1,Review Sites
+2161,2,LinkedIn Ads
+2162,1,LinkedIn Ads
+2162,2,Review Sites
+2163,1,LinkedIn Ads
+2164,1,Paid Search
+2164,2,Review Sites
+2164,3,Display
+2165,1,LinkedIn Ads
+2166,1,Display
+2166,2,LinkedIn Ads
+2167,1,LinkedIn Ads
+2168,1,Paid Search
+2168,2,Paid Search
+2169,1,Paid Search
+2170,1,LinkedIn Ads
+2171,1,Paid Search
+2171,2,Paid Search
+2171,3,LinkedIn Ads
+2171,4,Review Sites
+2172,1,LinkedIn Ads
+2173,1,Display
+2173,2,Paid Search
+2173,3,Review Sites
+2173,4,Review Sites
+2174,1,Review Sites
+2174,2,Paid Search
+2175,1,Paid Search
+2175,2,Display
+2176,1,Review Sites
+2176,2,LinkedIn Ads
+2177,1,Review Sites
+2177,2,Paid Search
+2178,1,Display
+2178,2,Review Sites
+2178,3,Review Sites
+2178,4,Paid Search
+2179,1,LinkedIn Ads
+2179,2,Paid Search
+2180,1,Review Sites
+2180,2,Paid Search
+2180,3,Review Sites
+2181,1,Display
+2181,2,Paid Search
+2181,3,Review Sites
+2182,1,LinkedIn Ads
+2182,2,Paid Search
+2183,1,LinkedIn Ads
+2183,2,Paid Search
+2183,3,Paid Search
+2184,1,Paid Search
+2185,1,Display
+2185,2,LinkedIn Ads
+2186,1,LinkedIn Ads
+2186,2,Review Sites
+2186,3,Paid Search
+2187,1,LinkedIn Ads
+2188,1,Display
+2188,2,Review Sites
+2188,3,Paid Search
+2189,1,LinkedIn Ads
+2189,2,LinkedIn Ads
+2190,1,Paid Search
+2190,2,Paid Search
+2190,3,Paid Search
+2191,1,LinkedIn Ads
+2191,2,Review Sites
+2192,1,Display
+2192,2,Review Sites
+2193,1,Display
+2194,1,LinkedIn Ads
+2194,2,Paid Search
+2194,3,Paid Search
+2195,1,Review Sites
+2195,2,Review Sites
+2195,3,Paid Search
+2195,4,Display
+2196,1,Review Sites
+2196,2,Review Sites
+2196,3,Review Sites
+2196,4,Display
+2197,1,LinkedIn Ads
+2198,1,LinkedIn Ads
+2198,2,Paid Search
+2198,3,Paid Search
+2198,4,LinkedIn Ads
+2199,1,LinkedIn Ads
+2200,1,Paid Search
+2201,1,LinkedIn Ads
+2201,2,Paid Search
+2201,3,Review Sites
+2202,1,LinkedIn Ads
+2203,1,Review Sites
+2204,1,LinkedIn Ads
+2204,2,Review Sites
+2204,3,Review Sites
+2205,1,LinkedIn Ads
+2205,2,Review Sites
+2206,1,Paid Search
+2207,1,LinkedIn Ads
+2207,2,Review Sites
+2208,1,LinkedIn Ads
+2208,2,Paid Search
+2208,3,LinkedIn Ads
+2208,4,Paid Search
+2209,1,LinkedIn Ads
+2209,2,Paid Search
+2209,3,Paid Search
+2210,1,Display
+2211,1,LinkedIn Ads
+2212,1,Display
+2212,2,LinkedIn Ads
+2213,1,Paid Search
+2213,2,Display
+2214,1,LinkedIn Ads
+2214,2,Review Sites
+2214,3,LinkedIn Ads
+2215,1,Paid Search
+2216,1,LinkedIn Ads
+2216,2,Review Sites
+2217,1,Review Sites
+2217,2,Paid Search
+2217,3,LinkedIn Ads
+2218,1,LinkedIn Ads
+2218,2,Paid Search
+2218,3,Review Sites
+2219,1,Paid Search
+2219,2,Display
+2220,1,Paid Search
+2220,2,Paid Search
+2220,3,Review Sites
+2221,1,Display
+2221,2,Paid Search
+2222,1,Display
+2222,2,Paid Search
+2223,1,Paid Search
+2223,2,Paid Search
+2224,1,Paid Search
+2225,1,LinkedIn Ads
+2225,2,Paid Search
+2226,1,Paid Search
+2226,2,Paid Search
+2227,1,Display
+2227,2,Review Sites
+2227,3,Review Sites
+2227,4,Paid Search
+2228,1,Display
+2229,1,LinkedIn Ads
+2229,2,LinkedIn Ads
+2230,1,Display
+2230,2,Review Sites
+2230,3,Paid Search
+2231,1,Display
+2232,1,Paid Search
+2232,2,Display
+2232,3,Review Sites
+2232,4,Review Sites
+2233,1,LinkedIn Ads
+2233,2,Review Sites
+2234,1,Paid Search
+2234,2,Paid Search
+2235,1,LinkedIn Ads
+2235,2,LinkedIn Ads
+2235,3,Paid Search
+2236,1,LinkedIn Ads
+2236,2,Review Sites
+2237,1,LinkedIn Ads
+2237,2,Paid Search
+2237,3,Review Sites
+2238,1,Display
+2238,2,Paid Search
+2239,1,Review Sites
+2239,2,Display
+2240,1,Display
+2240,2,Review Sites
+2240,3,Paid Search
+2241,1,LinkedIn Ads
+2241,2,Paid Search
+2242,1,Display
+2243,1,LinkedIn Ads
+2243,2,Paid Search
+2243,3,Paid Search
+2244,1,Display
+2244,2,Paid Search
+2244,3,Review Sites
+2245,1,Paid Search
+2245,2,Paid Search
+2245,3,LinkedIn Ads
+2246,1,LinkedIn Ads
+2246,2,Paid Search
+2246,3,LinkedIn Ads
+2246,4,Review Sites
+2247,1,Paid Search
+2247,2,Paid Search
+2247,3,Paid Search
+2248,1,Paid Search
+2248,2,Display
+2249,1,Paid Search
+2249,2,Paid Search
+2249,3,Review Sites
+2250,1,Paid Search
+2250,2,Paid Search
+2251,1,Display
+2251,2,Paid Search
+2252,1,Paid Search
+2252,2,Review Sites
+2252,3,Display
+2253,1,Display
+2254,1,LinkedIn Ads
+2254,2,LinkedIn Ads
+2255,1,Display
+2255,2,Review Sites
+2256,1,LinkedIn Ads
+2256,2,Paid Search
+2257,1,LinkedIn Ads
+2257,2,Review Sites
+2258,1,LinkedIn Ads
+2258,2,LinkedIn Ads
+2258,3,Paid Search
+2258,4,Paid Search
+2259,1,LinkedIn Ads
+2259,2,LinkedIn Ads
+2259,3,Display
+2260,1,Paid Search
+2260,2,Review Sites
+2261,1,LinkedIn Ads
+2261,2,Review Sites
+2262,1,LinkedIn Ads
+2262,2,Review Sites
+2263,1,Review Sites
+2263,2,LinkedIn Ads
+2263,3,Paid Search
+2264,1,Paid Search
+2264,2,Paid Search
+2265,1,LinkedIn Ads
+2265,2,Paid Search
+2266,1,Display
+2266,2,Paid Search
+2266,3,Review Sites
+2267,1,Paid Search
+2267,2,Review Sites
+2268,1,LinkedIn Ads
+2269,1,LinkedIn Ads
+2269,2,Paid Search
+2270,1,Review Sites
+2270,2,Paid Search
+2271,1,LinkedIn Ads
+2272,1,Paid Search
+2273,1,LinkedIn Ads
+2273,2,Review Sites
+2274,1,Display
+2274,2,Review Sites
+2274,3,Review Sites
+2275,1,Paid Search
+2275,2,Review Sites
+2276,1,LinkedIn Ads
+2276,2,Paid Search
+2276,3,LinkedIn Ads
+2276,4,Paid Search
+2277,1,Paid Search
+2278,1,Paid Search
+2278,2,Paid Search
+2279,1,LinkedIn Ads
+2279,2,Display
+2280,1,Paid Search
+2281,1,Display
+2281,2,Review Sites
+2281,3,LinkedIn Ads
+2281,4,Display
+2282,1,Paid Search
+2282,2,Display
+2282,3,Paid Search
+2282,4,Paid Search
+2283,1,Display
+2283,2,Display
+2284,1,Paid Search
+2284,2,Paid Search
+2285,1,Paid Search
+2285,2,LinkedIn Ads
+2286,1,Paid Search
+2286,2,Display
+2287,1,Paid Search
+2287,2,Paid Search
+2288,1,Paid Search
+2288,2,Display
+2288,3,Review Sites
+2289,1,LinkedIn Ads
+2289,2,Paid Search
+2289,3,Paid Search
+2290,1,LinkedIn Ads
+2291,1,Display
+2292,1,Display
+2292,2,Review Sites
+2293,1,Display
+2293,2,Paid Search
+2293,3,Paid Search
+2294,1,LinkedIn Ads
+2294,2,LinkedIn Ads
+2294,3,Review Sites
+2294,4,Review Sites
+2295,1,Paid Search
+2296,1,Display
+2296,2,Review Sites
+2297,1,Review Sites
+2297,2,Review Sites
+2298,1,Display
+2299,1,Paid Search
+2299,2,Paid Search
+2299,3,Review Sites
+2300,1,Paid Search
+2300,2,Paid Search
+2300,3,LinkedIn Ads
+2301,1,Paid Search
+2301,2,LinkedIn Ads
+2301,3,Review Sites
+2302,1,Review Sites
+2303,1,LinkedIn Ads
+2303,2,Paid Search
+2303,3,Review Sites
+2304,1,Paid Search
+2304,2,Paid Search
+2305,1,LinkedIn Ads
+2305,2,Review Sites
+2306,1,Review Sites
+2306,2,Paid Search
+2307,1,Paid Search
+2308,1,Paid Search
+2308,2,Paid Search
+2309,1,Paid Search
+2309,2,Review Sites
+2309,3,Paid Search
+2310,1,Paid Search
+2310,2,Paid Search
+2311,1,Paid Search
+2311,2,Display
+2311,3,Paid Search
+2312,1,Paid Search
+2312,2,Paid Search
+2313,1,Display
+2313,2,Review Sites
+2313,3,Paid Search
+2313,4,LinkedIn Ads
+2314,1,Review Sites
+2315,1,Display
+2315,2,Review Sites
+2316,1,LinkedIn Ads
+2317,1,Paid Search
+2317,2,LinkedIn Ads
+2318,1,Display
+2318,2,LinkedIn Ads
+2318,3,Paid Search
+2319,1,LinkedIn Ads
+2319,2,Paid Search
+2320,1,Paid Search
+2320,2,Review Sites
+2321,1,Paid Search
+2321,2,Review Sites
+2321,3,Review Sites
+2321,4,LinkedIn Ads
+2322,1,LinkedIn Ads
+2322,2,Paid Search
+2323,1,Paid Search
+2323,2,Review Sites
+2324,1,Display
+2324,2,Display
+2325,1,Paid Search
+2325,2,LinkedIn Ads
+2325,3,LinkedIn Ads
+2326,1,LinkedIn Ads
+2326,2,LinkedIn Ads
+2327,1,Paid Search
+2327,2,Review Sites
+2328,1,Paid Search
+2328,2,LinkedIn Ads
+2328,3,LinkedIn Ads
+2329,1,Paid Search
+2329,2,Review Sites
+2330,1,LinkedIn Ads
+2330,2,Paid Search
+2331,1,LinkedIn Ads
+2331,2,Review Sites
+2332,1,Display
+2332,2,Paid Search
+2332,3,Paid Search
+2333,1,LinkedIn Ads
+2333,2,Display
+2334,1,Paid Search
+2334,2,LinkedIn Ads
+2334,3,Paid Search
+2335,1,LinkedIn Ads
+2335,2,Paid Search
+2335,3,Paid Search
+2336,1,LinkedIn Ads
+2336,2,Paid Search
+2336,3,Review Sites
+2337,1,Display
+2337,2,Paid Search
+2337,3,Review Sites
+2337,4,Review Sites
+2338,1,Display
+2339,1,Display
+2339,2,Paid Search
+2340,1,LinkedIn Ads
+2340,2,Paid Search
+2341,1,LinkedIn Ads
+2341,2,Review Sites
+2341,3,Review Sites
+2342,1,LinkedIn Ads
+2342,2,Paid Search
+2342,3,LinkedIn Ads
+2343,1,Paid Search
+2343,2,Paid Search
+2344,1,Paid Search
+2345,1,Paid Search
+2345,2,LinkedIn Ads
+2346,1,LinkedIn Ads
+2346,2,Paid Search
+2346,3,Paid Search
+2347,1,Paid Search
+2348,1,Display
+2348,2,Paid Search
+2348,3,Review Sites
+2348,4,Paid Search
+2349,1,Paid Search
+2349,2,Display
+2349,3,Paid Search
+2350,1,LinkedIn Ads
+2350,2,Paid Search
+2350,3,Paid Search
+2351,1,LinkedIn Ads
+2351,2,Review Sites
+2351,3,LinkedIn Ads
+2351,4,Review Sites
+2352,1,LinkedIn Ads
+2352,2,Review Sites
+2353,1,Display
+2353,2,Review Sites
+2354,1,Display
+2354,2,LinkedIn Ads
+2354,3,LinkedIn Ads
+2354,4,Paid Search
+2355,1,Paid Search
+2355,2,Review Sites
+2356,1,Review Sites
+2357,1,LinkedIn Ads
+2357,2,LinkedIn Ads
+2358,1,Paid Search
+2358,2,LinkedIn Ads
+2358,3,Paid Search
+2358,4,Paid Search
+2359,1,Paid Search
+2360,1,Paid Search
+2360,2,LinkedIn Ads
+2360,3,Review Sites
+2361,1,LinkedIn Ads
+2361,2,Display
+2362,1,LinkedIn Ads
+2362,2,Review Sites
+2362,3,Review Sites
+2362,4,Review Sites
+2363,1,LinkedIn Ads
+2363,2,Paid Search
+2364,1,Paid Search
+2364,2,Review Sites
+2364,3,Paid Search
+2364,4,Display
+2365,1,Display
+2365,2,Paid Search
+2366,1,Display
+2366,2,Review Sites
+2366,3,Paid Search
+2366,4,Review Sites
+2367,1,Paid Search
+2367,2,LinkedIn Ads
+2368,1,LinkedIn Ads
+2368,2,Review Sites
+2369,1,Paid Search
+2369,2,Display
+2370,1,Paid Search
+2370,2,Paid Search
+2371,1,Paid Search
+2371,2,Review Sites
+2372,1,Paid Search
+2372,2,Paid Search
+2373,1,Display
+2373,2,Display
+2373,3,Paid Search
+2373,4,Display
+2374,1,Paid Search
+2374,2,Review Sites
+2375,1,LinkedIn Ads
+2375,2,Display
+2376,1,LinkedIn Ads
+2376,2,Paid Search
+2377,1,Paid Search
+2378,1,Review Sites
+2378,2,Review Sites
+2379,1,Display
+2379,2,Review Sites
+2380,1,Paid Search
+2380,2,Paid Search
+2380,3,Paid Search
+2381,1,LinkedIn Ads
+2381,2,Review Sites
+2382,1,Display
+2382,2,Display
+2383,1,Paid Search
+2383,2,Display
+2383,3,Review Sites
+2384,1,Display
+2384,2,Review Sites
+2385,1,LinkedIn Ads
+2385,2,Paid Search
+2385,3,Paid Search
+2385,4,Paid Search
+2386,1,Review Sites
+2386,2,LinkedIn Ads
+2387,1,LinkedIn Ads
+2387,2,Review Sites
+2387,3,Display
+2388,1,LinkedIn Ads
+2389,1,Paid Search
+2389,2,LinkedIn Ads
+2389,3,Display
+2390,1,Display
+2390,2,Paid Search
+2390,3,Review Sites
+2391,1,LinkedIn Ads
+2391,2,Display
+2391,3,Review Sites
+2392,1,LinkedIn Ads
+2392,2,Review Sites
+2393,1,Paid Search
+2393,2,Paid Search
+2394,1,Paid Search
+2394,2,Paid Search
+2395,1,LinkedIn Ads
+2395,2,Display
+2396,1,Paid Search
+2397,1,LinkedIn Ads
+2397,2,Display
+2397,3,Paid Search
+2398,1,Display
+2398,2,Review Sites
+2398,3,Paid Search
+2399,1,LinkedIn Ads
+2399,2,Paid Search
+2399,3,LinkedIn Ads
+2400,1,Display
+2400,2,Display
+2400,3,Paid Search
+2401,1,Paid Search
+2401,2,Review Sites
+2401,3,Review Sites
+2401,4,Review Sites
+2402,1,LinkedIn Ads
+2402,2,Review Sites
+2402,3,Review Sites
+2402,4,Review Sites
+2403,1,Review Sites
+2403,2,Paid Search
+2404,1,Paid Search
+2404,2,Review Sites
+2404,3,Display
+2405,1,Display
+2405,2,Paid Search
+2405,3,LinkedIn Ads
+2406,1,Display
+2406,2,Review Sites
+2406,3,LinkedIn Ads
+2407,1,Paid Search
+2407,2,Paid Search
+2408,1,Paid Search
+2408,2,Review Sites
+2409,1,Display
+2409,2,Paid Search
+2410,1,Paid Search
+2410,2,Review Sites
+2411,1,LinkedIn Ads
+2411,2,Paid Search
+2412,1,Paid Search
+2412,2,Paid Search
+2412,3,Review Sites
+2412,4,Paid Search
+2413,1,LinkedIn Ads
+2413,2,LinkedIn Ads
+2414,1,LinkedIn Ads
+2414,2,Review Sites
+2414,3,Paid Search
+2414,4,Paid Search
+2415,1,Review Sites
+2415,2,Review Sites
+2415,3,Review Sites
+2416,1,Review Sites
+2416,2,Review Sites
+2417,1,LinkedIn Ads
+2417,2,Paid Search
+2418,1,Display
+2418,2,Display
+2419,1,Paid Search
+2419,2,Paid Search
+2420,1,Paid Search
+2420,2,Paid Search
+2420,3,Display
+2420,4,Paid Search
+2421,1,Paid Search
+2421,2,Review Sites
+2422,1,LinkedIn Ads
+2422,2,Review Sites
+2423,1,Paid Search
+2423,2,Paid Search
+2423,3,LinkedIn Ads
+2423,4,Review Sites
+2424,1,LinkedIn Ads
+2425,1,Display
+2425,2,Review Sites
+2425,3,Paid Search
+2425,4,Review Sites
+2426,1,Review Sites
+2426,2,Review Sites
+2427,1,LinkedIn Ads
+2427,2,Review Sites
+2427,3,Paid Search
+2428,1,LinkedIn Ads
+2429,1,Paid Search
+2429,2,LinkedIn Ads
+2429,3,Review Sites
+2430,1,LinkedIn Ads
+2430,2,Paid Search
+2430,3,Paid Search
+2431,1,LinkedIn Ads
+2431,2,Review Sites
+2432,1,LinkedIn Ads
+2433,1,Display
+2433,2,Display
+2433,3,Review Sites
+2434,1,LinkedIn Ads
+2435,1,LinkedIn Ads
+2435,2,Display
+2436,1,Paid Search
+2436,2,Paid Search
+2436,3,Review Sites
+2437,1,Paid Search
+2437,2,Review Sites
+2437,3,Paid Search
+2437,4,Paid Search
+2438,1,Paid Search
+2438,2,Review Sites
+2439,1,LinkedIn Ads
+2439,2,Paid Search
+2440,1,Review Sites
+2440,2,Paid Search
+2440,3,Paid Search
+2441,1,Paid Search
+2441,2,Display
+2441,3,Review Sites
+2442,1,LinkedIn Ads
+2442,2,Paid Search
+2442,3,Review Sites
+2443,1,Paid Search
+2443,2,Review Sites
+2444,1,Display
+2445,1,LinkedIn Ads
+2446,1,LinkedIn Ads
+2446,2,Paid Search
+2447,1,Paid Search
+2448,1,Display
+2449,1,LinkedIn Ads
+2450,1,Paid Search
+2450,2,Paid Search
+2450,3,Review Sites
+2451,1,Paid Search
+2452,1,LinkedIn Ads
+2453,1,Paid Search
+2454,1,Paid Search
+2454,2,Paid Search
+2455,1,Display
+2455,2,Paid Search
+2455,3,Paid Search
+2455,4,Paid Search
+2456,1,LinkedIn Ads
+2456,2,Review Sites
+2456,3,Review Sites
+2457,1,Review Sites
+2457,2,Paid Search
+2458,1,LinkedIn Ads
+2458,2,Review Sites
+2458,3,Review Sites
+2459,1,LinkedIn Ads
+2459,2,Display
+2459,3,Paid Search
+2460,1,Paid Search
+2460,2,Paid Search
+2460,3,Paid Search
+2461,1,Paid Search
+2461,2,Display
+2462,1,Paid Search
+2462,2,Paid Search
+2462,3,Paid Search
+2462,4,Display
+2463,1,Display
+2463,2,Paid Search
+2463,3,Paid Search
+2464,1,Paid Search
+2465,1,Paid Search
+2465,2,Review Sites
+2466,1,LinkedIn Ads
+2467,1,LinkedIn Ads
+2467,2,Paid Search
+2467,3,Review Sites
+2468,1,LinkedIn Ads
+2468,2,Review Sites
+2469,1,LinkedIn Ads
+2469,2,Display
+2470,1,Paid Search
+2470,2,Display
+2470,3,Review Sites
+2471,1,Paid Search
+2471,2,Paid Search
+2472,1,Paid Search
+2472,2,Review Sites
+2472,3,Review Sites
+2473,1,LinkedIn Ads
+2473,2,Review Sites
+2474,1,Paid Search
+2475,1,Display
+2475,2,LinkedIn Ads
+2475,3,Paid Search
+2476,1,Paid Search
+2476,2,Review Sites
+2477,1,Paid Search
+2477,2,Paid Search
+2478,1,LinkedIn Ads
+2478,2,Review Sites
+2478,3,Review Sites
+2478,4,Review Sites
+2479,1,LinkedIn Ads
+2479,2,LinkedIn Ads
+2479,3,Review Sites
+2479,4,Paid Search
+2480,1,Review Sites
+2480,2,Review Sites
+2481,1,LinkedIn Ads
+2481,2,Paid Search
+2481,3,Review Sites
+2481,4,Review Sites
+2482,1,Review Sites
+2482,2,Paid Search
+2483,1,Paid Search
+2483,2,Review Sites
+2483,3,Review Sites
+2484,1,Display
+2484,2,Review Sites
+2485,1,Paid Search
+2485,2,LinkedIn Ads
+2485,3,LinkedIn Ads
+2485,4,LinkedIn Ads
+2486,1,Paid Search
+2486,2,Review Sites
+2486,3,Review Sites
+2486,4,Paid Search
+2487,1,Paid Search
+2487,2,Paid Search
+2488,1,Display
+2488,2,Paid Search
+2488,3,Paid Search
+2489,1,LinkedIn Ads
+2490,1,Paid Search
+2490,2,LinkedIn Ads
+2490,3,Paid Search
+2491,1,LinkedIn Ads
+2491,2,LinkedIn Ads
+2492,1,LinkedIn Ads
+2493,1,Display
+2493,2,Paid Search
+2493,3,Paid Search
+2494,1,Paid Search
+2494,2,Review Sites
+2494,3,Paid Search
+2495,1,Display
+2495,2,Review Sites
+2495,3,Review Sites
+2496,1,LinkedIn Ads
+2496,2,Review Sites
+2497,1,LinkedIn Ads
+2497,2,Review Sites
+2497,3,Paid Search
+2498,1,Paid Search
+2498,2,Paid Search
+2498,3,Paid Search
+2498,4,Paid Search
+2499,1,LinkedIn Ads
+2499,2,Paid Search
+2500,1,LinkedIn Ads
+2500,2,Review Sites
+2500,3,Review Sites
+2501,1,Paid Search
+2502,1,LinkedIn Ads
+2503,1,Display
+2504,1,Paid Search
+2504,2,Review Sites
+2505,1,LinkedIn Ads
+2505,2,LinkedIn Ads
+2506,1,LinkedIn Ads
+2506,2,Review Sites
+2507,1,LinkedIn Ads
+2507,2,Review Sites
+2508,1,Paid Search
+2508,2,Review Sites
+2509,1,Paid Search
+2509,2,Review Sites
+2509,3,Paid Search
+2509,4,Paid Search
+2510,1,Paid Search
+2510,2,Review Sites
+2510,3,Paid Search
+2511,1,Display
+2512,1,Paid Search
+2512,2,Review Sites
+2513,1,LinkedIn Ads
+2514,1,LinkedIn Ads
+2514,2,LinkedIn Ads
+2515,1,LinkedIn Ads
+2515,2,Paid Search
+2516,1,Display
+2516,2,Paid Search
+2517,1,Display
+2518,1,LinkedIn Ads
+2518,2,LinkedIn Ads
+2518,3,Paid Search
+2518,4,LinkedIn Ads
+2519,1,Display
+2519,2,Review Sites
+2520,1,LinkedIn Ads
+2520,2,Review Sites
+2521,1,Display
+2521,2,Paid Search
+2522,1,Paid Search
+2522,2,LinkedIn Ads
+2522,3,Review Sites
+2522,4,LinkedIn Ads
+2523,1,Paid Search
+2523,2,Paid Search
+2523,3,Paid Search
+2523,4,Paid Search
+2524,1,Paid Search
+2524,2,Display
+2525,1,Paid Search
+2525,2,LinkedIn Ads
+2525,3,LinkedIn Ads
+2525,4,Paid Search
+2526,1,Paid Search
+2527,1,Display
+2527,2,Review Sites
+2527,3,Review Sites
+2528,1,Paid Search
+2528,2,Display
+2529,1,Paid Search
+2529,2,Paid Search
+2530,1,Review Sites
+2530,2,Paid Search
+2531,1,Paid Search
+2532,1,LinkedIn Ads
+2532,2,LinkedIn Ads
+2532,3,Paid Search
+2533,1,Display
+2534,1,LinkedIn Ads
+2534,2,Review Sites
+2535,1,Review Sites
+2535,2,Review Sites
+2536,1,Display
+2536,2,Review Sites
+2536,3,LinkedIn Ads
+2537,1,Paid Search
+2538,1,Display
+2538,2,Review Sites
+2538,3,Display
+2538,4,Paid Search
+2539,1,Paid Search
+2539,2,Paid Search
+2539,3,LinkedIn Ads
+2540,1,Paid Search
+2540,2,Paid Search
+2541,1,Paid Search
+2541,2,Review Sites
+2542,1,LinkedIn Ads
+2542,2,Paid Search
+2543,1,Paid Search
+2543,2,Review Sites
+2543,3,Review Sites
+2543,4,Display
+2544,1,Review Sites
+2544,2,Paid Search
+2545,1,Paid Search
+2545,2,Paid Search
+2546,1,LinkedIn Ads
+2546,2,Paid Search
+2546,3,LinkedIn Ads
+2547,1,LinkedIn Ads
+2547,2,Paid Search
+2547,3,Display
+2548,1,Paid Search
+2548,2,Paid Search
+2548,3,LinkedIn Ads
+2548,4,Paid Search
+2549,1,LinkedIn Ads
+2549,2,Review Sites
+2550,1,LinkedIn Ads
+2550,2,Review Sites
+2550,3,Paid Search
+2551,1,LinkedIn Ads
+2552,1,Display
+2552,2,Paid Search
+2552,3,Review Sites
+2553,1,LinkedIn Ads
+2553,2,Review Sites
+2553,3,LinkedIn Ads
+2554,1,Display
+2554,2,LinkedIn Ads
+2555,1,LinkedIn Ads
+2555,2,LinkedIn Ads
+2555,3,LinkedIn Ads
+2556,1,Paid Search
+2556,2,Paid Search
+2556,3,Paid Search
+2557,1,Display
+2557,2,Paid Search
+2557,3,LinkedIn Ads
+2558,1,Paid Search
+2558,2,Review Sites
+2558,3,LinkedIn Ads
+2559,1,LinkedIn Ads
+2559,2,Review Sites
+2560,1,Display
+2561,1,LinkedIn Ads
+2561,2,Paid Search
+2561,3,Paid Search
+2562,1,LinkedIn Ads
+2562,2,Paid Search
+2563,1,Paid Search
+2563,2,Paid Search
+2563,3,Paid Search
+2564,1,Display
+2565,1,LinkedIn Ads
+2565,2,Paid Search
+2566,1,LinkedIn Ads
+2566,2,Review Sites
+2567,1,Display
+2567,2,Paid Search
+2567,3,Paid Search
+2568,1,Paid Search
+2569,1,LinkedIn Ads
+2569,2,Review Sites
+2569,3,LinkedIn Ads
+2569,4,Review Sites
+2570,1,LinkedIn Ads
+2570,2,Paid Search
+2571,1,Display
+2572,1,LinkedIn Ads
+2573,1,Paid Search
+2573,2,Paid Search
+2574,1,Paid Search
+2574,2,Paid Search
+2574,3,LinkedIn Ads
+2574,4,LinkedIn Ads
+2575,1,Paid Search
+2575,2,Paid Search
+2576,1,LinkedIn Ads
+2577,1,Display
+2578,1,Display
+2579,1,Paid Search
+2579,2,Paid Search
+2580,1,Display
+2580,2,Review Sites
+2580,3,Review Sites
+2581,1,LinkedIn Ads
+2581,2,Review Sites
+2582,1,Paid Search
+2582,2,Review Sites
+2582,3,Paid Search
+2582,4,LinkedIn Ads
+2583,1,LinkedIn Ads
+2583,2,LinkedIn Ads
+2583,3,Paid Search
+2584,1,LinkedIn Ads
+2585,1,Review Sites
+2585,2,Review Sites
+2585,3,Paid Search
+2585,4,LinkedIn Ads
+2586,1,LinkedIn Ads
+2586,2,LinkedIn Ads
+2587,1,Paid Search
+2587,2,Paid Search
+2587,3,Review Sites
+2587,4,Paid Search
+2588,1,LinkedIn Ads
+2588,2,Display
+2589,1,LinkedIn Ads
+2589,2,Review Sites
+2589,3,Review Sites
+2590,1,LinkedIn Ads
+2590,2,Paid Search
+2590,3,Paid Search
+2590,4,LinkedIn Ads
+2591,1,Review Sites
+2591,2,Display
+2591,3,Review Sites
+2591,4,Paid Search
+2592,1,LinkedIn Ads
+2592,2,Display
+2593,1,Paid Search
+2593,2,Review Sites
+2593,3,Review Sites
+2594,1,Review Sites
+2594,2,Review Sites
+2595,1,LinkedIn Ads
+2595,2,LinkedIn Ads
+2595,3,Review Sites
+2596,1,Review Sites
+2596,2,LinkedIn Ads
+2597,1,Paid Search
+2597,2,Paid Search
+2598,1,Paid Search
+2598,2,Paid Search
+2599,1,Paid Search
+2599,2,LinkedIn Ads
+2599,3,Paid Search
+2600,1,Display
+2600,2,Paid Search
+2600,3,Display
+2601,1,Paid Search
+2601,2,Review Sites
+2601,3,Paid Search
+2601,4,LinkedIn Ads
+2602,1,Display
+2602,2,Paid Search
+2603,1,LinkedIn Ads
+2603,2,LinkedIn Ads
+2603,3,Paid Search
+2604,1,Paid Search
+2604,2,Display
+2605,1,Display
+2605,2,Review Sites
+2605,3,Paid Search
+2606,1,Review Sites
+2606,2,Paid Search
+2607,1,Paid Search
+2607,2,Paid Search
+2608,1,LinkedIn Ads
+2608,2,Review Sites
+2609,1,Display
+2609,2,Paid Search
+2610,1,Display
+2610,2,Paid Search
+2610,3,Review Sites
+2610,4,Paid Search
+2611,1,Paid Search
+2611,2,Paid Search
+2612,1,Paid Search
+2613,1,LinkedIn Ads
+2613,2,Paid Search
+2613,3,LinkedIn Ads
+2614,1,Paid Search
+2614,2,Paid Search
+2614,3,Display
+2615,1,Paid Search
+2615,2,Review Sites
+2616,1,Paid Search
+2617,1,Display
+2617,2,Review Sites
+2617,3,LinkedIn Ads
+2618,1,LinkedIn Ads
+2618,2,Review Sites
+2618,3,Review Sites
+2619,1,Paid Search
+2619,2,Review Sites
+2619,3,Paid Search
+2619,4,Paid Search
+2620,1,Review Sites
+2620,2,Paid Search
+2621,1,LinkedIn Ads
+2621,2,Paid Search
+2621,3,Review Sites
+2622,1,LinkedIn Ads
+2622,2,Paid Search
+2622,3,Review Sites
+2623,1,Review Sites
+2623,2,Paid Search
+2623,3,Paid Search
+2624,1,Display
+2624,2,Paid Search
+2625,1,Paid Search
+2625,2,Paid Search
+2625,3,Review Sites
+2626,1,Review Sites
+2626,2,Paid Search
+2627,1,LinkedIn Ads
+2627,2,Review Sites
+2628,1,LinkedIn Ads
+2628,2,Paid Search
+2628,3,LinkedIn Ads
+2629,1,LinkedIn Ads
+2629,2,Paid Search
+2630,1,Display
+2630,2,Display
+2631,1,Review Sites
+2631,2,Review Sites
+2631,3,LinkedIn Ads
+2632,1,Review Sites
+2632,2,Paid Search
+2632,3,Paid Search
+2633,1,Paid Search
+2633,2,Review Sites
+2633,3,Display
+2634,1,Review Sites
+2634,2,Paid Search
+2634,3,Paid Search
+2635,1,LinkedIn Ads
+2635,2,Display
+2636,1,Display
+2636,2,Review Sites
+2636,3,LinkedIn Ads
+2637,1,Display
+2637,2,LinkedIn Ads
+2637,3,Review Sites
+2638,1,LinkedIn Ads
+2639,1,Paid Search
+2639,2,Display
+2640,1,LinkedIn Ads
+2640,2,Review Sites
+2640,3,Review Sites
+2641,1,Review Sites
+2641,2,Display
+2642,1,LinkedIn Ads
+2642,2,Review Sites
+2643,1,LinkedIn Ads
+2643,2,Paid Search
+2643,3,Review Sites
+2644,1,LinkedIn Ads
+2645,1,Paid Search
+2645,2,Display
+2646,1,LinkedIn Ads
+2646,2,Paid Search
+2647,1,Paid Search
+2647,2,Review Sites
+2648,1,Display
+2648,2,Review Sites
+2649,1,LinkedIn Ads
+2649,2,Paid Search
+2650,1,Paid Search
+2650,2,Display
+2650,3,Review Sites
+2651,1,LinkedIn Ads
+2651,2,Display
+2651,3,Review Sites
+2652,1,Paid Search
+2652,2,Review Sites
+2653,1,Paid Search
+2653,2,Display
+2653,3,Review Sites
+2654,1,Review Sites
+2654,2,Paid Search
+2655,1,LinkedIn Ads
+2656,1,Paid Search
+2657,1,LinkedIn Ads
+2657,2,Review Sites
+2657,3,Paid Search
+2658,1,Display
+2659,1,Display
+2660,1,Display
+2660,2,Review Sites
+2661,1,Display
+2661,2,Paid Search
+2661,3,Paid Search
+2662,1,Review Sites
+2662,2,Paid Search
+2663,1,LinkedIn Ads
+2663,2,Review Sites
+2664,1,Paid Search
+2665,1,LinkedIn Ads
+2666,1,Display
+2666,2,Paid Search
+2666,3,Paid Search
+2667,1,Paid Search
+2667,2,Display
+2667,3,Paid Search
+2667,4,Review Sites
+2668,1,Display
+2668,2,Review Sites
+2668,3,Paid Search
+2669,1,Display
+2669,2,Paid Search
+2670,1,Display
+2671,1,Display
+2671,2,Review Sites
+2671,3,Paid Search
+2672,1,LinkedIn Ads
+2672,2,Review Sites
+2672,3,Display
+2672,4,Review Sites
+2673,1,Review Sites
+2673,2,Review Sites
+2674,1,Display
+2674,2,LinkedIn Ads
+2675,1,LinkedIn Ads
+2675,2,Review Sites
+2676,1,LinkedIn Ads
+2676,2,Paid Search
+2677,1,LinkedIn Ads
+2677,2,Review Sites
+2677,3,Paid Search
+2678,1,Display
+2678,2,Paid Search
+2679,1,Display
+2679,2,Display
+2679,3,Paid Search
+2679,4,Paid Search
+2680,1,LinkedIn Ads
+2680,2,Review Sites
+2680,3,Review Sites
+2680,4,Display
+2681,1,Paid Search
+2682,1,LinkedIn Ads
+2682,2,Review Sites
+2682,3,Paid Search
+2683,1,LinkedIn Ads
+2683,2,Review Sites
+2683,3,Review Sites
+2683,4,Paid Search
+2684,1,Display
+2684,2,Review Sites
+2684,3,Paid Search
+2685,1,LinkedIn Ads
+2686,1,Display
+2686,2,Paid Search
+2686,3,LinkedIn Ads
+2687,1,Paid Search
+2687,2,Display
+2688,1,LinkedIn Ads
+2688,2,Review Sites
+2688,3,LinkedIn Ads
+2689,1,LinkedIn Ads
+2689,2,Display
+2690,1,Paid Search
+2690,2,Review Sites
+2691,1,Paid Search
+2692,1,LinkedIn Ads
+2693,1,Paid Search
+2693,2,Paid Search
+2693,3,Paid Search
+2694,1,Display
+2694,2,Paid Search
+2695,1,LinkedIn Ads
+2695,2,Paid Search
+2695,3,Review Sites
+2695,4,Paid Search
+2696,1,LinkedIn Ads
+2697,1,LinkedIn Ads
+2697,2,Paid Search
+2698,1,Review Sites
+2698,2,Review Sites
+2698,3,Paid Search
+2699,1,Paid Search
+2699,2,Display
+2700,1,Paid Search
+2701,1,LinkedIn Ads
+2701,2,Review Sites
+2701,3,Paid Search
+2701,4,Paid Search
+2702,1,Paid Search
+2702,2,Review Sites
+2702,3,Review Sites
+2703,1,LinkedIn Ads
+2703,2,Review Sites
+2703,3,Review Sites
+2704,1,LinkedIn Ads
+2704,2,Review Sites
+2705,1,Review Sites
+2705,2,Paid Search
+2706,1,LinkedIn Ads
+2707,1,Display
+2707,2,Review Sites
+2707,3,Review Sites
+2707,4,Display
+2708,1,LinkedIn Ads
+2708,2,Review Sites
+2708,3,Review Sites
+2709,1,Paid Search
+2709,2,Paid Search
+2710,1,Paid Search
+2710,2,Paid Search
+2710,3,Review Sites
+2710,4,Paid Search
+2711,1,LinkedIn Ads
+2711,2,Paid Search
+2712,1,Display
+2712,2,Review Sites
+2712,3,Display
+2712,4,Paid Search
+2713,1,Paid Search
+2714,1,LinkedIn Ads
+2715,1,LinkedIn Ads
+2715,2,LinkedIn Ads
+2715,3,Paid Search
+2716,1,Paid Search
+2716,2,LinkedIn Ads
+2717,1,Paid Search
+2717,2,LinkedIn Ads
+2718,1,Paid Search
+2718,2,Review Sites
+2718,3,Paid Search
+2719,1,LinkedIn Ads
+2719,2,Review Sites
+2720,1,LinkedIn Ads
+2720,2,Paid Search
+2720,3,Paid Search
+2721,1,Display
+2721,2,Paid Search
+2721,3,Display
+2721,4,LinkedIn Ads
+2722,1,Display
+2722,2,Review Sites
+2723,1,LinkedIn Ads
+2723,2,Paid Search
+2723,3,Paid Search
+2724,1,Review Sites
+2725,1,Display
+2725,2,LinkedIn Ads
+2725,3,Review Sites
+2726,1,Display
+2726,2,Paid Search
+2726,3,Paid Search
+2727,1,Paid Search
+2727,2,Review Sites
+2728,1,Display
+2728,2,Paid Search
+2729,1,LinkedIn Ads
+2729,2,Review Sites
+2729,3,Paid Search
+2729,4,LinkedIn Ads
+2730,1,LinkedIn Ads
+2730,2,Paid Search
+2731,1,Paid Search
+2731,2,LinkedIn Ads
+2732,1,Display
+2732,2,Review Sites
+2733,1,Paid Search
+2733,2,Review Sites
+2733,3,Paid Search
+2734,1,Display
+2734,2,Paid Search
+2734,3,Review Sites
+2735,1,Paid Search
+2735,2,Paid Search
+2736,1,Paid Search
+2737,1,LinkedIn Ads
+2738,1,Paid Search
+2738,2,Display
+2738,3,Review Sites
+2739,1,LinkedIn Ads
+2739,2,Review Sites
+2740,1,Paid Search
+2740,2,Paid Search
+2741,1,Display
+2741,2,Paid Search
+2742,1,LinkedIn Ads
+2743,1,Display
+2743,2,Review Sites
+2743,3,Paid Search
+2744,1,Paid Search
+2745,1,LinkedIn Ads
+2745,2,Paid Search
+2746,1,LinkedIn Ads
+2746,2,Paid Search
+2746,3,Paid Search
+2747,1,LinkedIn Ads
+2747,2,Paid Search
+2748,1,Paid Search
+2748,2,Paid Search
+2749,1,LinkedIn Ads
+2749,2,LinkedIn Ads
+2749,3,Paid Search
+2750,1,LinkedIn Ads
+2750,2,Paid Search
+2751,1,Paid Search
+2751,2,Paid Search
+2752,1,Paid Search
+2752,2,Paid Search
+2752,3,LinkedIn Ads
+2752,4,Paid Search
+2753,1,Paid Search
+2753,2,Display
+2754,1,LinkedIn Ads
+2754,2,Review Sites
+2754,3,Display
+2755,1,Display
+2756,1,Review Sites
+2756,2,Review Sites
+2756,3,Paid Search
+2756,4,LinkedIn Ads
+2757,1,LinkedIn Ads
+2757,2,LinkedIn Ads
+2757,3,Review Sites
+2757,4,Review Sites
+2758,1,Review Sites
+2758,2,Review Sites
+2758,3,Review Sites
+2759,1,LinkedIn Ads
+2760,1,Paid Search
+2760,2,Display
+2761,1,Paid Search
+2761,2,Review Sites
+2761,3,LinkedIn Ads
+2762,1,LinkedIn Ads
+2762,2,LinkedIn Ads
+2763,1,Paid Search
+2763,2,Paid Search
+2763,3,Paid Search
+2764,1,LinkedIn Ads
+2764,2,Paid Search
+2765,1,Paid Search
+2765,2,Display
+2766,1,LinkedIn Ads
+2766,2,Review Sites
+2766,3,Paid Search
+2767,1,Display
+2767,2,Review Sites
+2767,3,Review Sites
+2767,4,Review Sites
+2768,1,Review Sites
+2768,2,LinkedIn Ads
+2769,1,Paid Search
+2770,1,LinkedIn Ads
+2770,2,Review Sites
+2770,3,Paid Search
+2771,1,LinkedIn Ads
+2771,2,Review Sites
+2771,3,Paid Search
+2771,4,Review Sites
+2772,1,Paid Search
+2772,2,Paid Search
+2772,3,Review Sites
+2772,4,Review Sites
+2773,1,Display
+2773,2,Paid Search
+2773,3,LinkedIn Ads
+2774,1,Paid Search
+2775,1,Paid Search
+2775,2,Review Sites
+2776,1,LinkedIn Ads
+2776,2,Review Sites
+2776,3,Review Sites
+2776,4,Paid Search
+2777,1,Paid Search
+2777,2,Review Sites
+2777,3,Review Sites
+2777,4,Paid Search
+2778,1,Review Sites
+2778,2,Paid Search
+2778,3,Review Sites
+2779,1,LinkedIn Ads
+2780,1,Paid Search
+2780,2,Review Sites
+2780,3,Paid Search
+2780,4,Paid Search
+2781,1,Display
+2781,2,Paid Search
+2781,3,Paid Search
+2781,4,Paid Search
+2782,1,Display
+2783,1,Paid Search
+2783,2,Paid Search
+2783,3,Paid Search
+2784,1,LinkedIn Ads
+2784,2,Paid Search
+2784,3,Review Sites
+2784,4,Review Sites
+2785,1,LinkedIn Ads
+2786,1,Paid Search
+2786,2,Paid Search
+2786,3,LinkedIn Ads
+2787,1,Display
+2788,1,Paid Search
+2788,2,Paid Search
+2789,1,LinkedIn Ads
+2789,2,Paid Search
+2790,1,LinkedIn Ads
+2790,2,Paid Search
+2791,1,Review Sites
+2792,1,Display
+2792,2,Paid Search
+2793,1,Review Sites
+2793,2,Review Sites
+2794,1,Paid Search
+2794,2,Paid Search
+2795,1,Display
+2795,2,Display
+2796,1,Display
+2796,2,Paid Search
+2797,1,Display
+2797,2,Review Sites
+2798,1,Paid Search
+2798,2,Review Sites
+2798,3,Review Sites
+2799,1,LinkedIn Ads
+2799,2,Review Sites
+2799,3,Paid Search
+2800,1,Paid Search
+2800,2,Paid Search
+2801,1,Display
+2801,2,Paid Search
+2801,3,Paid Search
+2801,4,LinkedIn Ads
+2802,1,LinkedIn Ads
+2802,2,Paid Search
+2803,1,Review Sites
+2803,2,Review Sites
+2804,1,Display
+2804,2,Review Sites
+2804,3,Review Sites
+2805,1,Review Sites
+2805,2,Paid Search
+2805,3,LinkedIn Ads
+2805,4,Paid Search
+2806,1,Paid Search
+2806,2,Paid Search
+2807,1,Paid Search
+2807,2,Display
+2808,1,Paid Search
+2809,1,LinkedIn Ads
+2810,1,Paid Search
+2810,2,Review Sites
+2811,1,LinkedIn Ads
+2811,2,Review Sites
+2812,1,LinkedIn Ads
+2812,2,Review Sites
+2812,3,Review Sites
+2813,1,Paid Search
+2813,2,Display
+2814,1,Paid Search
+2814,2,LinkedIn Ads
+2814,3,Paid Search
+2815,1,Paid Search
+2816,1,LinkedIn Ads
+2816,2,Review Sites
+2817,1,Paid Search
+2817,2,LinkedIn Ads
+2817,3,Paid Search
+2818,1,Display
+2819,1,LinkedIn Ads
+2819,2,Review Sites
+2819,3,Review Sites
+2820,1,Display
+2820,2,Paid Search
+2821,1,Display
+2821,2,Review Sites
+2821,3,Display
+2822,1,LinkedIn Ads
+2822,2,LinkedIn Ads
+2823,1,Paid Search
+2823,2,LinkedIn Ads
+2823,3,Review Sites
+2824,1,Paid Search
+2824,2,Paid Search
+2825,1,Display
+2825,2,Review Sites
+2825,3,LinkedIn Ads
+2826,1,Review Sites
+2827,1,Paid Search
+2828,1,LinkedIn Ads
+2828,2,Review Sites
+2829,1,LinkedIn Ads
+2830,1,LinkedIn Ads
+2830,2,Review Sites
+2830,3,Display
+2831,1,LinkedIn Ads
+2831,2,Paid Search
+2831,3,LinkedIn Ads
+2832,1,LinkedIn Ads
+2832,2,Paid Search
+2832,3,Paid Search
+2832,4,Paid Search
+2833,1,LinkedIn Ads
+2833,2,LinkedIn Ads
+2834,1,Paid Search
+2834,2,Paid Search
+2834,3,Paid Search
+2835,1,Paid Search
+2836,1,Display
+2837,1,Paid Search
+2837,2,LinkedIn Ads
+2837,3,Review Sites
+2838,1,Display
+2838,2,Review Sites
+2839,1,LinkedIn Ads
+2839,2,Paid Search
+2840,1,LinkedIn Ads
+2840,2,Paid Search
+2840,3,Paid Search
+2841,1,Paid Search
+2842,1,LinkedIn Ads
+2842,2,Paid Search
+2842,3,Display
+2843,1,LinkedIn Ads
+2843,2,Paid Search
+2844,1,LinkedIn Ads
+2844,2,Review Sites
+2845,1,LinkedIn Ads
+2845,2,Paid Search
+2846,1,Paid Search
+2847,1,Display
+2848,1,Display
+2849,1,Paid Search
+2849,2,Paid Search
+2850,1,LinkedIn Ads
+2850,2,Paid Search
+2851,1,Review Sites
+2852,1,LinkedIn Ads
+2853,1,Display
+2853,2,Paid Search
+2853,3,Review Sites
+2853,4,Review Sites
+2854,1,Display
+2854,2,Review Sites
+2854,3,Review Sites
+2855,1,Paid Search
+2856,1,Paid Search
+2857,1,Display
+2857,2,Display
+2857,3,Review Sites
+2858,1,LinkedIn Ads
+2858,2,LinkedIn Ads
+2858,3,Paid Search
+2859,1,LinkedIn Ads
+2859,2,Display
+2860,1,LinkedIn Ads
+2861,1,Paid Search
+2861,2,Paid Search
+2862,1,LinkedIn Ads
+2863,1,LinkedIn Ads
+2863,2,Review Sites
+2863,3,Paid Search
+2864,1,Display
+2864,2,Review Sites
+2865,1,Display
+2865,2,Paid Search
+2865,3,Paid Search
+2866,1,LinkedIn Ads
+2867,1,Paid Search
+2867,2,Display
+2867,3,LinkedIn Ads
+2867,4,Paid Search
+2868,1,Display
+2868,2,Paid Search
+2869,1,Paid Search
+2869,2,Display
+2869,3,Paid Search
+2869,4,Display
+2870,1,LinkedIn Ads
+2870,2,LinkedIn Ads
+2870,3,Paid Search
+2871,1,LinkedIn Ads
+2872,1,LinkedIn Ads
+2872,2,Review Sites
+2872,3,Paid Search
+2872,4,Display
+2873,1,LinkedIn Ads
+2873,2,Display
+2874,1,LinkedIn Ads
+2874,2,Paid Search
+2875,1,LinkedIn Ads
+2875,2,Paid Search
+2876,1,Paid Search
+2876,2,Paid Search
+2876,3,Review Sites
+2876,4,Paid Search
+2877,1,LinkedIn Ads
+2877,2,Paid Search
+2878,1,Paid Search
+2878,2,Display
+2879,1,Paid Search
+2879,2,Paid Search
+2879,3,Paid Search
+2879,4,Paid Search
+2880,1,Display
+2880,2,Display
+2880,3,Review Sites
+2881,1,Paid Search
+2881,2,Display
+2881,3,Paid Search
+2882,1,LinkedIn Ads
+2882,2,Paid Search
+2882,3,Paid Search
+2882,4,Review Sites
+2883,1,Display
+2883,2,Paid Search
+2883,3,Paid Search
+2883,4,Paid Search
+2884,1,LinkedIn Ads
+2884,2,Paid Search
+2884,3,LinkedIn Ads
+2885,1,LinkedIn Ads
+2885,2,Paid Search
+2885,3,Display
+2885,4,Paid Search
+2886,1,Paid Search
+2887,1,Paid Search
+2888,1,LinkedIn Ads
+2888,2,LinkedIn Ads
+2888,3,Paid Search
+2888,4,Display
+2889,1,Paid Search
+2889,2,Paid Search
+2889,3,Review Sites
+2890,1,LinkedIn Ads
+2890,2,Review Sites
+2891,1,Display
+2891,2,Paid Search
+2891,3,Review Sites
+2892,1,Paid Search
+2893,1,Paid Search
+2893,2,Review Sites
+2894,1,Paid Search
+2894,2,Paid Search
+2895,1,LinkedIn Ads
+2895,2,Paid Search
+2895,3,Paid Search
+2896,1,LinkedIn Ads
+2896,2,Paid Search
+2897,1,LinkedIn Ads
+2897,2,Review Sites
+2897,3,Paid Search
+2897,4,Paid Search
+2898,1,Paid Search
+2898,2,Paid Search
+2899,1,LinkedIn Ads
+2899,2,LinkedIn Ads
+2899,3,Paid Search
+2900,1,Review Sites
+2900,2,LinkedIn Ads
+2900,3,Paid Search
+2901,1,Display
+2901,2,Paid Search
+2902,1,LinkedIn Ads
+2903,1,Display
+2904,1,Paid Search
+2904,2,Paid Search
+2904,3,Paid Search
+2904,4,LinkedIn Ads
+2905,1,LinkedIn Ads
+2905,2,Paid Search
+2906,1,LinkedIn Ads
+2906,2,Review Sites
+2907,1,Paid Search
+2907,2,LinkedIn Ads
+2908,1,Paid Search
+2909,1,Review Sites
+2909,2,Paid Search
+2909,3,Display
+2910,1,Paid Search
+2910,2,Review Sites
+2910,3,Review Sites
+2910,4,LinkedIn Ads
+2911,1,Display
+2911,2,Paid Search
+2911,3,Review Sites
+2912,1,Display
+2912,2,Paid Search
+2912,3,Paid Search
+2913,1,Paid Search
+2913,2,LinkedIn Ads
+2913,3,Review Sites
+2914,1,Paid Search
+2914,2,Paid Search
+2914,3,Review Sites
+2914,4,Paid Search
+2915,1,LinkedIn Ads
+2915,2,Review Sites
+2916,1,Display
+2916,2,Review Sites
+2916,3,Paid Search
+2917,1,LinkedIn Ads
+2917,2,Paid Search
+2917,3,Review Sites
+2917,4,Review Sites
+2918,1,Paid Search
+2918,2,Paid Search
+2919,1,LinkedIn Ads
+2920,1,Review Sites
+2920,2,LinkedIn Ads
+2920,3,Paid Search
+2920,4,Review Sites
+2921,1,Paid Search
+2921,2,Paid Search
+2922,1,Paid Search
+2922,2,Paid Search
+2923,1,LinkedIn Ads
+2923,2,Review Sites
+2923,3,Paid Search
+2924,1,Paid Search
+2924,2,Review Sites
+2924,3,Review Sites
+2924,4,Review Sites
+2925,1,Paid Search
+2925,2,LinkedIn Ads
+2925,3,Paid Search
+2926,1,LinkedIn Ads
+2926,2,Review Sites
+2927,1,Display
+2927,2,LinkedIn Ads
+2928,1,Display
+2928,2,Paid Search
+2928,3,Review Sites
+2929,1,LinkedIn Ads
+2930,1,Paid Search
+2931,1,Paid Search
+2932,1,Display
+2932,2,Review Sites
+2933,1,Paid Search
+2933,2,Review Sites
+2933,3,Paid Search
+2934,1,Paid Search
+2935,1,Paid Search
+2936,1,Display
+2937,1,Display
+2937,2,Review Sites
+2938,1,LinkedIn Ads
+2938,2,Review Sites
+2939,1,Display
+2939,2,Paid Search
+2939,3,Paid Search
+2940,1,Paid Search
+2940,2,Review Sites
+2941,1,Display
+2941,2,Review Sites
+2942,1,Display
+2943,1,Review Sites
+2943,2,Paid Search
+2944,1,Display
+2944,2,Paid Search
+2945,1,Display
+2945,2,Review Sites
+2945,3,Review Sites
+2945,4,Review Sites
+2946,1,Paid Search
+2946,2,Review Sites
+2946,3,Paid Search
+2946,4,Paid Search
+2947,1,LinkedIn Ads
+2947,2,Review Sites
+2948,1,LinkedIn Ads
+2948,2,Review Sites
+2948,3,Paid Search
+2949,1,Paid Search
+2949,2,Paid Search
+2949,3,Review Sites
+2950,1,Display
+2950,2,Paid Search
+2950,3,Review Sites
+2950,4,Review Sites
+2951,1,Paid Search
+2951,2,Review Sites
+2952,1,Paid Search
+2952,2,Paid Search
+2953,1,Review Sites
+2953,2,Paid Search
+2953,3,Review Sites
+2953,4,Review Sites
+2954,1,Display
+2954,2,Display
+2954,3,Paid Search
+2955,1,Paid Search
+2956,1,Display
+2956,2,Paid Search
+2957,1,LinkedIn Ads
+2958,1,Display
+2959,1,Review Sites
+2959,2,Paid Search
+2959,3,LinkedIn Ads
+2960,1,LinkedIn Ads
+2960,2,LinkedIn Ads
+2960,3,Paid Search
+2961,1,Paid Search
+2962,1,Paid Search
+2962,2,Review Sites
+2963,1,Display
+2963,2,Review Sites
+2964,1,LinkedIn Ads
+2964,2,Review Sites
+2964,3,Paid Search
+2965,1,Display
+2965,2,Display
+2965,3,Paid Search
+2966,1,LinkedIn Ads
+2966,2,Review Sites
+2967,1,Paid Search
+2967,2,Paid Search
+2968,1,LinkedIn Ads
+2968,2,Paid Search
+2969,1,Paid Search
+2969,2,Paid Search
+2969,3,Paid Search
+2969,4,Review Sites
+2970,1,LinkedIn Ads
+2970,2,Display
+2971,1,LinkedIn Ads
+2972,1,Paid Search
+2972,2,Review Sites
+2973,1,Display
+2973,2,Review Sites
+2974,1,LinkedIn Ads
+2975,1,Paid Search
+2975,2,Review Sites
+2975,3,Paid Search
+2976,1,Paid Search
+2976,2,Paid Search
+2976,3,Review Sites
+2977,1,LinkedIn Ads
+2978,1,Paid Search
+2978,2,Paid Search
+2979,1,Paid Search
+2979,2,LinkedIn Ads
+2979,3,Paid Search
+2979,4,Paid Search
+2980,1,Display
+2980,2,Paid Search
+2981,1,Display
+2981,2,Paid Search
+2981,3,LinkedIn Ads
+2982,1,LinkedIn Ads
+2982,2,Review Sites
+2982,3,Review Sites
+2982,4,Paid Search
+2983,1,Display
+2983,2,Paid Search
+2983,3,Paid Search
+2984,1,Paid Search
+2984,2,Review Sites
+2984,3,Paid Search
+2985,1,Display
+2985,2,Paid Search
+2986,1,Display
+2986,2,Review Sites
+2986,3,Review Sites
+2986,4,Paid Search
+2987,1,LinkedIn Ads
+2987,2,Paid Search
+2987,3,Paid Search
+2988,1,LinkedIn Ads
+2988,2,Paid Search
+2988,3,Paid Search
+2989,1,Paid Search
+2989,2,Review Sites
+2989,3,LinkedIn Ads
+2990,1,Paid Search
+2990,2,Review Sites
+2990,3,Paid Search
+2991,1,Paid Search
+2991,2,Review Sites
+2992,1,Display
+2992,2,Paid Search
+2992,3,Review Sites
+2993,1,Paid Search
+2993,2,Paid Search
+2993,3,Paid Search
+2993,4,Paid Search
+2994,1,Paid Search
+2994,2,Paid Search
+2995,1,Review Sites
+2995,2,Paid Search
+2996,1,Review Sites
+2996,2,LinkedIn Ads
+2997,1,LinkedIn Ads
+2998,1,Paid Search
+2998,2,Review Sites
+2999,1,Paid Search
+2999,2,Display
+3000,1,LinkedIn Ads
+3000,2,Review Sites
+3001,1,LinkedIn Ads
+3001,2,Paid Search
+3001,3,Review Sites
+3002,1,Paid Search
+3002,2,Review Sites
+3002,3,Paid Search
+3003,1,LinkedIn Ads
+3003,2,Paid Search
+3004,1,Paid Search
+3004,2,Review Sites
+3005,1,LinkedIn Ads
+3005,2,Display
+3006,1,Display
+3007,1,LinkedIn Ads
+3007,2,Review Sites
+3008,1,LinkedIn Ads
+3008,2,Paid Search
+3008,3,Paid Search
+3008,4,LinkedIn Ads
+3009,1,Display
+3009,2,Paid Search
+3009,3,Review Sites
+3010,1,LinkedIn Ads
+3010,2,Review Sites
+3010,3,LinkedIn Ads
+3010,4,Review Sites
+3011,1,Paid Search
+3011,2,Display
+3012,1,LinkedIn Ads
+3012,2,Display
+3013,1,Display
+3013,2,Review Sites
+3014,1,Display
+3014,2,Review Sites
+3014,3,Paid Search
+3015,1,Paid Search
+3015,2,Review Sites
+3015,3,Paid Search
+3016,1,Display
+3016,2,Paid Search
+3016,3,Review Sites
+3017,1,LinkedIn Ads
+3017,2,Review Sites
+3018,1,Paid Search
+3018,2,Paid Search
+3018,3,Paid Search
+3019,1,Paid Search
+3019,2,Review Sites
+3019,3,Paid Search
+3019,4,Paid Search
+3020,1,Paid Search
+3020,2,Review Sites
+3020,3,Paid Search
+3021,1,LinkedIn Ads
+3021,2,Review Sites
+3022,1,LinkedIn Ads
+3022,2,Review Sites
+3022,3,Paid Search
+3023,1,Display
+3023,2,LinkedIn Ads
+3024,1,LinkedIn Ads
+3025,1,Display
+3025,2,Review Sites
+3025,3,Paid Search
+3026,1,Review Sites
+3026,2,Review Sites
+3027,1,Display
+3027,2,Review Sites
+3027,3,Paid Search
+3027,4,Review Sites
+3028,1,Display
+3028,2,Review Sites
+3029,1,Review Sites
+3030,1,Display
+3031,1,LinkedIn Ads
+3031,2,Display
+3031,3,Review Sites
+3031,4,LinkedIn Ads
+3032,1,Display
+3032,2,Review Sites
+3032,3,Display
+3033,1,LinkedIn Ads
+3033,2,Paid Search
+3033,3,Display
+3033,4,Review Sites
+3034,1,Display
+3034,2,Display
+3034,3,Display
+3035,1,Display
+3035,2,Paid Search
+3036,1,LinkedIn Ads
+3036,2,Review Sites
+3037,1,Display
+3037,2,Review Sites
+3038,1,Paid Search
+3038,2,Paid Search
+3039,1,LinkedIn Ads
+3039,2,LinkedIn Ads
+3039,3,Review Sites
+3040,1,Display
+3040,2,Paid Search
+3041,1,Review Sites
+3041,2,Paid Search
+3041,3,Review Sites
+3042,1,Paid Search
+3042,2,Paid Search
+3042,3,Review Sites
+3043,1,Display
+3043,2,Paid Search
+3043,3,Paid Search
+3043,4,LinkedIn Ads
+3044,1,LinkedIn Ads
+3044,2,Review Sites
+3045,1,LinkedIn Ads
+3045,2,Display
+3045,3,Review Sites
+3046,1,Paid Search
+3046,2,Review Sites
+3046,3,Paid Search
+3047,1,LinkedIn Ads
+3047,2,Paid Search
+3047,3,LinkedIn Ads
+3048,1,Display
+3048,2,Paid Search
+3048,3,LinkedIn Ads
+3049,1,Review Sites
+3049,2,LinkedIn Ads
+3049,3,LinkedIn Ads
+3050,1,LinkedIn Ads
+3050,2,Paid Search
+3050,3,Paid Search
+3050,4,Review Sites
+3051,1,Review Sites
+3051,2,Paid Search
+3051,3,Review Sites
+3051,4,Review Sites
+3052,1,Paid Search
+3052,2,Review Sites
+3052,3,Display
+3052,4,LinkedIn Ads
+3053,1,Display
+3053,2,Display
+3053,3,Paid Search
+3054,1,Display
+3054,2,Review Sites
+3054,3,Paid Search
+3054,4,Review Sites
+3055,1,LinkedIn Ads
+3055,2,Review Sites
+3055,3,Paid Search
+3055,4,Paid Search
+3056,1,Display
+3056,2,Review Sites
+3057,1,Display
+3057,2,Paid Search
+3058,1,Review Sites
+3059,1,Paid Search
+3059,2,Display
+3060,1,LinkedIn Ads
+3060,2,Paid Search
+3061,1,LinkedIn Ads
+3061,2,Review Sites
+3062,1,Display
+3062,2,Paid Search
+3062,3,Paid Search
+3062,4,Paid Search
+3063,1,Paid Search
+3063,2,Review Sites
+3063,3,Review Sites
+3063,4,LinkedIn Ads
+3064,1,Display
+3065,1,Display
+3065,2,Paid Search
+3066,1,Display
+3066,2,Review Sites
+3066,3,LinkedIn Ads
+3066,4,Review Sites
+3067,1,Paid Search
+3067,2,Paid Search
+3068,1,LinkedIn Ads
+3069,1,LinkedIn Ads
+3069,2,Paid Search
+3069,3,Paid Search
+3070,1,Review Sites
+3070,2,Review Sites
+3071,1,LinkedIn Ads
+3071,2,Review Sites
+3072,1,Paid Search
+3072,2,Paid Search
+3073,1,LinkedIn Ads
+3073,2,Paid Search
+3074,1,LinkedIn Ads
+3074,2,Paid Search
+3074,3,Paid Search
+3075,1,Paid Search
+3075,2,Paid Search
+3076,1,Display
+3076,2,Paid Search
+3076,3,Review Sites
+3076,4,Paid Search
+3077,1,Paid Search
+3078,1,Review Sites
+3078,2,Review Sites
+3079,1,LinkedIn Ads
+3079,2,Review Sites
+3080,1,Paid Search
+3081,1,Review Sites
+3081,2,Review Sites
+3082,1,LinkedIn Ads
+3082,2,LinkedIn Ads
+3082,3,Display
+3083,1,LinkedIn Ads
+3083,2,LinkedIn Ads
+3083,3,Paid Search
+3084,1,Paid Search
+3084,2,Paid Search
+3085,1,Display
+3086,1,Paid Search
+3086,2,Paid Search
+3087,1,Display
+3087,2,Paid Search
+3088,1,Display
+3088,2,Review Sites
+3089,1,Paid Search
+3089,2,Review Sites
+3089,3,Review Sites
+3090,1,Paid Search
+3091,1,Display
+3092,1,Display
+3092,2,Paid Search
+3092,3,Review Sites
+3092,4,Review Sites
+3093,1,LinkedIn Ads
+3093,2,Review Sites
+3094,1,Review Sites
+3094,2,LinkedIn Ads
+3094,3,Paid Search
+3095,1,LinkedIn Ads
+3096,1,LinkedIn Ads
+3097,1,Paid Search
+3097,2,Review Sites
+3098,1,Display
+3098,2,Review Sites
+3099,1,LinkedIn Ads
+3099,2,Paid Search
+3099,3,Paid Search
+3099,4,Paid Search
+3100,1,Display
+3100,2,Paid Search
+3101,1,Display
+3101,2,Review Sites
+3102,1,Paid Search
+3102,2,Display
+3102,3,Review Sites
+3102,4,Review Sites
+3103,1,LinkedIn Ads
+3103,2,Paid Search
+3103,3,Review Sites
+3104,1,LinkedIn Ads
+3104,2,Review Sites
+3105,1,Paid Search
+3105,2,Review Sites
+3106,1,Review Sites
+3107,1,Display
+3107,2,Paid Search
+3107,3,Display
+3108,1,Display
+3109,1,LinkedIn Ads
+3109,2,Review Sites
+3109,3,Display
+3110,1,Review Sites
+3110,2,Paid Search
+3110,3,Display
+3111,1,LinkedIn Ads
+3112,1,LinkedIn Ads
+3112,2,Review Sites
+3112,3,Paid Search
+3113,1,Display
+3113,2,Paid Search
+3113,3,Review Sites
+3114,1,Paid Search
+3114,2,Review Sites
+3114,3,Paid Search
+3115,1,Paid Search
+3116,1,Display
+3116,2,LinkedIn Ads
+3117,1,LinkedIn Ads
+3117,2,LinkedIn Ads
+3117,3,Paid Search
+3117,4,Paid Search
+3118,1,LinkedIn Ads
+3118,2,Paid Search
+3118,3,Paid Search
+3119,1,Display
+3119,2,Review Sites
+3119,3,Review Sites
+3120,1,Display
+3120,2,Display
+3121,1,Paid Search
+3121,2,Display
+3121,3,Paid Search
+3121,4,Review Sites
+3122,1,LinkedIn Ads
+3122,2,Paid Search
+3122,3,Paid Search
+3123,1,Paid Search
+3123,2,Review Sites
+3124,1,LinkedIn Ads
+3124,2,Review Sites
+3124,3,Display
+3125,1,LinkedIn Ads
+3125,2,Paid Search
+3125,3,Paid Search
+3126,1,Paid Search
+3126,2,Paid Search
+3127,1,Display
+3127,2,Paid Search
+3127,3,Paid Search
+3128,1,Paid Search
+3128,2,Paid Search
+3128,3,Review Sites
+3129,1,Review Sites
+3129,2,LinkedIn Ads
+3130,1,LinkedIn Ads
+3130,2,Paid Search
+3130,3,Review Sites
+3131,1,Display
+3131,2,Paid Search
+3131,3,Review Sites
+3131,4,Review Sites
+3132,1,Paid Search
+3133,1,Display
+3133,2,Paid Search
+3133,3,Paid Search
+3133,4,Display
+3134,1,Review Sites
+3134,2,Review Sites
+3134,3,Paid Search
+3135,1,Display
+3135,2,Review Sites
+3136,1,Paid Search
+3137,1,LinkedIn Ads
+3137,2,Paid Search
+3137,3,Paid Search
+3137,4,LinkedIn Ads
+3138,1,Display
+3138,2,Paid Search
+3138,3,Paid Search
+3139,1,Paid Search
+3140,1,Paid Search
+3140,2,Review Sites
+3140,3,Paid Search
+3141,1,Paid Search
+3142,1,Display
+3142,2,LinkedIn Ads
+3142,3,Paid Search
+3143,1,LinkedIn Ads
+3143,2,Review Sites
+3143,3,Display
+3143,4,Paid Search
+3144,1,Paid Search
+3145,1,LinkedIn Ads
+3145,2,Display
+3146,1,LinkedIn Ads
+3146,2,Review Sites
+3147,1,Paid Search
+3147,2,Paid Search
+3148,1,Paid Search
+3149,1,LinkedIn Ads
+3149,2,Review Sites
+3149,3,Paid Search
+3150,1,Review Sites
+3151,1,Display
+3151,2,Review Sites
+3151,3,LinkedIn Ads
+3152,1,Paid Search
+3152,2,Paid Search
+3153,1,LinkedIn Ads
+3153,2,Review Sites
+3153,3,Review Sites
+3154,1,LinkedIn Ads
+3154,2,Review Sites
+3155,1,Paid Search
+3155,2,LinkedIn Ads
+3156,1,Display
+3156,2,LinkedIn Ads
+3156,3,Review Sites
+3156,4,Review Sites
+3157,1,Review Sites
+3157,2,Display
+3158,1,LinkedIn Ads
+3158,2,Review Sites
+3158,3,Paid Search
+3159,1,Display
+3159,2,Paid Search
+3160,1,Paid Search
+3160,2,Paid Search
+3160,3,Display
+3160,4,Paid Search
+3161,1,Display
+3161,2,Review Sites
+3161,3,Paid Search
+3162,1,LinkedIn Ads
+3162,2,LinkedIn Ads
+3163,1,Paid Search
+3163,2,Review Sites
+3164,1,Display
+3164,2,Paid Search
+3164,3,Display
+3165,1,LinkedIn Ads
+3166,1,Display
+3166,2,Paid Search
+3167,1,LinkedIn Ads
+3167,2,LinkedIn Ads
+3167,3,Review Sites
+3167,4,Review Sites
+3168,1,Display
+3168,2,Review Sites
+3169,1,LinkedIn Ads
+3169,2,Review Sites
+3170,1,LinkedIn Ads
+3170,2,Display
+3170,3,Paid Search
+3171,1,LinkedIn Ads
+3171,2,Paid Search
+3172,1,LinkedIn Ads
+3172,2,Review Sites
+3173,1,Review Sites
+3173,2,Paid Search
+3174,1,Paid Search
+3174,2,Paid Search
+3175,1,Paid Search
+3176,1,Display
+3176,2,Paid Search
+3176,3,Paid Search
+3177,1,Display
+3177,2,Paid Search
+3177,3,Review Sites
+3178,1,Display
+3178,2,LinkedIn Ads
+3178,3,Paid Search
+3179,1,Paid Search
+3179,2,Paid Search
+3180,1,Paid Search
+3180,2,Review Sites
+3181,1,Display
+3181,2,Paid Search
+3181,3,Paid Search
+3182,1,LinkedIn Ads
+3183,1,Display
+3183,2,Paid Search
+3184,1,LinkedIn Ads
+3184,2,Paid Search
+3184,3,Paid Search
+3185,1,Display
+3186,1,Display
+3186,2,Paid Search
+3187,1,Paid Search
+3188,1,Paid Search
+3188,2,Display
+3189,1,LinkedIn Ads
+3190,1,LinkedIn Ads
+3190,2,Review Sites
+3190,3,Review Sites
+3191,1,Display
+3191,2,Paid Search
+3191,3,Paid Search
+3191,4,Review Sites
+3192,1,Paid Search
+3192,2,Paid Search
+3193,1,LinkedIn Ads
+3193,2,Display
+3194,1,Paid Search
+3194,2,Review Sites
+3195,1,Display
+3196,1,LinkedIn Ads
+3196,2,Review Sites
+3197,1,Display
+3197,2,Paid Search
+3198,1,LinkedIn Ads
+3198,2,Review Sites
+3198,3,Paid Search
+3199,1,Paid Search
+3199,2,Paid Search
+3199,3,Paid Search
+3200,1,Display
+3200,2,Paid Search
+3200,3,Review Sites

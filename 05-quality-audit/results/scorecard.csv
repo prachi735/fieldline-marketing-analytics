@@ -1,0 +1,11 @@
+rule,owner,action,exceptions
+CPC mismatch,Analytics,Recompute cost per click after upstream corrections.,3
+Spend mismatch,Finance analytics,Compare native amounts against the source ledger.,2
+Clicks mismatch,Marketing ops,Re-export click totals for this campaign-day.,1
+Currency,Finance analytics,Quarantine the unmapped currency and confirm its ISO code.,1
+Duplicate key,Data engineering,Deduplicate by campaign-day before loading.,1
+Extra key,Data engineering,Trace the unexpected account and quarantine its row.,1
+Late load,Data engineering,Investigate ingestion latency and backfill the partition.,1
+Missing field,Data engineering,Restore the source channel before publication.,1
+Missing key,Data engineering,Replay the missing source key.,1
+Taxonomy,Marketing ops,Map the source label to the approved channel list.,1

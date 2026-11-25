@@ -1,0 +1,129 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "00000000000000000002",
+  "position": {
+    "x": 15,
+    "y": 15,
+    "z": 0,
+    "height": 680,
+    "width": 1250,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "exceptions"
+                    }
+                  },
+                  "Property": "day"
+                }
+              },
+              "queryRef": "exceptions.day",
+              "nativeQueryRef": "day"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "exceptions"
+                    }
+                  },
+                  "Property": "account"
+                }
+              },
+              "queryRef": "exceptions.account",
+              "nativeQueryRef": "account"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "exceptions"
+                    }
+                  },
+                  "Property": "campaign"
+                }
+              },
+              "queryRef": "exceptions.campaign",
+              "nativeQueryRef": "campaign"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "exceptions"
+                    }
+                  },
+                  "Property": "rule"
+                }
+              },
+              "queryRef": "exceptions.rule",
+              "nativeQueryRef": "rule"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "exceptions"
+                    }
+                  },
+                  "Property": "severity"
+                }
+              },
+              "queryRef": "exceptions.severity",
+              "nativeQueryRef": "severity"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "exceptions"
+                    }
+                  },
+                  "Property": "evidence"
+                }
+              },
+              "queryRef": "exceptions.evidence",
+              "nativeQueryRef": "evidence"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Exception queue'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

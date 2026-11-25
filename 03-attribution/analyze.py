@@ -1,0 +1,54 @@
+"""Generate deterministic closed-cohort journeys and compare attribution policies."""
+import csv
+import random
+import sqlite3
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+OUT = ROOT/"results"
+OUT.mkdir(exist_ok=True)
+rng = random.Random(318)
+db = sqlite3.connect(":memory:")
+db.executescript("""CREATE TABLE touches(lead_id INTEGER,touch_no INTEGER,channel TEXT,PRIMARY KEY(lead_id,touch_no));
+CREATE TABLE leads(lead_id INTEGER PRIMARY KEY,qualified INTEGER,opportunity INTEGER,won INTEGER,pipeline REAL,revenue REAL);
+CREATE TABLE spend(channel TEXT PRIMARY KEY,spend_usd REAL);
+CREATE TABLE models(model TEXT PRIMARY KEY);""")
+channels = ["Paid Search","LinkedIn Ads","Display","Review Sites"]
+db.executemany("INSERT INTO spend VALUES(?,?)",zip(channels,[216000,192000,120000,72000]))
+db.executemany("INSERT INTO models VALUES(?)",[(m,) for m in ["First touch","Last touch","Linear"]])
+for lead in range(1,3201):
+    first = rng.choices(channels,[32,35,24,9])[0]
+    path = [first]
+    for step in range(rng.choices([0,1,2,3],[18,39,31,12])[0]):
+        path.append(rng.choices(channels,[42,13,10,35])[0])
+    qualified = int(rng.random() < [.51,.42,.22,.58][channels.index(first)])
+    opportunity = int(qualified and rng.random()<.36)
+    won = int(opportunity and rng.random()<.32)
+    amount = rng.randrange(9,42)*1000 if opportunity else 0
+    db.execute("INSERT INTO leads VALUES(?,?,?,?,?,?)",(lead,qualified,opportunity,won,amount,amount*won))
+    db.executemany("INSERT INTO touches VALUES(?,?,?)",[(lead,i+1,ch) for i,ch in enumerate(path)])
+def export(name,query):
+    cursor = db.execute(query)
+    with (OUT/(name+".csv")).open("w",newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow([x[0] for x in cursor.description])
+        writer.writerows(cursor)
+for table in ["leads","touches","spend"]:
+    export(table,"SELECT * FROM "+table)
+db.execute("CREATE TEMP TABLE comparison AS "+(ROOT/"attribution.sql").read_text())
+export("comparison","SELECT * FROM comparison")
+# Model each end of a small reallocation with explicit marginal assumptions.
+export("budget_scenarios","""WITH base AS (
+SELECT SUM(CASE WHEN channel='Review Sites' THEN revenue_usd/spend_usd ELSE 0 END) AS dest,
+       SUM(CASE WHEN channel='Display' THEN revenue_usd/spend_usd ELSE 0 END) AS src
+FROM comparison WHERE model='Linear'
+), scenarios(label,factor) AS (VALUES('Low',0.25),('Base',0.50),('High',0.75))
+SELECT label,10000 AS transfer_usd,factor AS destination_yield_fraction,
+       ROUND(10000*(dest*factor-src),2) AS revenue_change_usd,
+       ROUND(0.72*10000*(dest*factor-src),2) AS gross_profit_change_usd
+FROM scenarios CROSS JOIN base""")
+reference=db.execute("SELECT count(*),sum(qualified),sum(opportunity),sum(won),sum(pipeline),sum(revenue) FROM leads").fetchone()
+for row in db.execute("SELECT sum(leads),sum(qualified),sum(opportunities),sum(wins),sum(pipeline_usd),sum(revenue_usd) FROM comparison GROUP BY model"):
+    assert all(abs(a-b)<.001 for a,b in zip(row,reference))
+print("Every model reconciles to cohort totals:",reference)
+
