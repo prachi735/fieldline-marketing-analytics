@@ -99,9 +99,9 @@
         "name": "budget_scenarios",
         "columns": [
           {
-            "name": "label",
+            "name": "model",
             "dataType": "string",
-            "sourceColumn": "label",
+            "sourceColumn": "model",
             "summarizeBy": "none"
           },
           {
@@ -112,11 +112,18 @@
             "formatString": "#,0.##"
           },
           {
-            "name": "destination_yield_fraction",
+            "name": "display_roas",
             "dataType": "double",
-            "sourceColumn": "destination_yield_fraction",
+            "sourceColumn": "display_roas",
             "summarizeBy": "none",
-            "formatString": "0.0%"
+            "formatString": "#,0.##"
+          },
+          {
+            "name": "review_sites_roas",
+            "dataType": "double",
+            "sourceColumn": "review_sites_roas",
+            "summarizeBy": "none",
+            "formatString": "#,0.##"
           },
           {
             "name": "revenue_change_usd",
@@ -139,7 +146,7 @@
             "mode": "import",
             "source": {
               "type": "m",
-              "expression": "#table(type table [#\"label\"=text, #\"transfer_usd\"=number, #\"destination_yield_fraction\"=number, #\"revenue_change_usd\"=number, #\"gross_profit_change_usd\"=number], {{\"Low\", 10000, 0.25, -16582.75, -11939.58}, {\"Base\", 10000, 0.5, 12008.1, 8645.83}, {\"High\", 10000, 0.75, 40598.96, 29231.25}})"
+              "expression": "#table(type table [#\"model\"=text, #\"transfer_usd\"=number, #\"display_roas\"=number, #\"review_sites_roas\"=number, #\"revenue_change_usd\"=number, #\"gross_profit_change_usd\"=number], {{\"First touch\", 10000, 5.6167, 4.0833, -15333.33, -11040.0}, {\"Last touch\", 10000, 3.9417, 16.2639, 123222.22, 88720.0}, {\"Linear\", 10000, 4.5174, 11.4363, 69189.81, 49816.67}})"
             }
           }
         ]

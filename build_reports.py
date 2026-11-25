@@ -5,6 +5,7 @@ from pathlib import Path
 from html import escape
 
 ROOT = Path(__file__).resolve().parent
+SOURCE_URL = "https://github.com/prachi735/fieldline-marketing-analytics"
 STYLE = """
 *{box-sizing:border-box}body{margin:0;background:#f7f6f1;color:#162c2a;font:16px/1.55 'DM Sans',Arial,sans-serif}main{max-width:1160px;margin:auto;padding:30px clamp(16px,4vw,58px) 60px}header{background:#103c38;color:white;padding:32px max(calc((100vw - 1050px)/2),5vw) 44px}header span{color:#bae8c8;font-weight:700;letter-spacing:.08em;font-size:13px}h1{font:500 clamp(30px,5vw,54px)/1.03 Georgia,serif;margin:18px 0}h2{font:500 28px Georgia,serif;margin:0 0 16px}header p{max-width:780px;color:#e2eee7}a{color:#16635b}article,section,details{background:white;border:1px solid #d8ded8;border-radius:10px;padding:22px;margin-bottom:16px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}.grid strong{display:block;font:500 clamp(22px,3vw,34px) Georgia,serif}.grid small,.note{color:#4f6563}.scroll{overflow:auto}table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}th,td{text-align:right;white-space:nowrap;border-bottom:1px solid #dce5df;padding:8px}th:first-child,td:first-child{text-align:left}label{display:inline-flex;align-items:center;gap:10px}select{font:inherit;padding:6px;border-radius:5px}.bar{display:grid;grid-template-columns:110px 1fr 90px;gap:12px;align-items:center;margin:8px 0}.track{background:#e3efeb}.fill{height:14px;background:#38826e}summary{cursor:pointer;font-weight:bold}details a{margin-right:15px}
 """
@@ -22,8 +23,8 @@ def section(title, body):
     return f'<section><h2>{title}</h2>{body}</section>'
 
 
-def page(title, kicker, lede, body):
-    return f'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{escape(title)}</title><style>{STYLE}</style><header><span>{kicker}</span><h1>{title}</h1><p>{lede}</p></header><main>{body}</main></html>'
+def page(title, kicker, lede, body, source=SOURCE_URL):
+    return f'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{escape(title)}</title><style>{STYLE}</style><header><span>{kicker}</span><h1>{title}</h1><p>{lede}</p><a style="color:white" href="{source}">View source</a></header><main>{body}</main></html>'
 
 
 def read(folder, name):
@@ -61,9 +62,21 @@ def attribution_report(folder):
     body += section("Compare attribution models", '<label>Credit model <select id="model">'+''.join('<option>'+m+'</option>' for m in ["First touch", "Last touch", "Linear"])+'</select></label><div id="models">'+''.join('<div data-model="'+m+'">'+table(["Channel", "Credited wins", "Credited revenue", "Media CAC", "Gross-profit ROI"], [[r["channel"], f'{float(r["wins"]):.1f}', usd(
         r["revenue_usd"]), usd(r["media_cac"]), pct(r["gross_profit_roi"])] for r in rows if r["model"] == m])+'</div>' for m in ["First touch", "Last touch", "Linear"])+'</div><script>const select=document.querySelector("#model");function show(){document.querySelectorAll("[data-model]").forEach(el=>el.hidden=el.dataset.model!==select.value)}select.onchange=show;show()</script>')
     scenarios = read(folder, "budget_scenarios")
-    body += section("A $10,000 reallocation test", "<p>Move spend from Display to Review Sites. Assume the removed dollars lose Display’s average linear-attributed yield. Vary the new dollars’ yield as a fraction of the Review Sites average. Total spend stays fixed.</p>" +
-                    table(["Scenario", "Destination yield", "Revenue change", "Gross profit change"], [[r["label"], pct(r["destination_yield_fraction"]), usd(r["revenue_change_usd"]), usd(r["gross_profit_change_usd"])] for r in scenarios]))
-    decision = "Review Sites receives $294,000 under first touch and $1,171,000 under last touch. Test a capped reallocation with a holdout before committing the full budget."
+    body += section("Should $10,000 move from Display to Review Sites?",
+                    "<p>Review Sites earns $294,000 of revenue credit under first touch and $1,171,000 under last touch. "
+                    "The table prices the same transfer three ways. Each assumes dollars added and removed earn each "
+                    "channel’s historical average credited revenue per dollar. Total spend stays fixed.</p>" +
+                    table(["Credit model", "Display revenue / $1", "Review Sites revenue / $1", "Revenue change", "Gross profit change"],
+                          [[r["model"], f'{float(r["display_roas"]):.2f}×', f'{float(r["review_sites_roas"]):.2f}×',
+                            usd(r["revenue_change_usd"]), usd(r["gross_profit_change_usd"])] for r in scenarios]) +
+                    "<p>Last-touch and linear credit both favor the transfer. Review Sites often appears late in a journey, "
+                    "where it can collect credit for a sale already set in motion. In this simulation, only the first "
+                    "channel affects qualification. Using that acquisition source reverses the ranking and projects "
+                    "a revenue loss. The generator has no spend-response curve, so the actual effect of changing "
+                    "the budget is unknown.</p>")
+    decision = ("Keep the current allocation. Before scaling a transfer, randomly assign comparable markets to "
+                "the proposed mix or to a holdout that keeps the current mix. Hold total spend per market fixed, "
+                "allow the sales cycle to mature, and compare incremental gross profit across groups.")
     return body, decision
 
 
@@ -126,7 +139,7 @@ def main():
             '</p></details><details><summary>Download data and results</summary><p>' + \
                 links+'</p></details><a href="../index.html">All projects</a>'
         (folder/"report.html").write_text(page(title,
-                                               "FIELDLINE ANALYTICS  /  SYNTHETIC CASE STUDY", question, body), encoding="utf-8")
+                                               "FIELDLINE ANALYTICS  /  SYNTHETIC CASE STUDY", question, body, f"{SOURCE_URL}/tree/main/{slug}"), encoding="utf-8")
         entries.append(section(f'<a href="{slug}/report.html">{title}</a>', question))
     body = section('<a href="01-dashboard/index.html">B2B cross-channel marketing dashboard</a>',
                    'Which campaigns contribute to pipeline across a $2 million paid-media portfolio?')+"".join(entries)

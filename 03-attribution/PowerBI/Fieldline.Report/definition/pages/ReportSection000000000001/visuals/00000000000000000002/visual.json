@@ -23,11 +23,11 @@
                       "Entity": "budget_scenarios"
                     }
                   },
-                  "Property": "label"
+                  "Property": "model"
                 }
               },
-              "queryRef": "budget_scenarios.label",
-              "nativeQueryRef": "label"
+              "queryRef": "budget_scenarios.model",
+              "nativeQueryRef": "model"
             },
             {
               "field": {
@@ -51,11 +51,25 @@
                       "Entity": "budget_scenarios"
                     }
                   },
-                  "Property": "destination_yield_fraction"
+                  "Property": "display_roas"
                 }
               },
-              "queryRef": "budget_scenarios.destination_yield_fraction",
-              "nativeQueryRef": "destination_yield_fraction"
+              "queryRef": "budget_scenarios.display_roas",
+              "nativeQueryRef": "display_roas"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "budget_scenarios"
+                    }
+                  },
+                  "Property": "review_sites_roas"
+                }
+              },
+              "queryRef": "budget_scenarios.review_sites_roas",
+              "nativeQueryRef": "review_sites_roas"
             },
             {
               "field": {

@@ -8,7 +8,7 @@
 @media(min-width:980px){.split:first-of-type{grid-template-columns:minmax(310px, .7fr) minmax(560px,1.3fr)}.cards+.split{grid-template-columns:minmax(285px,.7fr) minmax(590px,1.3fr)}}
 .plan-track{position:relative;background:#edf2ef;height:12px;border-radius:3px}.actual{display:block;height:100%;background:#34745f;border-radius:3px}.target{position:absolute;top:-3px;height:18px;border-left:2px solid #172e26}
 </style>
-<header><div class="brand">FIELDLINE ANALYTICS</div><h1>B2B Marketing Measurement</h1><p>Five fictional technology clients · $2M in annual paid media · January–December 2025</p><p><a style="color:white" href="../index.html">All five projects</a></p></header>
+<header><div class="brand">FIELDLINE ANALYTICS</div><h1>B2B Marketing Measurement</h1><p>Five fictional technology clients · $2M in annual paid media · January–December 2025</p><p><a style="color:white" href="../index.html">All five projects</a> · <a style="color:white" href="https://github.com/prachi735/fieldline-marketing-analytics/tree/main/01-dashboard">View source</a></p></header>
 <main>
 <div class="controls">
 <label>Client<select id="client"></select></label>
@@ -18,7 +18,7 @@
 </div>
 <div id="dashboard" aria-live="polite"></div>
 <details><summary>Measurement methodology and data dictionary</summary>
-<p>All data is synthetic and generated deterministically at the campaign-month grain. Five clients each have two campaigns per channel. Spend uses fixed annual client allocations and monthly weights. Each campaign-month tracks spend, a planned qualified-lead target, leads, qualified leads, opportunities, created pipeline, wins and booked revenue. CSV columns use USD for monetary amounts.</p>
+<p>All data is synthetic and generated deterministically at the campaign-month grain. Five clients each have two campaigns per channel. Spend uses fixed annual client allocations and monthly weights. Each campaign-month tracks spend, a planned qualified-lead target, leads, qualified leads, opportunities, created pipeline, wins and booked revenue. Fractional expected opportunities and wins carry forward across months within each client and tactic, so low-volume campaigns can convert over the year. CSV columns use USD for monetary amounts.</p>
 <p>A qualified lead is a deduplicated lead who meets the client's fit and intent criteria. Each lead and its downstream outcomes are assigned to one campaign using a simulated first paid touch. Results use the month of that touch and assume fully matured cohorts. Created pipeline sums opportunity value at creation and includes won opportunities. Booked revenue sums closed-won deal value. Attribution is descriptive and does not establish incrementality.</p>
 <p>Cost per qualified lead divides spend by qualified leads. Media CAC divides ad spend by won deals and excludes sales and overhead. Pipeline multiple divides created pipeline by spend. Ratios use aggregated totals within the selected filters. A dash indicates a zero denominator.</p>
 <p>The review rule flags campaigns with at least $5,000 in selected spend and a pipeline multiple below 1×. Flagged spend is exposure to review. Recommended actions are hypotheses to test. The 3× pipeline threshold used for scaling candidates is illustrative.</p>
@@ -36,14 +36,21 @@ const rows = [];
 for (const [c,client] of clients.entries()) {
   for (const [h,channel] of channels.entries()) {
     for (const [t,tactic] of tactics[h].entries()) {
+      // Carry fractional expected conversions forward within each client and tactic.
+      let opportunityRemainder = 0.5;
+      let winRemainder = 0.5;
       for (const [m,month] of monthNames.entries()) {
         const spend = budgets[c]*shares[h]*[60,40][t]*weights[m]/1e6;
         const variation = .83 + ((m*17+c*13+h*7+t*3)%19)/50;
         const target = Math.round(spend/[330,390,430,360][h]);
         const leads = Math.round(spend*variation/[105,145,67,135][h]);
         const qualified = Math.round(leads*[[.40,.29],[.39,.20],[.22,.065],[.42,.48]][h][t]);
-        const opportunities = Math.round(qualified*[[.21,.16],[.26,.12],[.15,.045],[.25,.29]][h][t]);
-        const wins = Math.round(opportunities*(.28+(m%4)*.05));
+        opportunityRemainder += qualified*[[.21,.16],[.26,.12],[.15,.045],[.25,.29]][h][t];
+        const opportunities = Math.floor(opportunityRemainder);
+        opportunityRemainder -= opportunities;
+        winRemainder += opportunities*(.28+(m%4)*.05);
+        const wins = Math.floor(winRemainder);
+        winRemainder -= wins;
         const deal = [23000,28500,19500,22000,14500][c];
         rows.push({client,quarter:1+Math.floor(m/3),month,campaign:channel+' / '+tactic,channel,
           spend,target,leads,qualified,opportunities,pipeline:opportunities*deal,wins,revenue:wins*deal});

@@ -1,4 +1,4 @@
-label,transfer_usd,destination_yield_fraction,revenue_change_usd,gross_profit_change_usd
-Low,10000,0.25,-16582.75,-11939.58
-Base,10000,0.5,12008.1,8645.83
-High,10000,0.75,40598.96,29231.25
+model,transfer_usd,display_roas,review_sites_roas,revenue_change_usd,gross_profit_change_usd
+First touch,10000,5.6167,4.0833,-15333.33,-11040.0
+Last touch,10000,3.9417,16.2639,123222.22,88720.0
+Linear,10000,4.5174,11.4363,69189.81,49816.67

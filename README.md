@@ -1,5 +1,7 @@
 # Marketing analytics portfolio
 
+**[Explore the live portfolio](https://prachi735.github.io/fieldline-marketing-analytics/)**
+
 **Prachi Singh · Marketing analytics developer · [GitHub profile](https://github.com/prachi735)**
 
 Fieldline is the fictional agency in this collection of five synthetic case studies. The dashboard follows a $2 million media budget from spend to pipeline. The other projects examine how those numbers are collected, attributed, forecast and audited.
@@ -16,7 +18,7 @@ Fieldline is the fictional agency in this collection of five synthetic case stud
 
 ## Open the portfolio
 
-Clone the repository and open `index.html` in a browser. Each report uses local files. The agency, customers, spend and business outcomes are illustrative. Each project has its own dataset.
+For offline viewing, clone the repository and open `index.html` in a browser. The agency, customers, spend and business outcomes are illustrative. Each project has its own dataset.
 
 ## Reproduce the results
 

@@ -49,16 +49,18 @@ def main():
         export(table, "SELECT * FROM "+table)
     db.execute("CREATE TEMP TABLE comparison AS "+(ROOT/"attribution.sql").read_text())
     export("comparison", "SELECT * FROM comparison")
-    # Model each end of a small reallocation with explicit marginal assumptions.
-    export("budget_scenarios", """WITH base AS (
-    SELECT SUM(CASE WHEN channel='Review Sites' THEN revenue_usd/spend_usd ELSE 0 END) AS dest,
-           SUM(CASE WHEN channel='Display' THEN revenue_usd/spend_usd ELSE 0 END) AS src
-    FROM comparison WHERE model='Linear'
-    ), scenarios(label,factor) AS (VALUES('Low',0.25),('Base',0.50),('High',0.75))
-    SELECT label,10000 AS transfer_usd,factor AS destination_yield_fraction,
-           ROUND(10000*(dest*factor-src),2) AS revenue_change_usd,
-           ROUND(0.72*10000*(dest*factor-src),2) AS gross_profit_change_usd
-    FROM scenarios CROSS JOIN base""")
+    # Hold the transfer and spend-response assumption fixed across credit models.
+    export("budget_scenarios", """WITH yields AS (
+        SELECT model,
+               MAX(CASE WHEN channel='Display' THEN revenue_usd/spend_usd END) AS display_roas,
+               MAX(CASE WHEN channel='Review Sites' THEN revenue_usd/spend_usd END) AS review_sites_roas
+        FROM comparison GROUP BY model
+    )
+    SELECT model, 10000 AS transfer_usd,
+           ROUND(display_roas, 4) AS display_roas, ROUND(review_sites_roas, 4) AS review_sites_roas,
+           ROUND(10000 * (review_sites_roas - display_roas), 2) AS revenue_change_usd,
+           ROUND(0.72 * 10000 * (review_sites_roas - display_roas), 2) AS gross_profit_change_usd
+    FROM yields ORDER BY CASE model WHEN 'First touch' THEN 1 WHEN 'Last touch' THEN 2 ELSE 3 END""")
     reference = db.execute(
         "SELECT count(*),sum(qualified),sum(opportunity),sum(won),sum(pipeline),sum(revenue) FROM leads").fetchone()
     for row in db.execute("SELECT sum(leads),sum(qualified),sum(opportunities),sum(wins),sum(pipeline_usd),sum(revenue_usd) FROM comparison GROUP BY model"):
