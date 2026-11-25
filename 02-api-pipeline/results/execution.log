@@ -1,12 +1,9 @@
+backend=SQLite version=3.53.1 snapshot=initial
 HTTP 429 | retry 1
 pages=7 source_rows=240 watermark=2025-01-12T12:00:00Z
+backend=SQLite version=3.53.1 snapshot=revised
 HTTP 429 | retry 1
 pages=1 source_rows=5 watermark=2025-01-14T12:00:00Z
-HTTP 429 | retry 1
-pages=1 source_rows=0 watermark=2025-01-14T12:00:00Z
-HTTP 429 | retry 1
-pages=7 source_rows=240 watermark=2025-01-12T12:00:00Z
-HTTP 429 | retry 1
-pages=1 source_rows=5 watermark=2025-01-14T12:00:00Z
+backend=SQLite version=3.53.1 snapshot=revised
 HTTP 429 | retry 1
 pages=1 source_rows=0 watermark=2025-01-14T12:00:00Z

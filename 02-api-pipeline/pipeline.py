@@ -10,7 +10,7 @@ import time
 from datetime import date, timedelta
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qs, urlencode, urlsplit
 from urllib.request import urlopen
 
@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "results"
 CHANNELS = ["Paid Search", "LinkedIn Ads", "Display", "Review Sites"]
 FIELDS = ["client", "campaign", "day", "channel", "spend_cents", "clicks", "updated_at"]
+
 
 def records(revision):
     for day in range(12):
@@ -29,6 +30,7 @@ def records(revision):
                            8500 + client*1241 + channel*502 + day*107 + (780 if corrected else 0),
                            19 + day + client*4 + channel,
                            "2025-01-14T12:00:00Z" if corrected else dt+"T12:00:00Z"]))
+
 
 class MockAPI(BaseHTTPRequestHandler):
     def log_message(self, *args):
@@ -50,11 +52,13 @@ class MockAPI(BaseHTTPRequestHandler):
         eligible = [r for r in records(self.server.revision) if r["updated_at"] > since]
         page = eligible[offset:offset+37]
         following = offset + len(page)
-        payload = json.dumps({"data": page, "next": following if following < len(eligible) else None}).encode()
+        payload = json.dumps({"data": page, "next": following if following <
+                             len(eligible) else None}).encode()
         self.send_response(200)
         self.send_header("Content-Type", "application/json")
         self.end_headers()
         self.wfile.write(payload)
+
 
 def fetch(url):
     for attempt in range(3):
@@ -66,7 +70,13 @@ def fetch(url):
                 raise
             delay = int(err.headers.get("Retry-After", 2**attempt))
             logging.info("HTTP %s | retry %s", err.code, attempt+1)
-            time.sleep(delay)
+        except (URLError, TimeoutError, ConnectionError) as err:
+            if attempt == 2:
+                raise
+            delay = 2**attempt
+            logging.info("Transport failure %s | retry %s", type(err).__name__, attempt+1)
+        time.sleep(delay)
+
 
 def ingest(db, api, marker):
     db.execute("CREATE TABLE IF NOT EXISTS campaign_day (client TEXT, campaign TEXT, day TEXT, channel TEXT, spend_cents INTEGER CHECK(spend_cents>=0), clicks INTEGER CHECK(clicks>=0), updated_at TEXT, PRIMARY KEY(client,campaign,day))")
@@ -81,22 +91,27 @@ def ingest(db, api, marker):
             if any(row.get(k) is None for k in FIELDS) or row["channel"] not in CHANNELS:
                 raise ValueError("Incomplete or invalid source row")
             args = tuple(row[k] for k in FIELDS)
-            db.execute("INSERT INTO campaign_day VALUES ("+",".join([marker]*len(args))+") ON CONFLICT(client,campaign,day) DO UPDATE SET spend_cents=excluded.spend_cents,clicks=excluded.clicks,channel=excluded.channel,updated_at=excluded.updated_at WHERE excluded.updated_at>=campaign_day.updated_at", args)
+            db.execute("INSERT INTO campaign_day VALUES ("+",".join([marker]*len(
+                args))+") ON CONFLICT(client,campaign,day) DO UPDATE SET spend_cents=excluded.spend_cents,clicks=excluded.clicks,channel=excluded.channel,updated_at=excluded.updated_at WHERE excluded.updated_at>=campaign_day.updated_at", args)
             maximum = max(maximum, row["updated_at"])
             count += 1
         pages += 1
         offset = payload["next"]
-    db.execute("INSERT INTO state VALUES ('ads',"+marker+") ON CONFLICT(stream) DO UPDATE SET watermark=excluded.watermark", (maximum,))
+    db.execute("INSERT INTO state VALUES ('ads',"+marker +
+               ") ON CONFLICT(stream) DO UPDATE SET watermark=excluded.watermark", (maximum,))
     db.commit()
     logging.info("pages=%s source_rows=%s watermark=%s", pages, count, maximum)
     return count
 
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--revision", action="store_true", help="Source includes five late corrections")
+    parser.add_argument("--revision", action="store_true",
+                        help="Source includes five late corrections")
     args = parser.parse_args()
     OUT.mkdir(exist_ok=True)
-    logging.basicConfig(level=logging.INFO, format="%(message)s", handlers=[logging.FileHandler(OUT/"execution.log"),logging.StreamHandler()])
+    logging.basicConfig(level=logging.INFO, format="%(message)s", handlers=[
+                        logging.FileHandler(OUT/"execution.log"), logging.StreamHandler()])
     dsn = os.getenv("PORTFOLIO_PG_DSN")
     if dsn:
         import psycopg
@@ -108,19 +123,24 @@ def main():
     worker = threading.Thread(target=server.serve_forever, daemon=True)
     worker.start()
     try:
+        backend, version = ("PostgreSQL", db.execute("SHOW server_version").fetchone()[
+                            0]) if dsn else ("SQLite", sqlite3.sqlite_version)
+        logging.info("backend=%s version=%s snapshot=%s", backend,
+                     version, "revised" if args.revision else "initial")
         ingest(db, f"http://127.0.0.1:{server.server_port}/campaigns", "%s" if dsn else "?")
-        for name, query in [("campaign_day","SELECT * FROM campaign_day ORDER BY day,client,campaign"),("channel_summary",(ROOT/"channel_summary.sql").read_text())]:
+        for name, query in [("campaign_day", "SELECT * FROM campaign_day ORDER BY day,client,campaign"), ("channel_summary", (ROOT/"channel_summary.sql").read_text())]:
             cur = db.execute(query)
             with (OUT/(name+".csv")).open("w", newline="") as file:
                 writer = csv.writer(file)
                 writer.writerow([col[0] for col in cur.description])
                 writer.writerows(cur)
-        (OUT/"sample-response.json").write_text(json.dumps(list(records(args.revision))[:3],indent=2))
+        (OUT/"sample-response.json").write_text(json.dumps(list(records(args.revision))
+                                                           [:3], indent=2))
     finally:
         db.close()
         server.shutdown()
         server.server_close()
 
+
 if __name__ == "__main__":
     main()
-
